@@ -1,0 +1,9 @@
+4.6 — Expectation, variance and standard deviation
+1. Discrete M[X]=Σx_i p_i.
+2. D[X]=M[(X−M[X])²]=M[X²]−M[X]².
+3. σ=sqrt(D[X]).
+4. Binomial: M=np, D=npq.
+5. Poisson: M=D=λ.
+6. Continuous: M[X]=∫xf(x)dx.
+7. Mode maximizes density; median splits probability in half.
+In-video question: find M,D,σ for n=20,p=0.4.

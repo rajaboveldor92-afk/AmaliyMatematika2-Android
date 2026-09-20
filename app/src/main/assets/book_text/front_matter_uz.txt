@@ -1,0 +1,89 @@
+===== PDF SAHIFA 1 =====
+O‘ZBEKISTON RESPUBLIKASI
+OLIY TA’LIM, FAN VA INNOVATSIYALAR VAZIRLIGI
+“CYBER UNIVERSITY” DAVLAT UNIVERSITETI
+E.O.Rajabov, Sh.R.Ergashova, S.G‘.To‘ychiyev
+AMALIY MATEMATIKA 2
+(fanidan o‘quv qo‘llanma)
+TOSHKENT - 2026
+
+===== PDF SAHIFA 2 =====
+E.O.Rajabov, Sh.R.Ergashova, S.G‘.To‘ychiyev
+AMALIY MATEMATIKA 2 / O‘quv qo‘llanma/ Toshkent, 2026, 161 b.
+Ushbu o‘quv qo‘llanma oliy ta’lim universitetlarining amaliy matematika fan predmeti mavjud
+barcha bakalavr ta’lim yo‘nalishi talabalari uchun mo‘ljallangan bo‘lib, “Amaliy matematika 2” fanining
+mavzularini o‘z ichiga oladi. O‘quv qo‘llanma yangi o‘quv dasturiga muvofiq tayyorlangan bo‘lib, unda
+sonli va funksional qatorlar nazariyasi, oddiy differensial tenglamalar va ularni yechish usullari hamda
+ehtimollar nazariyasi va matematik statistika elementlari bo‘yicha asosiy tushunchalar, usullar va amaliy
+misollar bayon etilgan.
+Mualliflar:
+f.-m.f.f.d., PhD Rajabov Eldor Odilbekovich
+f.-m.f.f.d., PhD Ergashova Shohida Rashid qizi
+katta o’qituvchi To‘ychiyev Sardor G‘ofurjon o‘g‘li
+Taqrizchilar:
+TIFT universiteti “Matematika” kafedrasi dotsent v.b., f.-m.f.f.d.
+Eshimbetov Muzaffar
+Reyimboyevich
+“Cyber university” davlat universiteti “Matematika va tabiiy fanlar” kafedrasi dotsent,
+f.-m.f.f.d. Xayriyev U.N
+E.O.Rajabov, Sh.R.Ergashova, S.G‘.To‘ychiyev
+© Toshkent, 2026
+
+===== PDF SAHIFA 3 =====
+Kirish
+Mazkur “Amaliy matematika 2” fanidan amaliy mashg‘ulotlar bo‘yicha o‘quv
+qo‘llanma” iqtisodiyot va menejment yo‘nalishida tahsil olayotgan talabalar hamda
+ushbu fan bo‘yicha dars olib borayotgan professor-o‘qituvchilar uchun mo‘ljallangan.
+Hozirgi globallashuv va raqamli iqtisodiyot sharoitida iqtisodiy jarayonlarni chuqur
+tahlil qilish, prognozlash, modellashtirish va samarali boshqaruv qarorlarini qabul
+qilishda matematik usullardan foydalanish alohida ahamiyat kasb etadi. Shu bois
+amaliy matematika fanini o‘qitishda nazariy bilimlar bilan bir qatorda amaliy
+ko‘nikmalarni shakllantirish muhim vazifalardan biri hisoblanadi.
+Ushbu qo‘llanmada talabalar uchun zarur bo‘lgan asosiy matematik mavzular
+izchil, mantiqiy ketma-ketlikda va amaliy yo‘naltirilgan tarzda yoritilgan. Xususan,
+unda aniq integral va uning tatbiqlari, Nyuton–Leybnis formulasi yordamida integralni hisoblash, o‘zgaruvchini almashtirish hamda bo‘laklab integrallash usullari
+keng bayon etilgan.
+Shuningdek, xosmas integrallar va ularning yaqinlashishini
+turli alomatlar yordamida tekshirish masalalari ham keltirilgan bo‘lib, bu bilimlar iqtisodiy funksiyalarni tahlil qilish va uzluksiz jarayonlarni matematik jihatdan
+ifodalashda muhim ahamiyatga ega.
+Qo‘llanmada sonli va funksional qatorlar nazariyasiga alohida e’tibor qaratilgan
+bo‘lib, sonli qatorlarning asosiy tushunchalari, qator yaqinlashishining zaruriy va
+yetarli shartlari, garmonik qator, Dalamber alomati, Koshining radikal va integral
+alomatlari batafsil yoritilgan. Bundan tashqari, darajali qatorlar, Abel teoremasi,
+yaqinlashish radiusi hamda funksiyalarni Teylor va Makloren qatorlariga yoyish
+masalalari bayon etilgan. Mazkur mavzular murakkab funksiyalarni approksimatsiya qilish, iqtisodiy modellarni soddalashtirish va hisoblash aniqligini oshirishda
+muhim metodik asos bo‘lib xizmat qiladi.
+Shuningdek, qo‘llanmada oddiy differensial tenglamalar va ularni yechish
+usullari keng yoritilgan.
+Unda differensial tenglamalarga keltiriluvchi masalalar,
+o‘zgaruvchilari ajraladigan differensial tenglamalar, bir jinsli va birinchi tartibli chiziqli differensial tenglamalar hamda o‘zgarmas koeffitsientli ikkinchi tartibli differensial tenglamalarni yechish usullari amaliy misollar asosida tushuntirilgan. Ushbu
+3
+
+===== PDF SAHIFA 4 =====
+bilimlar iqtisodiy dinamika, o‘sish jarayonlari, investitsiya va boshqaruv modellarini
+matematik tavsiflashda muhim o‘rin tutadi.
+Qo‘llanmaning muhim bo‘limlaridan biri ehtimollar nazariyasi va matematik
+statistika elementlariga bag‘ishlangan bo‘lib, unda tasodifiy hodisalar, ehtimolning klassik ta’rifi, kombinatorika elementlari, shartli ehtimol, to‘la ehtimol va
+Beyes formulasi, Bernulli sxemasi, Puasson hamda Muavr–Laplas teoremalari yoritilgan. Bundan tashqari, diskret va uzluksiz tasodifiy miqdorlar, ularning taqsimot
+qonunlari, sonli xarakteristikalari, variatsion va statistik qatorlar, empirik taqsimot funksiyasi hamda tanlanma parametrlarini baholash masalalari bayon etilgan.
+Ushbu mavzular iqtisodiy ma’lumotlarni tahlil qilish, risklarni baholash va statistik
+xulosalar chiqarishda muhim nazariy va amaliy ahamiyatga ega.
+Mazkur o‘quv qo‘llanmaning asosiy maqsadi talabalarda matematik tafakkurni
+rivojlantirish, nazariy bilimlarni amaliy masalalar yechishda qo‘llash ko‘nikmalarini
+shakllantirish hamda iqtisodiyot va menejment sohalarida uchraydigan masalalarni
+matematik usullar yordamida tahlil qilishga o‘rgatishdan iborat. Qo‘llanmada har
+bir mavzu bo‘yicha amaliy misollar, mustaqil ishlash uchun topshiriqlar va metodik
+tavsiyalar keltirilgan bo‘lib, ular talabalarning mustaqil ta’lim olish ko‘nikmalarini
+rivojlantirish va bilimlarini mustahkamlashga xizmat qiladi.
+Ushbu o‘quv qo‘llanma O‘zbekiston Respublikasi Prezidentining 2017 yil 20
+apreldagi “Oliy ta’lim tizimini yanada rivojlantirish chora-tadbirlari to‘g‘risida”gi
+PQ-2909-son, 2017 yil 27 iyuldagi “Oliy ma’lumotli mutaxassislar tayyorlash sifatini oshirishda iqtisodiyot sohalari va tarmoqlarining ishtirokini yanada kengaytirish
+chora-tadbirlari to‘g‘risida”gi PQ-3151-son hamda 2020 yil 7 maydagi “Matematika sohasidagi ta’lim sifatini oshirish va ilmiy tadqiqotlarni rivojlantirish choratadbirlari to‘g‘risida”gi PQ-4708-son qarorlarining ijrosini ta’minlash maqsadida
+ishlab chiqilgan.
+Qo‘llanma yetakchi xorijiy texnika oliy ta’lim muassasalarida
+qo‘llanilayotgan zamonaviy matematika adabiyotlari, ilg‘or pedagogik yondashuvlar
+va amaliy mashg‘ulotlar tajribasi asosida tayyorlangan.
+Mazkur qo‘llanma oliy ta’lim muassasalarining iqtisodiyot va menejment
+yo‘nalishlari o‘quv reja va dasturlariga mos ravishda ishlab chiqilgan bo‘lib, amaliy
+mashg‘ulotlarni samarali tashkil etishda o‘qituvchilar uchun metodik manba, talabalar uchun esa bilimlarini mustahkamlash, mustaqil ta’lim olish va kasbiy kompetensiyalarini rivojlantirishda muhim o‘quv- adabiyot sifatida tavsiya etiladi.
+4

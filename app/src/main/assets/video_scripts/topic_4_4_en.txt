@@ -1,0 +1,9 @@
+4.4 — Discrete random variable and distribution law
+1. Definition of a random variable.
+2. Discrete versus continuous variables.
+3. Distribution table x_i and p_i with Σp_i=1.
+4. F(x)=P{X<x}.
+5. For a discrete variable, F is a step function.
+6. Distribution polygon through (x_i,p_i).
+Example: X=0,1,2,3; P=0.20,0.25,0.31,0.24.
+In-video question: find F(2).

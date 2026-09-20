@@ -1,0 +1,9 @@
+2.1 VIDEO SCRIPT — NUMERICAL SERIES
+1) Sequence versus series.
+2) Notation Σu_n and partial sums S_n.
+3) Convergence: lim S_n=S.
+4) Necessary condition u_n→0; it is not sufficient.
+5) The harmonic series diverges.
+6) Telescoping example 1/[(2n−1)(2n+1)], S_n→1/2.
+7) Interactive pause: classify Σ n/(n+1).
+8) Final mini-quiz.

@@ -1,0 +1,8 @@
+4.5 — Continuous random variable, F(x) and f(x)
+1. F(x)=∫_{−∞}^x f(t)dt.
+2. P(a<X<b)=F(b)−F(a)=∫_a^b f(x)dx.
+3. f(x)≥0 and ∫f=1.
+4. Where differentiable, f=F′.
+5. Exponential density αe^(−αx), x>0.
+6. Normalize f(x)=2C/(1+x²).
+In-video question: use ∫f=1 to show C=1/(2π).

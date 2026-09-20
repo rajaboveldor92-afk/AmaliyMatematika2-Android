@@ -1,0 +1,562 @@
+===== PDF SAHIFA 93 =====
+BOB 4
+EHTIMOLLAR NAZARIYASI VA
+MATEMATIK STATISTIKA
+ELEMENTLARI
+4.1
+Tasodifiy hodisalar va ular ustida amallar. Ehtimolning
+klassik ta’rifi.
+Kombinatorika elementlari.
+Geometrik
+ehtimol.
+Tasodifiy hodisalar va ular ustida amallar
+Tajriba natijasida yuz berishi ham, yuz bermasligi ham mumkin bo‘lgan hodisalarga tasodifiy hodisa deb ataymiz. Tajriba natijasida albatta yuz beradigan hodisa
+muqarrar hodisa, hech qachon yuz bermaydigan hodisa esa mumkin bo‘lmagan
+hodisa deb ataladi.
+4.1.1-misol. O‘yin toshi tashlandi. Mazkur tajriba natijasida yuz berishi mumkin
+bo‘lgan barcha hodisalarni toping.
+Yechish.
+O‘yin toshi tashlanganda toshning yuqori qismiga 1 dan 6 gacha
+bo‘lgan ixtiyoriy son tushishi mumkin. U holda barcha yuz berishi mumkin bo‘lgan
+hodisalar
+Ω= {1, 2, 3, 4, 5, 6}
+bo‘ladi. Shunday qilib, mazkur tajriba natijasida 6 ta hodisa yuz berishi mumkin
+ekan.
+A va B hodisalardan hech bo‘lmaganda biri yuz beradigan hodisaga A va B
+hodisalarning yig‘indisi deyiladi va A + B yoki A ∪B ko‘rinishda belgilanadi.
+A va B hodisalarning birgalikda yuz berishidan iborat hodisaga A va B hodisalarning ko‘paytmasi deyiladi va AB yoki A ∩B ko‘rinishda belgilanadi.
+93
+
+===== PDF SAHIFA 94 =====
+A yuz berib, B esa yuz bermaydigan hodisaga A va B hodisalarning ayirmasi
+deyiladi va A −B yoki A \ B ko‘rinishda belgilanadi.
+A yuz bermaganida yuz beradigan hodisaga A hodisaga qarama-qarshi hodisa
+deyiladi va A orqali belgilanadi.
+Agar B hodisa yuz berganda albatta A hodisa ham yuz bersa, B hodisa A hodisaning qismi deyiladi va B ⊂A ko‘rinishda yoziladi.
+Agar A ⊂B va B ⊂A bo‘lsa, A va B hodisalar teng yoki ekvivalent hodisalar
+deyiladi va A = B ko‘rinishda yoziladi.
+4.1.2-misol. 1 dan 15 gacha bo‘lgan sonlar yozilgan bir xil o‘lchamdagi 15 ta kartochka sonlar yozilgan tomoni pastga qaratib stol ustiga yoyib tashlangan. Ulardan
+ixtiyoriy bittasi tanlandi. Ushbu
+A = {tanlangan kartochkadagi raqam 3 ga karrali son},
+B = {tanlangan kartochkadagi raqam juft son}
+hodisalarning yig‘indisi, ko‘paytmasi, A\B, B\A ayirmalarini, A va B hodisalarga
+qarama-qarshi A, B hodisalarni va B hodisaning birorta A qismi hodisasini tuzing.
+Yechish.
+A = {3, 6, 9, 12, 15},
+B = {2, 4, 6, 8, 10, 12, 14}
+A ∪B = {2, 3, 4, 6, 8, 9, 10, 12, 14, 15}
+A ∩B = {6, 12}
+A \ B = {3, 9, 15}
+B \ A = {2, 4, 8, 10, 14}
+A hodisaga qarama-qarshi A hodisa yuz berishi uchun kartochkadagi raqam 3 ga
+karrali bo‘lmasligi kerak, ya’ni
+A = {1, 2, 4, 5, 7, 8, 10, 11, 13, 14}.
+B hodisaga qarama-qarshi B hodisa yuz berishi uchun esa kartochkadagi raqam
+juft son bo‘lmasligi, ya’ni u toq son bo‘lishi kerak:
+B = {1, 3, 5, 7, 9, 11, 13, 15}.
+Agar tanlangan kartochkadagi raqam masalan 10 dan kichik juft son bo‘lsa ham
+B hodisa yuz beradi, shuning uchun
+C = {2, 4, 6, 8}
+hodisa B hodisaning qismi bo‘ladi.
+94
+
+===== PDF SAHIFA 95 =====
+Ehtimolning klassik ta’rifi
+Agar tajriba natijasida A va B hodisalardan birining yuz berishi ikkinchisining yuz
+berishini istisno qilsa, ya’ni bir vaqtda yuz bermasa, ular birgalikda bo‘lmagan hodisalar deyiladi. Aks holda birgalikda bo‘lgan hodisalar deyiladi.
+Tajriba natijasida albatta bittasi yuz beradigan birgalikda bo‘lmagan bir nechta
+hodisalar hodisalarning to‘liq guruhi deyiladi.
+Birgalikda bo‘lmagan teng imkoniyatli n ta hodisalarning to‘liq guruhini
+qaraymiz. Bu guruhdan olingan hodisaning yuz berish natijasida A hodisa ham
+yuz bersa, bunday hodisani A hodisaga imkoniyat yaratuvchi hodisa deb ataymiz.
+4.1.1-ta’rif. A tasodifiy hodisaning P(A) ehtimoli deb, A hodisaga imkoniyat
+yaratuvchi hodisalar soni m ning barcha yuz berishi mumkin bo‘lgan hodisalar soni
+n ga nisbatiga aytiladi:
+P(A) = m
+n .
+(1)
+4.1.3-misol. Qutida 6 ta oq va 5 ta qora shar bor.
+Qutidan ixtiyoriy ravishda
+olingan shar oq rangda bo‘lish ehtimolini toping.
+Yechish.
+A = {qutidan oq rangli shar olindi} hodisani kiritamiz.
+Teng
+imkoniyatli hodisalar soni n = 6 + 5 = 11 ekanligi ravshan.
+Oq rangli sharlar
+soni 6 ta bo‘lganligi tufayli A hodisaga imkoniyat yaratuvchi hodisalar soni m = 6
+bo‘ladi. Shuning uchun
+P(A) = 6
+11.
+Kombinatorika elementlari
+Turli guruhlar elementlarining kombinatsiyasi. Elementlarning r guruhi berilgan
+bo‘lsin: birinchi guruh n1 ta a11, a12, . . . , a1n1 elementdan, ikkinchi guruh n2 ta
+a21, a22, . . . , a2n2 elementdan va hokazo r-guruh nr ta ar1, ar2, . . . , arnr elementdan
+iborat.
+r ta elementdan iborat kombinatsiyalar shunday tuziladiki, bunda har bir kombinatsiyaga har bir guruhdan bittadan element qatnashadi. Barcha
+a1i1, a2i2, . . . , arir
+kombinatsiyalar soni
+N = n1n2 . . . nr
+(2)
+formula bilan aniqlanadi.
+95
+
+===== PDF SAHIFA 96 =====
+4.1.4-misol. Birinchi guruhda 15 ta o‘g‘il va 5 ta qiz bola talaba, ikkinchisida 14 ta
+o‘g‘il va 6 ta qiz, uchinchi guruhda 13 ta o‘g‘il va 7 ta qiz bola talaba bor. Har bir
+guruhga bittadan konsertga chipta ajratilgan. Har bir guruhdan konsertga boruvchi
+ixtiyoriy ravishda tanlansa, konsertga faqat qizlar borish ehtimolini toping.
+Yechish. Shartga ko‘ra guruhlarda
+n1 = 20,
+n2 = 20,
+n3 = 20
+ta talaba bor. Shuning uchun barcha yuz berishi mumkin bo‘lgan hodisalar soni (2)
+formulaga ko‘ra
+N = 20 · 20 · 20 = 8000
+bo‘ladi. Konsertga faqat qizlar borishi uchun har bir guruhda imkoniyat yaratuvchi qizlar soni mos ravishda m1 = 5, m2 = 6, m3 = 7 bo‘lganligi uchun, barcha
+imkoniyat yaratuvchi hodisalar soni
+m = m1m2m3 = 210
+bo‘ladi. U holda (1) formulaga ko‘ra konsertga faqat qizlar borishi ehtimoli
+P(A) = m
+n = 210
+8000 = 21
+800.
+O‘rinlashtirishlar
+n ta a1, a2, . . . , an element berilgan. Ularni r tadan qilib joylashish tartibini inobatga olgan holda barcha ai1, ai2, . . . , air kombinatsiyalarni tuzamiz, boshqacha qilib
+aytganda n elementning r tasini r ta o‘ringa joylashtiriladi. Bunday kombinatsiyalar
+(o‘rinlashtirishlar) soni
+N = Ar
+n =
+n!
+(n −r)!
+(3)
+formula bo‘yicha hisoblanadi.
+4.1.5-misol. Guruhda 25 ta talaba bo‘lib, ulardan 11 tasi qiz bola. Guruh sardorini,
+yoshlar harakati yetakchisini, kasaba uyushmasi a’zosini va guruh tashkilotchisini
+saylash kerak. Agar har bir talaba faqat bitta lavozimni egallashi mumkin bo‘lsa, 4
+ta lavozimga faqat qizlar saylanishi ehtimolini toping.
+Yechish. Shartga ko‘ra barcha yuz berishi mumkin bo‘lgan hodisalar soni 25
+elementni 4 tadan qilib o‘rinlashtirishlar soniga teng:
+n = A4
+25 =
+25!
+(25 −4)! = 25 · 24 · 23 · 22 = 303600.
+96
+
+===== PDF SAHIFA 97 =====
+To‘rtta lavozimga faqat qizlar saylanishi uchun imkoniyat yaratuvchi hodisalar soni
+esa 11 (qizlar soni) elementni 4 tadan qilib o‘rinlashtirishlar soniga teng:
+m = A4
+11 =
+11!
+(11 −4)! = 11 · 10 · 9 · 8 = 7920.
+U holda (1) formulaga ko‘ra 4 ta lavozimga faqat qizlar saylanishi ehtimoli
+P(A) = m
+n =
+7920
+303600 =
+33
+1265.
+Takroriy o‘rinlashtirishlar
+n ta elementdan iborat D = {a1, a2, . . . , an} to‘plam berilgan.
+Bu to‘plamdan
+ketma-ket ai1 elementlardan bittasi tanlanadi va yana to‘plamga qaytariladi. Natijada r qadamda ai1, ai2, . . . , air kombinatsiya ro‘yxatga olinadi.
+Bunday barcha
+ai1, ai2, . . . , air kombinatsiyalar soni
+N = nr
+(4)
+formula bilan hisoblanadi, bunda har qadamda aik element D to‘plamdan olingan. Bunday kombinatsiyalarda bitta element 1 tadan r tagacha ham qatnashishi
+mumkin, biroq kombinatsiyalar elementlarning o‘rni bilan farq qilishi mumkin.
+4.1.6-misol. 1, 2, 3, 4 raqamlaridan tuzilgan barcha besh xonali sonlarning soni
+nechta.
+Yechish. 1, 2, 3, 4 raqamlardan tuzilgan barcha besh xonali sonlar bir-biridan
+yoki bu raqamlarning kelish tartibi bilan (masalan 12243 va 21234) yoki sonlar
+tarkibidagi raqamlar (masalan 12243 va 12333) bilan farq qiladi. Demak ular 4
+elementni 5 tadan qilib takroriy o‘rinlashtirishlar bo‘lar ekan. Shuning uchun bunday
+besh xonali sonlar soni
+N = 45 = 1024
+ta bo‘ladi.
+Guruhlashlar
+D = {a1, a2, . . . , an} to‘plamning r ta elementidan tuzilgan ai1, ai2, . . . , air kombinatsiyalarda elementning tartibi inobatga olinmaydi va bitta element bitta kombinatsiyada faqat bir marta qatnashadi. Demak bir xil elementlardan tashkil topgan
+97
+
+===== PDF SAHIFA 98 =====
+kombinatsiyalar teng hisoblanadi. Bunday kombinatsiyalarning soni
+N = Cr
+n =
+n!
+(n −r)!r!
+(5)
+formula bo‘yicha hisoblanadi.
+4.1.7-misol. Guruhda 25 ta talaba bo‘lib, ularda 14 tasi ingliz tili guruhiga, 11
+tasi esa fransuz tili guruhiga boradi. Ixtiyoriy ravishda tanlangan 5 ta talabaning
+beshalasi ham ingliz tili guruhidan bo‘lish ehtimolini toping.
+Yechish. Barcha yuz berishi mumkin bo‘lgan hodisalar soni 25 ta elementni 5
+tadan qilib guruhlashlar soniga teng:
+n = C5
+25 =
+25!
+20! 5! = 53130.
+Ixtiyoriy ravishda tanlangan 5 ta talabaning beshalasi ham ingliz tili guruhidan
+bo‘lishi uchun imkoniyat yaratuvchi hodisalar soni 14 ta elementni 5 tadan qilib
+guruhlashlar soniga teng:
+m = C5
+14 = 14!
+9! 5! = 2002.
+Shuning uchun
+P(A) = m
+n = 2002
+53130 =
+91
+2415.
+O‘rin almashtirishlar
+Bunda n ta turli elementdan iborat D = {a1, a2, . . . , an} to‘plam elementlaridan
+faqat elementlarning tartibi bilan farq qiladigan barcha ai1, ai2, . . . , ain kombinatsiyalar qaraladi. Har bir kombinatsiyada bitta element faqat bir marta qatnashadigan bunday kombinatsiyalar soni
+N = Pn = n!
+(6)
+formula bilan hisoblanadi.
+4.1.8-misol. Oliy matematikadan universitet miqyosida o‘tkazilgan olimpiadada 5
+ta birinchi kurs va 5 ta ikkinchi kurs talabalari qatnashdi. Dastlabki 5 ta o‘rinni egallagan 5 talaba respublika miqyosidagi olimpiadada qatnashish huquqiga ega bo‘ladi.
+Respublika miqyosidagi olimpiadaga faqat ikkinchi kurslar borish ehtimolini toping.
+98
+
+===== PDF SAHIFA 99 =====
+Yechish. Barcha yuz berishi mumkin bo‘lgan hodisalar soni 10 ta elementning
+o‘rin almashtirishlar soniga teng:
+n = 10!.
+Respublika miqyosidagi olimpiadaga faqat ikkinchi kurslar borishiga imkoniyat
+yaratuvchi hodisalar soni
+m = 5! · 5!
+(dastlabki beshta o‘rinni ikkinchi kurslar o‘rtasida taqsimlanishlar soni 5! va keyingi
+beshtalikni 5 ta birinchi kurs o‘rtasida taqsimlashlar soni 5!). Shuning uchun
+P(A) = m
+n = (5!)2
+10! =
+1
+252.
+Geometrik ehtimol
+Tekislikda yuzasi SΩbo‘lgan Ωsoha va bu sohaning qismi bo‘lgan D soha berilgan
+bo‘lsin. D qismiy sohaning yuzi SD bo‘lsin. Ωsohaga ixtiyoriy ravishda X nuqta
+tashlansin, bunda X nuqtaning Ωsohaga tushishi muqarrar, D sohaga tushishi esa
+tasodifiy hodisa deb faraz qilamiz. Ωsohaning barcha nuqtalari “teng huquqli” deb
+hisoblaymiz. Ushbu
+A = {X nuqta D sohaga tegishli}
+hodisasini kiritamiz.
+A hodisaning geometrik ehtimoli deb D soha yuzining Ωsoha yuziga nisbatiga
+aytiladi, ya’ni
+P(A) = SD
+SΩ
+.
+(7)
+Ehtimolning geometrik ta’rifini Ωva D sohalarning ikkalsi ham chiziqli yoki
+hajmli bo‘lganda ham qo‘llash mumkin: birinchi holda
+P(A) = LD
+LΩ
+(8)
+va ikkinchi holda
+P(A) = VD
+VΩ
+.
+(9)
+Bu yerda L mos sohaning uzunligi, V esa hajmi.
+4.1.9-misol. Uzunligi L bo‘lgan sterjenning ixtiyoriy ravishda tashlangan ikki nuqtasida uch bo‘lakka bo‘lingan. Bo‘lingan bo‘laklardan uchburchak yasash mumkin
+bo‘lish ehtimolini toping.
+99
+
+===== PDF SAHIFA 100 =====
+Yechish. Birinchi bo‘lakning uzunligini x, ikkinchi bo‘lakning uzunligini esa y
+orqali belgilaymiz. U holda uchinchi bo‘lakning uzunligi L −x −y bo‘ladi.
+Barcha yuz berishi mumkin bo‘lgan hodisalar
+Ω= {(x, y) : 0 < x + y < L}
+to‘plamdan iborat (1-rasm) va uning yuzi
+SΩ= 1
+2L · L = 1
+2L2.
+x
+y
+L
+L
+Ω
+x + y = L
+O
+1-rasm
+Bo‘laklardan uchburchak yasash mumkin bo‘lishi uchun ixtiyoriy ikkitasining
+uzunliklari yig‘indisi uchinchisining uzunligidan katta bo‘lishi kerak. Shuning uchun
+quyidagi shartlar o‘rinli bo‘lishi kerak:
+
+
+
+
+
+x + y > L −x −y,
+x + L −x −y > y,
+y + L −x −y > x.
+Bu shartlar quyidagiga teng kuchli:
+
+
+
+
+
+
+
+
+
+
+
+x + y > L
+2 ,
+x < L
+2 ,
+y < L
+2 .
+ya’ni bo‘lingan bo‘laklardan uchburchak yasash mumkin bo‘lishi uchun imkoniyat
+yaratuvchi hodisalar
+D = {(x, y) : x + y > L
+2, x < L
+2, y < L
+2}
+100
+
+===== PDF SAHIFA 101 =====
+to‘plamdan iborat bo‘ladi (2-rasm) va uning yuzi
+SD = 1
+2 · L
+2 · L
+2 = 1
+8L2.
+x
+y
+x + y = L
+x + y = L
+2
+L
+L
+L
+2
+L
+2
+D
+O
+2-rasm
+Shuning uchun bo‘lingan bo‘laklardan uchburchak yasash mumkin bo‘lish ehtimoli
+P(A) = SD
+SΩ
+=
+1
+8L2
+1
+2L2 = 1
+4 = 0,25.
+Misollar
+1. O‘yin toshi va tanga tashlandi. Barcha yuz berishi mumkin bo‘lgan hodisalar . . .
+2. Ikkita o‘yin toshi tashlandi. Barcha yuz berishi mumkin bo‘lgan hodisalar
+fazosini tuzing. Ushbu
+A = {o‘yin toshlarining yuqori qismiga tushgan raqamlar yig‘indisi juft},
+B = {o‘yin toshlarining yuqori qismiga tushgan raqamlar yig‘indisi
+9 dan kichik}
+hodisalarining A ∪B yig‘indisini, A ∩B ko‘paytmasini, A \ B ayirmasini toping.
+3. Qutida 10 ta oq va 5 ta qora shar bor. Qutidan ixtiyoriy ravishda olingan shar
+oq rangda bo‘lish, qora rangda bo‘lish va ko‘k rangda bo‘lish ehtimollarini toping.
+4. Bog‘lamda 10 ta oq, 15 ta qizil va 12 ta sariq rangdagi gul bor. 5 ta guldan iborat guldasta yasashda gullar ixtiyoriy ravishda tanlansa, guldasta faqat oq
+gullardan iborat bo‘lish ehtimolini toping.
+101
+
+===== PDF SAHIFA 102 =====
+5.
+Shaxmat bo‘yicha musobaqada 6 ta I kurs, 7 ta II kurs va 9 ta III kurs
+talabalari qatnashmoqda. Musobaqa qatnashchilarining imkoniyatlari bir xil bo‘lsa,
+sovrinli o‘rinlarning uchalasini ham II kurs talabalari olish ehtimolini toping.
+6. Teatr jamoasida 10 ta erkak va 8 ta ayol aktyor bor. Tayyorlanadigan spektaklda 6 ta erkak va 3 ta ayol roli bo‘lsa, necha usul bilan jamoa o‘rtasida rollarni
+taqsimlash mumkin?
+7. Yutuqli lotereya biletlar to‘plamida 60 ta bilet bo‘lib, ulardan 20 tasida yutuq bor. Ixtiyoriy ravishda tanlangan 5 ta lotereyaning barchasida yutuq bo‘lish
+ehtimolini toping.
+8. Musobaqada qatnashgan 10 jamoaning uchtasi ilg‘or jamoa. Qur’a tashlanib
+jamoalar 5 jamoali ikki guruhga ajratiladi. Ilg‘or jamoalarning ikkitasi bir guruhga
+va bittasi boshqa guruhga tushish ehtimolini toping.
+9.
+x2
+25 + y2
+16 = 1
+ellipsning ichiga
+x2 + y2 = 9
+aylana joylashgan. Ellipsning ichki qismiga ixtiyoriy ravishda tashlangan nuqtaning
+elips va aylana chegaralagan xalqa tushish ehtimolini toping.
+10.
+[0, 5] kesmada ixtiyoriy ravishda nuqta tanlandi.
+Tanlangan nuqtadan
+kesmaning o‘ng chetigacha bo‘lgan masofa 1,6 birlikdan oshmaslik ehtimolini toping.
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Ma’lum
+bir
+shart-sharoitda
+yuz
+berishi ham, yuz bermasligi ham
+mumkin bo’lgan hodisalar nima deb
+ataladi?
+A) Muqarrar hodisa
+B) Mumkin bo’lmagan hodisa
+C) Tasodifiy hodisa
+D) To’liq guruh hodisasi
+2. Tanga
+uch
+marta
+tashlanganda,
+mazkur tajriba natijasida nechta
+elementar
+hodisa
+yuz
+berishi
+mumkin?
+A) 6 ta
+B) 8 ta
+C) 4 ta
+D) 12 ta
+3. A
+va
+B
+hodisalardan
+hech
+bo’lmaganda
+biri
+yuz
+beradigan
+hodisaga nima deyiladi?
+A) Hodisalarning yig’indisi
+B) Hodisalarning ko’paytmasi
+102
+
+===== PDF SAHIFA 103 =====
+C) Hodisalarning ayirmasi
+D) Qarama-qarshi hodisa
+4. De Morgan qonuniga ko’ra, A · B
+(ko’paytmaning
+inkori)
+nimaga
+teng?
+A) A · B
+B) A + B
+C) A + B
+D) A · B
+5. A hodisa m∗marta yuz bergan
+bo’lsa, uning nisbiy chastotasi qaysi
+formula bilan aniqlanadi?
+A) P ∗(A) = m∗/n
+B) P ∗(A) = n/m∗
+C) P ∗(A) = m∗· n
+D) P ∗(A) = m∗−n
+6. Mumkin bo’lmagan hodisaning (∅)
+nisbiy chastotasi va statistik ehtimoli nimaga teng?
+A) 1 ga
+B) 0.5 ga
+C) m∗ga
+D) 0 ga
+7. Tajribalar soni n oshgan sari P ∗(A)
+nisbiy
+chastota
+nimaga
+yaqinlashadi?
+A) Statistik ehtimolga
+B) Tajriba natijasiga
+C) Mumkin bo’lmagan hodisaga
+D) Guruhlashlar soniga
+8. Ehtimolning klassik ta’rifiga ko’ra
+P(A) = m/n formulada m soni nimani bildiradi?
+A) Barcha
+yuz
+berishi
+mumkin
+bo’lgan hodisalarni
+B) Tajribalar umumiy sonini
+C) A hodisaga imkoniyat yaratuvchi hodisalar sonini
+D) Nisbiy chastota qiymatini
+9. Qutida 8 ta oq va 3 ta qora shar bor.
+Ixtiyoriy olingan sharning oq bo’lish
+ehtimoli qancha?
+A) 3/11
+B) 8/11
+C) 8/3
+D) 3/8
+10. r ta guruhdan bittadan element
+qatnashgan barcha kombinatsiyalar
+soni qanday topiladi?
+A) N = n1 + n2 + · · · + nr
+B) N = n!/(n −r)!
+C) N = n1 · n2 . . . nr
+D) N = nr
+11. n ta elementning r tasini r ta o’ringa
+joylashtirish (o’rinlashtirishlar) soni
+qaysi formula bilan topiladi?
+A) n!/(n −r)!
+B) n!/[r!(n −r)!]
+C) n!
+D) nr
+103
+
+===== PDF SAHIFA 104 =====
+12. 25 ta talabadan guruh sardori va
+yana 3 ta lavozimga (jami 4 kishi)
+necha usulda saylash mumkin?
+A) 2300
+B) 12650
+C) 600
+D) 303600
+13. 1, 2, 3 raqamlaridan tuzilgan barcha
+ikki xonali sonlarning soni nechta?
+A) 9 ta
+B) 6 ta
+C) 3 ta
+D) 27 ta
+14. 25 ta talabadan uchtasini dam olish
+uyiga jo’natish uchun guruhlashlar
+soni (C3
+25) qancha?
+A) 2300
+B) 2500
+C) 303600
+D) 5400
+15. n ta turli elementdan faqat ularning tartibi bilan farq qiladigan kombinatsiyalar nima deyiladi?
+A) O’rinlashtirish
+B) Guruhlash
+C) O’rin almashtirish
+D) Takroriy o’rinlashtirish
+16. n!
+ifodaning
+katta
+qiymatlarda
+taqribiy hisoblash formulasi qanday
+ataladi?
+A) De Morgan formulasi
+B) Stirling formulasi
+C) Klassik formula
+D) Geometrik formula
+17. Geometrik
+ehtimolning
+ta’rifiga
+ko’ra, P(A) ehtimol sohalar yuzi
+orqali qanday aniqlanadi?
+A) P(A) = SΩ/SD
+B) P(A) = SD/SΩ
+C) P(A) = SD · SΩ
+D) P(A) = SD + SΩ
+18. Kesma markazidan chetlanishi l dan
+oshmaslik ehtimoli qachon 1 ga teng
+bo’ladi?
+A) 2l < L bo’lganda
+B) l = L bo’lganda
+C) l = 0 bo’lganda
+D) 2l ≥L bo’lganda
+19. Tajriba natijasida albatta bittasi
+yuz beradigan birgalikda bo’lmagan
+hodisalar nima deyiladi?
+A) Hodisalarning to’liq guruhi
+B) Bog’liq hodisalar
+C) Ekvivalent hodisalar
+D) Tasodifiy miqdorlar
+20. O’yin
+toshi
+tashlanganda
+"juft
+raqam tushishi" va "3 ga karrali
+raqam tushishi" hodisalari qanday
+hodisalar?
+A) Birgalikda bo’lmagan
+104

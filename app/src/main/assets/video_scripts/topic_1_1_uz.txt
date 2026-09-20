@@ -1,0 +1,30 @@
+AMALIY MATEMATIKA 2 — 1.1 ANIQ INTEGRAL
+Til: O‘zbekcha
+
+1. Integral yig‘indi
+[a,b] kesmani bo‘laklarga ajratamiz va S_n=Σf(ξ_i)Δx_i yig‘indini tuzamiz.
+
+Interaktiv pauza:
+Bo‘linish diametri qaysi kattalik?
+Javob: max Δx_i.
+
+2. Aniq integral ta’rifi
+max Δx_i→0 da S_n ning limiti mavjud va tanlovga bog‘liq bo‘lmasa, bu limit ∫_a^b f(x)dx deyiladi.
+
+3. Nyuton–Leybnits
+Agar F'=f bo‘lsa:
+∫_a^b f(x)dx=F(b)-F(a).
+
+4. Riman yig‘indisi misoli
+∫_0^1 x²dx=1/3.
+Ekranda n=2 dan n=30 gacha Riman to‘rtburchaklari va xatolik ko‘rsatiladi.
+
+5. O‘zgaruvchini almashtirish
+x=φ(t), dx=φ'(t)dt va integrallash chegaralari ham almashtiriladi.
+
+6. Bo‘laklab integrallash
+∫u dv=uv-∫v du.
+Misol: ∫_0^π(x-π)cos x dx=-2.
+
+7. Yakuniy mini-test
+Formula tanlash, qadamlarni tartiblash va xatoni topish mashqlari.

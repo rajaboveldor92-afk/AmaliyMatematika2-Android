@@ -1,0 +1,8 @@
+4.3 — Bernoulli scheme, Poisson and De Moivre–Laplace
+1. Independent two-outcome trials with constant success probability p.
+2. P_n(k)=C_n^k p^k q^(n-k), q=1−p.
+3. Most probable count: np−q≤k_0≤np+p.
+4. Poisson approximation: λ=np, P≈e^(−λ)λ^k/k!.
+5. Local De Moivre–Laplace and x=(k−np)/sqrt(npq).
+6. Integral approximation for k_1≤k≤k_2.
+In-video question: compute the Bernoulli probability for n=6, p=0.2, k=2.

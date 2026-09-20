@@ -1,0 +1,9 @@
+2.4 VIDEO SSENARIY — TEYLOR VA MAKLOREN QATORLARI
+1) Teylor formulasi va x0 markaz.
+2) Makloren: x0=0.
+3) Lagranj qoldiq hadi va R_n→0 g‘oyasi.
+4) e^x, sin x, cos x asosiy yoyilmalari.
+5) ln(1+x), arctan x va binomial qatorlar.
+6) Almashtirish orqali e^(−x^2) yoyilmasi.
+7) 1/x ni (x−2) darajalari bo‘yicha yoyish va 0<x<4 sharti.
+8) Teylor approksimatsiya slideri va xatolikni kuzatish.

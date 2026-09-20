@@ -1,0 +1,9 @@
+2.2 VIDEO SSENARIY — YAQINLASHISH ALOMATLARI
+1) Musbat hadli qator va monoton qismiy yig‘indilar.
+2) Birinchi va ikkinchi taqqoslash alomatlari.
+3) Dalamber alomati: l<1, l>1, l=1 holatlari.
+4) Koshi radikal alomati.
+5) l=1 bo‘lganda nega boshqa alomat kerakligi.
+6) Koshi integral alomati va Σ1/n^p.
+7) p-slider: p>1 va p≤1 ni vizual ko‘rsatish.
+8) Mini-test: qaysi alomat qulay?

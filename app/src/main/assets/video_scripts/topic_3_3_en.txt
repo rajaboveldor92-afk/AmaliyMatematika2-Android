@@ -1,0 +1,12 @@
+APPLIED MATHEMATICS 2 — 3.3
+Homogeneous, linear and Bernoulli equations
+
+1. f(λx,λy)=λ^m f(x,y): homogeneous of degree m.
+2. Use y=tx, dy=xdt+t dx for homogeneous first-order equations.
+3. Linear equation: y′+P(x)y=Q(x).
+4. Homogeneous linear solution: y=Ce^(−∫Pdx).
+5. Variation of constants: C→C(x).
+6. Bernoulli: y′+Py=Qy^n, z=y^(1−n).
+7. For y′+xy=xy³: z=y⁻².
+
+CHECKPOINT: If n=4, what exponent appears in z? 1−n=−3.

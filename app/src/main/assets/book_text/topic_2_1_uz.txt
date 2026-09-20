@@ -1,0 +1,401 @@
+===== PDF SAHIFA 25 =====
+BOB 2
+SONLI VA FUNKSIONAL QATORLAR
+NAZARIYASI
+2.1
+Sonli qatorlar.
+Asosiy tushunchalar.
+Qator yaqinlashishining zaruriy sharti.
+Garmonik qator.
+Musbat
+hadli qatorlar yaqinlashishining solishtirish alomati.
+Sonli
+qatorlar
+yaqinlashishining
+zaruriy
+sharti.
+Faraz
+qilamiz
+u1, u2, . . . , un, . . ., bu yerda un
+=
+f(n) ga teng cheksiz sonli ketma-ketlik.
+u1 + u2 + · · · + un + · · · ifoda cheksiz sonli qator deyiladi, u1, u2, . . . , un, . . . sonlar
+qator hadlari, un = f(n) qatorning umumiy hadi deyiladi.
+Qatorlar umumiy
+∞
+X
+n=1
+un ko‘rinishida yoziladi. Sonli qatorni birinchi n ta hadlar yig‘indisi Sn orqali
+ifodalanib va qatorni n ta hadini qismiy yig‘indisi deyiladi:
+Sn = u1 + u2 + · · · + un.
+Qator yaqinlashuvchi deyiladi, agar uning n ta qismiy yig‘indisi Sn n →∞
+da cheksiz o‘sib borganda chekli songa intilsa, ya’ni lim
+n→∞Sn = S. S — son qator
+yig‘indisi deyiladi.
+Agar qatorning n ta qismiy yig‘indisi n →∞da chekli songa intilmasa, qator
+uzoqlashuvchi deyiladi.
+1 + 1
+2 + 1
+3 + 1
+4 + · · · + 1
+n + · · ·
+garmonik qator deyiladi va u uzoqlashuvchi.
+Sonli qator yaqinlashishini asosiy teoremalarini keltiramiz.
+25
+
+===== PDF SAHIFA 26 =====
+2.1.1-teorema. Agar u1+u2+u3+· · · qator yaqinlashsa, um+1+um+2+um+3+· · ·
+qator ham yaqinlashadi, ya’ni m ta hadni tashlash natijasida hosil bo‘lgan qator ham
+yaqinlashadi (bu oxirgi hosil qilingan qator m–qoldiq qator deyiladi berilgan qatorga
+nisbatan): teskarisi, m-chi qoldiq hadning yaqinlashuvchiligidan berilgan qatorning
+yaqinlashuvchiligi ham kelib chiqadi.
+2.1.2-teorema. Agar u1 + u2 + u3 + · · · qator yaqinlashsa va uning yig‘indisi S
+son bo‘lsa, u holda
+au1 + au2 + · · · + aun + · · ·
+qator ham yaqinlashadi va uning yig‘indisi aS ga teng.
+2.1.3-teorema. Agar u1 + u2 + u3 + · · · va v1 + v2 + v3 + · · · qatorlar yaqinlashsa
+va yig‘indilari mos ravishda S, V ga teng bo‘lsa, u holda
+(u1 + v1) + (u2 + v2) + · · ·
+qator ham yaqinlashadi, yig‘indisi S + V ga teng bo‘ladi.
+2.1.4-teorema. Agar u1 + u2 + u3 + · · · qator yaqinlashsa, u holda
+lim
+n→∞un = 0,
+ya’ni n →∞da yaqinlashuvchi qatorning umumiy hadi nolga teng (Qator yaqinlashishining zaruriy alomati).
+Shunday qilib, agar
+lim
+n→∞un ̸= 0
+bo‘lsa, qator uzoqlashadi.
+2.1.1-misol. Qatorni un =
+n
+10n + 1 umumiy hadi berilgan, uning birinchi to‘rtta
+hadi yozilsin.
+Yechilishi. Agar n = 1 bo‘lsa u holda u1 = 1
+11; agar n = 2 bo‘lsa, u holda
+u2 =
+2
+101; agar n = 3 bo‘lsa, u3 =
+3
+1001; n = 4 bo‘lsa, u4 =
+4
+10001 va hokazo.
+Qatorlar quyidagi ko‘rinishda bo‘ladi:
+1
+11 + 2
+101 +
+3
+1001 +
+4
+10001 + · · ·
+26
+
+===== PDF SAHIFA 27 =====
+Qatorni un =
+n
+10n + 1 umumiy hadi berilgan, uning birinchi to‘rtta hadi yozib
+beradigan va yaqinlashishga tekshiradigan dastur kodi:
+Quyidagi QR kodda SymPy kutubxonasi yordamida qatorning birinchi hadlarini
+hisoblash va D’Alamber alomati bo’yicha yaqinlashishni tekshirish kodi joylashtirilgan:
+2.1.2-misol. Qatorni umumiy hadi topilsin
+1
+2 + 3
+22 + 5
+23 + 7
+24 + · · ·
+Yechilishi.
+Suratdagi ketma-ketlik 1, 3, 5, 7, . . . , n arifmetik progressiyani
+tashkil qiladi. Formula bo‘yicha an = a1 + d(n −1). Bu yerda a1 = 1, d = 2,
+shuning uchun an = 2n−1. Mahrajdagi ketma-ketlik 2, 22, 23, 24, . . . geometrik progressiyani tashkil qiladi, bu progressiyaning n-chi hadi bn = 2n. Demak qatorning
+umumiy hadi
+un = 2n −1
+2n
+.
+Umuman olganda qatorni birinchi bir nechta hadi orqali to‘liq ifodalamasligi
+mumkin.
+2.1.3-misol.
+2
+3 +
+3
+7
+2
++
+ 4
+11
+3
++
+ 5
+15
+4
++ · · ·
+qatorni umumiy hadi topilsin.
+Yechilishi.
+Har bir hadning darajasi shu hadning nomeri bilan ustma-ust
+tushadi, shuning uchun n-chi tartibli hadning darajasi n ga teng. 2
+3, 3
+7, 4
+11, 5
+15, . . .
+kasrning surati arifmetik progressiyani tashkil qiladi: birinchi hadi 2 va ayirmasi 1.
+Shuning uchun n-chi surati n+1 ga teng. Mahraji ham arifmetik progressiya bo‘lib,
+birinchi hadi 3 va ayirmasi 4 ga teng. Shunday qilib, qatorni umumiy hadi
+un =
+ n + 1
+4n −1
+n
+ga teng.
+27
+
+===== PDF SAHIFA 28 =====
+2.1.4-misol.
+1
+1 · 3 +
+1
+3 · 5 +
+1
+5 · 7 +
+1
+7 · 9 + · · · +
+1
+(2n −1)(2n + 1) + · · ·
+qatorni yig‘indisi aniqlansin.
+Yechilishi. Qatorning umumiy hadini quyidagi ko‘rinishda ifodalash mumkin:
+un = 1
+2
+
+1
+2n −1 −
+1
+2n + 1
+
+,
+bu yerdan
+u1 = 1
+2
+
+1 −1
+3
+
+,
+u2 = 1
+2
+1
+3 −1
+5
+
+,
+u3 = 1
+2
+1
+5 −1
+7
+
+,
+u4 = 1
+2
+1
+7 −1
+9
+
+, . . .
+Bunga ko‘ra
+Sn = 1
+2
+
+1 −1
+3
+
++ 1
+2
+1
+3 −1
+5
+
++ 1
+2
+1
+5 −1
+7
+
++ · · · + 1
+2
+
+1
+2n −1 −
+1
+2n + 1
+
+= 1
+2
+
+1 −
+1
+2n + 1
+
+.
+lim
+n→∞Sn = 1
+2 lim
+n→∞
+
+1 −
+1
+2n + 1
+
+= 1
+2,
+o‘rinli, qator yaqinlashadi va uning yig‘indisi 1
+2 ga teng.
+2.1.5-misol.
+1
+1 · 2 · 3 +
+1
+2 · 3 · 4 +
+1
+3 · 4 · 5 + · · · +
+1
+n(n + 1)(n + 2) + · · ·
+qator yig‘indisi aniqlansin.
+Yechilishi. Qatorni un umumiy hadini oddiy kasrlar yig‘indisi ko‘rinishida ifodalaymiz:
+1
+n(n + 1)(n + 2) = A
+n +
+B
+n + 1 +
+C
+n + 2.
+28
+
+===== PDF SAHIFA 29 =====
+Buni ikkala tomonini maxrajiga ko‘paytirib quyidagi tenglikka keltiramiz:
+1 = A(n + 1)(n + 2) + Bn(n + 2) + Cn(n + 1).
+Ketma-ket n = 0, −1, −2 deb quyidagilarni aniqlaymiz:
+n = 0 ⇒1 = 2A,
+A = 1
+2;
+n = −1 ⇒1 = −B,
+B = −1;
+n = −2 ⇒1 = 2C,
+C = 1
+2.
+Shunday qilib,
+un = 1
+2 · 1
+n −
+1
+n + 1 + 1
+2 ·
+1
+n + 2 = 1
+2
+1
+n −
+2
+n + 1 +
+1
+n + 2
+
+.
+Bundan
+u1 = 1
+2
+
+1 −2
+2 + 1
+3
+
+,
+u2 = 1
+2
+1
+2 −2
+3 + 1
+4
+
+,
+u3 = 1
+2
+1
+3 −2
+4 + 1
+5
+
+,
+. . .
+Sn = 1
+2
+
+1 −2
+2 + 1
+3
+
++ 1
+2
+1
+2 −2
+3 + 1
+4
+
++ 1
+2
+1
+3 −2
+4 + 1
+5
+
++ · · ·
+= 1
+2
+
+1 −1
+2 + 1
+3 −1
+4 + · · · + 1
+n −
+1
+n + 1 +
+1
+n + 2
+
+=
+= 1
+2
+1
+2 −
+1
+n + 1 +
+1
+n + 2
+
+.
+Shunday qilib,
+lim
+n→∞Sn = 1
+4.
+Demak, qator yaqinlashadi va yig‘indisi 1
+4 ga teng.
+2.1.6-misol.
+2
+3 + 1
+3 + 1
+6 + 1
+12 + · · · + 2
+3
+1
+2
+ n−1
++ · · ·
+qator yaqinlashishi tekshirilsin.
+Yechilishi. Berilgan qator cheksiz kamayuvchi geometrik progressiya hadlaridan
+tuzilgan, shuning uchun yaqinlashadi va uning yig‘indisini aniqlaymiz. Bu yerda
+a1 = 2
+3, q = 1
+2 (progressiya maxraji). Demak,
+S =
+a1
+1 −q =
+2
+3
+1 −1
+2
+= 4
+3.
+29

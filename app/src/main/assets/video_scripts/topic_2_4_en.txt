@@ -1,0 +1,9 @@
+2.4 VIDEO SCRIPT — TAYLOR AND MACLAURIN SERIES
+1) Taylor formula and center x0.
+2) Maclaurin means x0=0.
+3) Lagrange remainder and R_n→0.
+4) Standard expansions of e^x, sin x, cos x.
+5) ln(1+x), arctan x, and the binomial series.
+6) Obtain e^(−x^2) by substitution.
+7) Expand 1/x in powers of (x−2), condition 0<x<4.
+8) Degree slider and approximation error.

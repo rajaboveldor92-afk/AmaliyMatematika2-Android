@@ -1,0 +1,12 @@
+APPLIED MATHEMATICS 2 — 3.4
+Linear equations with constant coefficients
+
+1. Build the characteristic equation by replacing derivatives with powers of k.
+2. Distinct real roots: C1e^(k1x)+C2e^(k2x).
+3. Repeated root: (C1+C2x+...)e^(kx).
+4. Roots α±βi: e^(αx)(C1cosβx+C2sinβx).
+5. Initial/boundary conditions determine the constants.
+6. Nonhomogeneous general solution = homogeneous general solution + a particular solution.
+7. In resonance, multiply the trial form by a suitable power of x.
+
+CHECKPOINT: Roots of y′′−4y′+13y=0? 2±3i.

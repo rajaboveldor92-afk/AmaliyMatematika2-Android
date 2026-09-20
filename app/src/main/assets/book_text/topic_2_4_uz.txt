@@ -1,0 +1,472 @@
+===== PDF SAHIFA 51 =====
+2.4
+Funksiyalarni Teylor va Makloren qatorlariga yoyish.
+Asosiy elementar funksiyalarning darajali qatorlarga
+bo‘lgan yoyilmalari.
+Intervalda |x −x0| < r, ya’ni x0 −r < x < x0 + r, cheksiz differensiallanuvchi
+har qanday funksiyani shu intervalda unga yaqinlashuvchi Teylor darajali qatoriga
+yoyish mumkin:
+f(x) = f(x0) + f ′(x0)
+1!
+(x −x0) + f ′′(x0)
+2!
+(x −x0)2 + · · · + f (n)(x0)
+n!
+(x −x0)n + · · ·
+Agar shu intervalda quyidagi shart bajarilsa
+lim
+n→∞Rn(x) = lim
+n→∞
+f (n+1)(c)
+(n + 1)! (x −x0)n+1 = 0,
+bu yerda Rn(x) — Teylor qoldiq hadi (qator qoldig‘i), c = x0 +θ(x−x0), 0 < θ < 1.
+Xususan, x0 = 0 da Makloren qatori hosil bo‘ladi:
+f(x) = f(0) + f ′(0)
+1! x + f ′′(0)
+2!
+x2 + · · · + f (n)(0)
+n!
+xn + · · ·
+Agar biror intervalda, x0 nuqtani o‘z ichiga olgan holda, har qanday n da
+ham |f (n)(x)| < M tengsizlik bajarilsa, M — musbat o‘zgarmas bo‘lib, bu holda
+limn→∞Rn = 0 va f(x) funksiya Teylor qatoriga yoyiladi.
+Quyidagi funksiyalarni Makloren qatoriga yoyilmasini keltiramiz:
+ex = 1 + x
+1! + x2
+2! + x3
+3! + · · · + xn
+n! + · · · ,
+−∞< x < ∞
+sh x = x
+1! + x3
+3! + x5
+5! + · · · +
+x2n−1
+(2n −1)! + · · · ,
+−∞< x < ∞
+ch x = 1 + x2
+2! + x4
+4! + x6
+6! + · · · + x2n
+(2n)! + · · · ,
+−∞< x < ∞
+sin x = x
+1! −x3
+3! + x5
+5! −x7
+7! + · · · + (−1)n
+x2n+1
+(2n + 1)! + · · · ,
+−∞< x < ∞
+cos x = 1 −x2
+2! + x4
+4! −x6
+6! + · · · + (−1)n x2n
+(2n)! + · · · ,
+−∞< x < ∞
+51
+
+===== PDF SAHIFA 52 =====
+(1 + x)m = 1 + m
+1!x + m(m −1)
+2!
+x2 + m(m −1)(m −2)
+3!
+x3 + · · · +
++m(m −1) · · · (m −n + 1)
+n!
+xn + · · ·
+Oxirgi yoyilma quyidagi shartlarda o‘rinli bo‘ladi:
+1) m ≥0, −1 ≤x ≤1,
+2) −1 < m < 0, −1 < x ≤1,
+3) m ≤−1, −1 < x < 1.
+ln(1 + x) = x −x2
+2 + x3
+3 −x4
+4 + · · · + (−1)n−1xn
+n + · · · ,
+−1 < x ≤1
+arctan x = x −x3
+3 + x5
+5 −x7
+7 + · · · + (−1)n−1 x2n−1
+2n −1 + · · · ,
+−1 ≤x ≤1
+2.4.1-misol. Darajalari x bo‘yicha f(x) = 2x funksiyani qatorga yoying.
+Yechilishi. x = 0 da funksiya qiymatini va uning hosilalarini topamiz:
+f(x) = 2x,
+f(0) = 1,
+f ′(x) = 2x ln 2,
+f ′(0) = ln 2,
+f ′′(x) = 2x(ln 2)2,
+f ′′(0) = (ln 2)2,
+f (n)(x) = 2x(ln 2)n,
+f (n)(0) = (ln 2)n.
+Shuning uchun Makloren qatori:
+f(x) = 2x =
+∞
+X
+n=0
+(ln 2)n
+n!
+xn = 1 + x ln 2 + x2 ln2 2
+2!
++ x3 ln3 2
+3!
++ · · · ,
+x ∈R.
+2.4.2-misol. f(x) = sin2 x funksiyani x darajalari bo‘yicha qatorga yoyilsin.
+Yechilishi. Ma’lumki,
+sin2 x = 1 −cos(2x)
+2
+.
+Endi cos(2x) ning Makloren qatorini yozamiz:
+cos(2x) = 1 −(2x)2
+2!
++ (2x)4
+4!
+−(2x)6
+6!
++ · · · .
+52
+
+===== PDF SAHIFA 53 =====
+Shundan,
+sin2 x = 1
+2
+
+1 −
+
+1 −4x2
+2! + 16x4
+4!
+−64x6
+6!
++ · · ·
+
+.
+Soddalashtirib,
+sin2 x = x2 −x4
+3 + 2x6
+45 −x8
+315 + · · · .
+Misolni boshqacha yo‘l bilan ham yechish mumkin. sin2 x = 1
+2(1 −cos 2x) tenglikda cos 2x ni uning darajali qator yoyilmasi bilan almashtiramiz va uni darajali
+qatorga yoyamiz:
+cos 2x = 1 −(2x)2
+2!
++ (2x)4
+4!
+−(2x)6
+6!
++ · · · .
+Murakkab bo‘lmagan almashtirishlarni bajarib yuqoridagi sin2 x ning yoyilmasini
+hosil qilamiz.
+2.4.3-misol. e−x2 funksiyani x ning darajalari bo‘yicha qatorga yoyilsin.
+Yoyilmasi bizga ma’lum:
+ex = 1 + x
+1! + x2
+2! + x3
+3! + · · · ,
+−∞< x < +∞.
+Bu yerda x ni −x2 bilan almashtirib,
+e−x2 = 1 −x2
+1! + x4
+2! −x6
+3! + x8
+4! −· · · ,
+−∞< x < +∞.
+2.4.4-misol. ln x funksiyani (x −1) darajalari bo‘yicha qatorga yoyilsin.
+Yechilishi. Bizga ma’lumki,
+ln(1 + x) = x −x2
+2 + x3
+3 −x4
+4 + · · · ,
+−1 < x ≤1.
+Bunda x ni x −1 bilan almashtirib quyidagini hosil qilamiz:
+ln x = (x −1) −(x −1)2
+2
++ (x −1)3
+3
+−(x −1)4
+4
++ · · · ,
+0 < x ≤2.
+2.4.5-misol. 1
+x funksiyani (x −2) darajalari bo‘yicha qatorga yoyilsin.
+53
+
+===== PDF SAHIFA 54 =====
+Yechilishi.
+1
+x =
+1
+2 + (x −2) = 1
+2 ·
+1
+1 + x−2
+2
+tenglikdan foydalanamiz. O‘ng tomonni kamayuvchi geometrik progressiya yig‘indisi
+deb qarash mumkin. Bu yerda birinchi hadi a = 1
+2 va maxraji q = −x −2
+2
+bo‘ladi.
+Geometrik qator formulasi:
+1
+1 + u = 1 −u + u2 −u3 + · · · ,
+|u| < 1
+dan foydalanib, u = x −2
+2
+deb olamiz:
+1
+x = 1
+2
+
+1 −x −2
+2
++
+x −2
+2
+2
+−
+x −2
+2
+3
++ · · ·
+!
+.
+Demak,
+1
+x = 1
+2 −1
+4(x −2) + 1
+8(x −2)2 −1
+16(x −2)3 + · · · .
+Yaqinlashish sharti:
+
+x −2
+2
+ < 1
+⇒
+0 < x < 4.
+MUSTAQIL ISHLASH UCHUN TOPSHIRIQLAR
+Quyidagi funksiyalarni x darajalari bo‘yicha qatorga yoying.
+1. f(x) = 3x;
+2. f(x) = e−2x;
+3. f(x) = cos2 x;
+4. f(x) = sh2 x;
+5. f(x) = ln(x + a),
+a > 0;
+6. f(x) = √x + a,
+a > 0.
+Quyidagi misollar Teylor qatoriga yoyilsin:
+7. f(x, y) = x3 −2y3 + 3xy funksiyani P(2, 1) nuqta atrofida.
+54
+
+===== PDF SAHIFA 55 =====
+8. f(x, y) = 4x3 −x2 + 2xy −y2 + 5x + y −8 funksiyani P(1, −1) nuqta atrofida.
+9. f(x, y) = 5x2 + 9y2 −2x + 3y −5 funksiyani P(1, −1) nuqta atrofida.
+10. f(x, y) = x
+y funksiyani P(−1, 1) nuqta atrofida uchinchi tartibli hadigacha.
+11. f(x, y) = xe−y funksiyani P(1, 0) nuqta atrofida ikkinchi tartibli hadigacha.
+12. f(x, y) = x cos2 y funksiyani P(−1, 0) nuqta atrofida uchinchi tartibli hadigacha.
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Makloren qatori qaysi holatda hosil
+bo‘ladi?
+A) x0 = 1
+B) x0 = −1
+C) x0 = 0
+D) x0 ixtiyoriy bo‘lsa
+2. Teylor qatorining umumiy ko‘rinishi
+qaysi?
+A) P∞
+n=0
+f (n)(x0)
+n!
+(x −x0)n
+B) P∞
+n=0 f (n)(x0)(x −x0)n
+C) P∞
+n=1
+f (n)(x)
+n!
+xn
+D) P∞
+n=0
+(x−x0)n
+f (n)(x0)
+3. Lagranj qoldiq hadi Rn(x) qaysi formula bilan beriladi?
+A) Rn(x) = f (n)(x0)
+n!
+(x −x0)n
+B) Rn(x) = f (n+1)(c)
+(n+1)! (x −x0)n+1
+C) Rn(x) = f(x0)
+(n+1)!(x −x0)n+1
+D) Rn(x) = (x−x0)n
+n!
+4. c = x0 + θ(x −x0) da θ uchun qaysi
+shart to‘g‘ri?
+A) θ = 0
+B) θ ≥1
+C) θ ≤0
+D) 0 < θ < 1
+5. ex funksiyasining Makloren qatori
+qaysi?
+A) 1 −x + x2
+2! −· · ·
+B) x −x3
+3! + · · ·
+C) 1 + x + x2
+2! + x3
+3! + · · ·
+D) 1 −x2
+2! + · · ·
+6. ex qatorining yaqinlashish radiusi
+nechaga teng?
+A) R = 1
+B) R = +∞
+C) R = 0
+D) R = 2
+7. sin x ning Makloren qatori qaysi?
+55
+
+===== PDF SAHIFA 56 =====
+A) 1 −x2
+2! + x4
+4! −· · ·
+B) 1 + x + x2
+2! + · · ·
+C) x −x3
+3! + x5
+5! −· · ·
+D)
+1
+1−x
+8. cos x ning Makloren qatori qaysi?
+A) x −x3
+3! + · · ·
+B) 1 + x + x2
+2! + · · ·
+C) 1 −x2
+2! + x4
+4! −· · ·
+D)
+1
+1+x
+9. Binomial qator qaysi funksiya uchun
+yoziladi?
+A) (1 + x)α
+B) sin x
+C) ex
+D) cos x
+10. α natural bo‘lmaganda binomial qator qaysi shartda yaqinlashadi?
+A) |x| > 1
+B) |x| < 1
+C) x > 1
+D) x < −1
+11. α = −1 bo‘lsa,
+1
+1+x ning to‘g‘ri yoyilmasi qaysi?
+A) 1 −x + x2 −x3 + · · ·
+B) 1 + x + x2 + · · ·
+C) 1 −x2
+2! + · · ·
+D) x −x2
+2 + · · ·
+12. ln(1 + x) ning darajali qator yoyilmasi qaysi?
+A) 1 + x + x2 + · · ·
+B) P∞
+n=0
+xn
+n!
+C) x −x2
+2 + x3
+3 −· · ·
+D) 1 −x2
+2! + · · ·
+13. Darajali
+qatorning
+n-qismiy
+yig‘indisi Sn(x) nimani bildiradi?
+A) Birinchi n ta hadning yig‘indisi
+B) Cheksiz yig‘indi
+C) Qoldiq had
+D) Hosila
+14. Taqribiy
+xatolik
+|f(x) −Sn(x)|
+nimaga teng?
+A) |Sn(x)|
+B) |Rn(x)|
+C) |f(x)|
+D) 0
+15. Koshi masalasi to‘g‘ri yozilgan variantni toping:
+A) y = f(x)
+B) y′′ = f(x)
+C)
+(
+y′ = f(x, y)
+y(x0) = y0
+D) x2 + y2 = R2
+16. y′ = f(x, y) ni differensiallab y′′ ni
+topish formulasi qaysi?
+A) y′′ = fx −fy
+56
+
+===== PDF SAHIFA 57 =====
+B) y′′ =
+R
+f dx
+C) y′′ = f
+x
+D) y′′ = f ′
+x + f ′
+y · f
+17. n+1
+n!·n ≤10−4 tengsizlik uchun eng
+kichik n nechaga teng?
+A) n = 8
+B) n = 6
+C) n = 5
+D) n = 4
+18. e1 uchun n −1 tartibli qismiy
+yig‘indi Sn−1(1) qaysi?
+A) Pn−1
+k=1
+1
+k
+B) Pn−1
+k=0
+1
+k!
+C) Pn−1
+k=0 k!
+D) Pn−1
+k=0
+1
+k
+19. f(x)
+ning
+x0
+atrofidagi
+chiziqli
+yaqinlashishi (1-tartib) qaysi?
+A) f(x) ≈f ′(x0) + f(x −x0)
+B) f(x) ≈f(x0) + f ′(x0)(x −x0)
+C) f(x) ≈f(x0)
+x−x0
+D) f(x) ≈f(x0) + f ′′(x0)
+2
+(x −x0)2
+20. sin x qatorining yaqinlashish radiusi
+nechaga teng?
+A) R = 1
+B) R = 0
+C) R = 2
+D) R = +∞
+Javoblar kaliti (Tekshirish uchun skanerlang)
+57
+
+===== PDF SAHIFA 58 =====
+58

@@ -1,0 +1,9 @@
+2.3 VIDEO SCRIPT — FUNCTIONAL AND POWER SERIES
+1) Σu_n(x) and the convergence set.
+2) S(x)=S_n(x)+R_n(x) and uniform convergence.
+3) Power series Σa_n(x−α)^n.
+4) Center α and radius R.
+5) Formula R=lim|a_n/a_{n+1}|.
+6) Check endpoints separately.
+7) Examples Σx^n/n, Σx^n/n!, Σn!(x−5)^n.
+8) Interactive radius and endpoint trainer.

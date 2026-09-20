@@ -1,0 +1,11 @@
+APPLIED MATHEMATICS 2 — 3.2
+Separable differential equations
+
+1. Start from f1(x)φ1(y)dx+f2(x)φ2(y)dy=0.
+2. Group x-dependent terms with dx and y-dependent terms with dy.
+3. Integrate both sides and introduce C.
+4. For x(y²−4)dx+y dy=0: y²−4=Ce^(−x²).
+5. For y′=tan x·tan y: sin y cos x=C.
+6. An initial condition determines C.
+
+CHECKPOINT: Separate y′=2xy. Answer: dy/y=2x dx.

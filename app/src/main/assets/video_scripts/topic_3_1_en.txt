@@ -1,0 +1,12 @@
+APPLIED MATHEMATICS 2 — 3.1
+Basic concepts of differential equations
+
+1. A differential equation relates an unknown function and its derivatives.
+2. An ordinary differential equation has one independent variable.
+3. The order is the highest derivative order.
+4. First order: F(x,y,y′)=0 or y′=f(x,y).
+5. General solution y=φ(x,C); a particular solution fixes C=C0.
+6. Cauchy problem: y′=f(x,y), y(x0)=y0.
+7. Integral curves and uniqueness.
+
+CHECKPOINT: What is the order of xy′+sin(x)y′′=0? Answer: 2.

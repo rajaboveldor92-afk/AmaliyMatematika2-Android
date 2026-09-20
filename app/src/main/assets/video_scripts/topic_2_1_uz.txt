@@ -1,0 +1,9 @@
+2.1 VIDEO SSENARIY — SONLI QATORLAR
+1) Kirish: ketma-ketlik va qator farqi.
+2) Σu_n yozuvi va qismiy yig‘indi S_n.
+3) Yaqinlashish: lim S_n=S.
+4) Zaruriy shart: u_n→0. Eslatma: bu yetarli shart emas.
+5) Garmonik qator 1+1/2+1/3+... uzoqlashadi.
+6) Teleskopik misol: 1/[(2n−1)(2n+1)] va S_n→1/2.
+7) Interaktiv pauza: u_n=n/(n+1) bo‘lsa qator haqida xulosa.
+8) Yakuniy mini-test.

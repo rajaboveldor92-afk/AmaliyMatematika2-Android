@@ -1,0 +1,8 @@
+4.3 — Bernulli sxemasi, Puasson va Muavr–Laplas
+1. Ikki natijali, mustaqil, bir xil p ehtimolli sinovlar.
+2. P_n(k)=C_n^k p^k q^(n-k), q=1−p.
+3. Eng ehtimolli son np−q≤k_0≤np+p.
+4. Puasson taqribi: λ=np, P≈e^(−λ)λ^k/k!.
+5. Muavr–Laplas lokal formula va standartlashtirish x=(k−np)/sqrt(npq).
+6. Integral formula: k_1≤k≤k_2 ehtimoli.
+Video ichki savol: n=6, p=0.2, k=2 uchun Bernulli ehtimolini hisoblang.

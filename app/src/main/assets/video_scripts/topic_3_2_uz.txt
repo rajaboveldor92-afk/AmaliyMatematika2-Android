@@ -1,0 +1,11 @@
+AMALIY MATEMATIKA 2 — 3.2
+O‘zgaruvchilari ajraladigan tenglamalar
+
+1. f1(x)φ1(y)dx+f2(x)φ2(y)dy=0 ko‘rinish.
+2. x ga bog‘liq hadlarni dx, y ga bog‘liq hadlarni dy bilan ajratamiz.
+3. Har ikki tomonni integrallaymiz va C ni kiritamiz.
+4. x(y²−4)dx+y dy=0 misoli: y²−4=Ce^(−x²).
+5. y′=tg x·tg y misoli: sin y cos x=C.
+6. Boshlang‘ich shart C ni aniqlaydi.
+
+VIDEO ICHIDAGI SAVOL: y′=2xy uchun ajratilgan ko‘rinish? dy/y=2x dx.

@@ -1,0 +1,137 @@
+===== PDF SAHIFA 179 =====
+FOYDALANILGAN ADABIYOTLAR
+RO‘YXATI.
+1. Заитов А.А. Элементы дифференциального исчисления. Учебное пособие.
+- Т.: Изд-во ТДПУ, 2019.
+2. Жўрев Т., Саъдуллаев А., Г.Худойберганов, Мансуров Ҳ., Ворисов А. Олий
+математика асослари. Дарслик. Т.: “Ўзбекистон”, 1995.
+3. Zuparov T.M. Ehtimollar nazariyasi misol va masalalarda. O‘quv qo‘llanma.
+Toshkent, 2017.
+4. Тожиев Ш.И. Олий математикадан масалалар ечиш.
+Дарслик.
+Т.:
+“Ўзбекистон”, 2002.
+5. Филипов А.Ф. Сборник задач по дифференциальным уравнениям. Учебное
+пособие. Ижевск. «Регулярная и хаотическая динамика», 2000.
+6. Виленкин Н.Я., Виленкин А.Н., Виленкин П.А. Комбинаторика. Учебное
+пособие. Москва. «ФИМА», 2006.
+7. Рузиев Ж.Э., Эргашова Ш.Р. “Высшая математика”, учебное пособие.
+Ташкент, “Ma’rifat” 2024. 210 стр.
+8. Kuchorov R.R., Xolto’rayev X.F., Karimov D.I. “Amaliy matematika” (mustaqil yechish uchun misollar to‘plami), o‘quv qo‘llanma.
+Toshkent, “Munis
+group” 2024.
+179
+
+===== PDF SAHIFA 180 =====
+180
+
+===== PDF SAHIFA 181 =====
+MUNDARIJA
+Kirish
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+3
+1
+ANIQ INTEGRAL VA UNING TATBIQLARI.
+5
+1.1
+Aniq integralning ta’rifi.
+Aniq integralning geometrik va iqtisodiy
+ma’nolari. Aniq integralning xossalari. Nyuton-Leybnits formulasi.
+Aniq integralni hisoblash usullari: o‘zgaruvchilarni almashtirish va
+bo‘laklab integrallash. . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+1.2
+Chegaralari cheksiz bo‘lgan xosmas integrallar. Chekli oraliqda uzilishga ega bo‘lgan funksiyalarning xosmas integrallari. . . . . . . . . .
+13
+2
+SONLI VA FUNKSIONAL QATORLAR NAZARIYASI
+25
+2.1
+Sonli qatorlar. Asosiy tushunchalar. Qator yaqinlashishining zaruriy
+sharti.
+Garmonik qator.
+Musbat hadli qatorlar yaqinlashishining
+solishtirish alomati. . . . . . . . . . . . . . . . . . . . . . . . . . . .
+25
+2.2
+Musbat hadli qatorlar yaqinlashishining Dalamber, Koshining radikal
+va integral alomatlari.
+. . . . . . . . . . . . . . . . . . . . . . . . .
+30
+2.3
+Funksional qatorlar. Darajali qatorlar. Abel teoremasi. Yaqinlashish
+radiusi. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+39
+2.4
+Funksiyalarni Teylor va Makloren qatorlariga yoyish. Asosiy elementar funksiyalarning darajali qatorlarga bo‘lgan yoyilmalari. . . . . . .
+51
+3
+ODDIY
+DIFFERENSIAL
+TENGLAMALAR
+VA
+ULARNI
+YECHISH USULLARI
+59
+3.1
+Differensial tenglamalarga keltiruvchi masalalar.
+O‘zgaruvchilari
+ajraladigan differensial tenglamalar. . . . . . . . . . . . . . . . . . .
+59
+3.2
+O‘zgaruvchilari ajraladigan differensial tenglamalar . . . . . . . . . .
+60
+3.3
+Bir jinsli differensial tenglamalar. Birinchi tartibli chiziqli differensial
+tenglamalar. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+66
+181
+
+===== PDF SAHIFA 182 =====
+3.4
+O‘zgarmas koeffitsientli ikkinchi tartibli bir jinsli va bir jinsli
+bo‘lmagan differensial tenglamalarni yechish.
+. . . . . . . . . . . . .
+79
+4
+EHTIMOLLAR NAZARIYASI VA MATEMATIK STATISTIKA
+ELEMENTLARI
+93
+4.1
+Tasodifiy hodisalar va ular ustida amallar.
+Ehtimolning klassik
+ta’rifi. Kombinatorika elementlari. Geometrik ehtimol. . . . . . . . .
+93
+4.2
+Ehtimollarni qo‘shish va ko‘paytirish. Shartli ehtimol. To‘la ehtimol.
+Beyes formulasi. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . 105
+4.3
+Bernulli sxemasi. Puasson teoremasi. Muavr–Laplasning lokal va
+integral teoremalari . . . . . . . . . . . . . . . . . . . . . . . . . . . 115
+4.4
+Diskret tasodifiy miqdor va uning taqsimot qonuni. Uzluksiz tasodifiy miqdor.
+Uzluksiz tasodifiy miqdor ehtimollarining taqsimot
+funksiyasi. Uzluksiz tasodifiy miqdorning zichlik funksiyasi.
+. . . . . 125
+4.5
+Uzluksiz tasodifiy miqdor. Uzluksiz tasodifiy miqdor ehtimollarining
+taqsimot funksiyasi. Uzluksiz tasodifiy miqdorning zichlik funksiyasi
+130
+4.6
+Tasodifiy miqdorlarning sonli xarakteristikalari: matematik kutilish,
+dispersiya va o‘rtacha kvadratik chetlanish . . . . . . . . . . . . . . . 140
+4.7
+Variatsion qator.
+Statistik qator va uning poligoni va gistogrammasi. Taqsimotning empirik funksiyasi. Tanlamaning sonli xarakteristikalari. Taqsimotning parametrlarini nuqtaviy va oraliqli baholash.
+Taqsimotning parametrlarini nuqtaviy baholash.
+. . . . . . . . . . . 154
+FOYDALANILGAN ADABIYOTLAR RO‘YXATI.
+179
+182
+
+===== PDF SAHIFA 183 =====
+Bichimi 60 × 84 1/16. Nashriyot hisob tabog‘i 9.
+Adadi 50 nusxa. Buyurtma No. 40
+“******” MCHJ bosmaxonada nashr qilindi.
+100047, Toshkent sh., Amur Temur k., 15-a.
+183

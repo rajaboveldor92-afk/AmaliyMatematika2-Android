@@ -1,0 +1,11 @@
+4.7 — Matematik statistika va baholash
+1. Bosh to‘plam, tanlama va tanlama hajmi.
+2. Variatsion qator, chastota n_i va nisbiy chastota p_i*=n_i/n.
+3. Statistik qator, poligon va gistogramma.
+4. Empirik F_n*(x)=n_x/n.
+5. Tanlama o‘rtachasi va dispersiyasi.
+6. Nuqtaviy baho: asosli, siljimagan, samarali.
+7. Momentlar va maksimal ehtimollik usullari.
+8. Ishonchlilik oralig‘i P(θ_1<θ<θ_2)=γ.
+9. Normal holatda γ=.95 uchun 1.96, γ=.99 uchun 2.58.
+Video ichki savol: x̄=1000, σ=40, n=100, γ=.95 uchun intervalni toping.

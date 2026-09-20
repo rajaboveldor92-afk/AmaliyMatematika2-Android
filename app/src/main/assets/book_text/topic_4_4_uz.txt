@@ -1,0 +1,240 @@
+===== PDF SAHIFA 125 =====
+Javoblar kaliti (QR formatda)
+Testning to’g’ri javoblarini telefoningiz orqali tekshirib olishingiz mumkin:
+4.4
+Diskret tasodifiy miqdor va uning taqsimot qonuni.
+Uzluksiz tasodifiy miqdor.
+Uzluksiz tasodifiy miqdor
+ehtimollarining taqsimot funksiyasi. Uzluksiz tasodifiy
+miqdorning zichlik funksiyasi.
+Tasodifiy miqdorlar tushunchasi
+4.4.1-ta’rif. Tajriba natijasida oldindan qaysi qiymatini qabul qilishi noma’lum
+bo‘lgan miqdorlarga tasodifiy miqdor deb ataymiz.
+4.4.2-ta’rif. Chekli yoki sanoqli sondagi qiymatlarni qabul qiluvchi tasodifiy miqdorlarni diskret tasodifiy miqdor, sanoqsiz sondagi qiymatlarni chekli yoki cheksiz
+oraliqlarni to‘ldirib qabul qiluvchi miqdorlar esa uzluksiz tasodifiy miqdor deb ataladi.
+Tasodifiy miqdorning ehtimoliy xossalarini o‘rganish uchun tasodifiy miqdor
+o‘zining qiymatlar to‘plamidan qiymatni qabul qilish ehtimolini topish qoidasini bilish kerak bo‘ladi. Har qanday bunday qoida tasodifiy miqdor ehtimollarining taqsimot qonuni yoki tasodifiy miqdor (ehtimollarining) taqsimoti deb ataladi. Ko‘pgina
+hollarda “ehtimol” so‘zi qoldirib ketiladi.
+4.4.3-ta’rif. X tasodifiy miqdor ehtimollarining taqsimot funksiyasi deb, x nuqtadagi qiymati {X < x} hodisaning ehtimoliga teng bo‘lgan F(x) funksiyaga aytiladi:
+F(x) = P{X < x}.
+(1)
+Diskret tasodifiy miqdor va uning taqsimot qonuni
+X — diskret tasodifiy miqdor o‘zining chekli yoki sanoqli sondagi
+x1, x2, . . . , xn, . . .
+125
+
+===== PDF SAHIFA 126 =====
+qiymatlarini mos ravishda
+p1, p2, . . . , pn, . . .
+ehtimollar bilan qabul qilsin. Diskret tasodifiy miqdorning taqsimot qonunini tajriba
+natijasida X tasodifiy miqdor xi qiymatini qabul qilish ehtimolini aniqlovchi
+pi = P(X = xi),
+i = 1, 2, . . . , n, . . .
+formula orqali berish qulay. X diskret tasodifiy miqdorning taqsimot qonuni taqsimot jadvali ko‘rinishida berilishi mumkin:
+X
+x1 x2 . . . xn . . .
+P
+p1
+p2 . . . pn . . .
+Bu yerda birinchi satrda tasodifiy miqdorning qabul qilishi mumkin bo‘lgan qiymatlari (ko‘pincha ular o‘sib borish tartibida joylashtiriladi), ikkinchi satrga esa
+ularning mos ehtimollari joylashtiriladi. Bunday jadvalni diskret tasodifiy miqdor
+taqsimot qatori deb ataymiz.
+{X = x1}, {X = x2}, . . . hodisalar birgalikda bo‘lmagan hodisalarning to‘liq
+guruhini tashkil qiladi, shu sababli ular ehtimollarining yig‘indisi birga teng, ya’ni
+X
+i
+pi = 1.
+(2)
+Diskret tasodifiy miqdor qiymatlarini abssissa o‘qiga, ularning ehtimollarini esa
+ordinata o‘qiga joylashtirib, diskret tasodifiy miqdorning taqsimot qonuni grafik
+ko‘rinishda tasvirlanadi.
+... ko‘rinishda tasvirlash mumkin. (x1, p1), (x2, p2), . . . nuqtalarni tutashtiruvchi
+siniq chiziqni taqsimotning poligoni deb ataymiz (2-rasm).
+(Bu yerda taqsimot poligoni rasmi keltiriladi)
+x
+p
+x1
+x2
+x3
+x4
+xn
+p1
+p2
+p3
+p4
+pn
+Diskret taqsimot poligoni
+126
+
+===== PDF SAHIFA 127 =====
+Diskret tasodifiy miqdorning taqsimot qatori bo‘yicha uning F(x) taqsimot
+funksiyasi
+F(x) =
+X
+xi<x
+pi
+(3)
+tenglik bilan aniqlanadi, bu yerda yig‘indi xi < x tengsizlikni qanoatlantiruvchi
+barcha i bo‘yicha olinadi. (3) tenglik (1) tenglikdan bevosita kelib chiqadi.
+Xususiy holda X diskret tasodifiy miqdor chekli sondagi qiymatlarni qabul qilsin
+va
+X
+x1 x2 . . . xn
+P
+p1
+p2 . . . pn
+taqsimot qatorida qiymatlar o‘sib borish tartibida joylashtirilgan bo‘lsin. U holda
+barcha x ≤x1 larda {X < x} mumkin bo‘lmagan hodisa va shuning uchun (3)
+formulaga ko‘ra F(x) = 0 bo‘ladi (3-rasm).
+Agar x1 < x ≤x2 bo‘lsa, {X < x} hodisa {X = x1} bo‘lgandagina yuz beradi,
+shuning uchun
+F(x) = P{X = x1} = p1.
+Xuddi shunday x2 < x ≤x3 bo‘lsa, {X < x} hodisa yoki {X = x1} bo‘lganda,
+yoki {X = x2} bo‘lganda yuz beradi, ya’ni
+{X < x} = {X = x1} + {X = x2}
+va demak
+F(x) = P{X = x1} + P{X = x2} = p1 + p2,
+va hokazo. Nihoyat x > xn bo‘lsa, {X < x} muqarrar hodisa bo‘ladi va F(x) = 1.
+(Bu yerda diskret taqsimot funksiyasining pog‘onali grafigi rasmi keltiriladi)
+x
+F(x)
+x1
+x2
+x3
+xn
+p1
+p1 + p2
+p1 + p2 + p3
+1
+Diskret tasodifiy miqdorning taqsimot funksiyasi
+127
+
+===== PDF SAHIFA 128 =====
+Shunday qilib, diskret tasodifiy miqdorning taqsimot funksiyasi (−∞; x1]
+oraliqda 0 qiymatni, (xi, xi+1], 1 ≤i < n oraliqlarda p1 + p2 + · · · + pi va (xn, +∞)
+oraliqda 1 qiymatni qabul qiluvchi bo‘lakli o‘zgarmas funksiya bo‘lar ekan.
+4.4.1-misol. Taqsimot qatori
+X
+0
+1
+2
+3
+P
+0,2 0,25 0,31 0,24
+jadvalda berilgan X tasodifiy miqdorning taqsimot funksiyasini tuzing va taqsimot
+poligoni hamda taqsimot funksiyasining grafigini yasang.
+Yechish:
+Yuqorida keltirilgan usul bo‘yicha taqsimot funksiyasini tuzamiz.
+Unga ko‘ra
+F(x) =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0,
+x ≤0,
+0,2,
+0 < x ≤1,
+0,45,
+1 < x ≤2,
+0,76,
+2 < x ≤3,
+1,
+3 < x.
+X tasodifiy miqdor taqsimot poligoni 3-rasmda va taqsimot funksiyasining grafigi
+esa 4-rasmda tasvirlangan.
+x
+P
+0.2
+0.25 0.31
+0.24
+0
+1
+2
+3
+Taqsimot poligoni
+x
+F(x)
+0.2
+0.45
+0.76
+1
+0
+1
+2
+3
+Diskret taqsimot funksiyasi
+128
+
+===== PDF SAHIFA 129 =====
+Ayrim diskret tasodifiy miqdorlar
+Binomial taqsimot. Agar X tasodifiy miqdor 0, 1, 2, . . . , n qiymatlarni
+P{X = i} = Pn(i) = Ci
+npiqn−i,
+i = 0, 1, . . . , n
+formula bo‘yicha hisoblanadigan ehtimollar bilan qabul qilsa, bu tasodifiy miqdor
+binomial taqsimlangan tasodifiy miqdor deb ataladi, bu yerda 0 < p, q < 1 va
+p + q = 1. Uning taqsimot qatori
+X
+0
+1
+2
+. . .
+i
+. . . n
+P
+qn C1
+npqn−1 C2
+np2qn−2 . . . Ci
+npiqn−i . . . pn
+ko‘rinishda bo‘ladi.
+Puasson taqsimoti
+Butun nomanfiy qiymatlarning ehtimollari
+P{X = i} = λie−λ
+i!
+,
+i = 0, 1, 2, . . .
+formula ko‘ra hisoblanadigan tasodifiy miqdorlarga λ parametrli Puasson taqsimotli diskret tasodifiy miqdor deb ataymiz.
+Bu tasodifiy miqdor taqsimot
+qatori
+X
+0
+1
+2
+. . .
+i
+. . .
+P
+e−λ λe−λ
+λ2e−λ
+2!
+. . .
+λie−λ
+i!
+. . .
+ko‘rinishda bo‘ladi.
+Geometrik taqsimot
+Bernulli sxemasini qaraymiz.
+Har bir tajribada A hodisa p ehtimol bilan yuz
+bersin va q = 1 −p ehtimol bilan yuz bermasin. A hodisa yuz bergunga qadar
+o‘tkazilgan tajribalar soni X bo‘lsin. U holda X diskret tasodifiy miqdor bo‘lib, u
+0, 1, 2, . . . , n, . . . qiymatlarni qabul qiladi. {X = n} hodisaning ehtimolini topamiz.
+Agar birinchi tajribada A hodisa yuz bersa, X = 0 ekani ravshan. Shuning
+uchun
+P{X = 0} = p.
+129

@@ -1,0 +1,374 @@
+===== PDF SAHIFA 60 =====
+y = φ(x, C) funksiyaga aytiladiki, u quyidagi xossalarga ega bo‘lsa:
+3.1.1-xossa. O‘zgarmas C ning ixtiyoriy qiymatida u tenglamaning yechimi bo‘lsa,
+biror to‘plamga tegishli;
+3.1.2-xossa. Har qanday y(x0) = y0 boshlang‘ich shart uchun, (x0, y0) ∈D sohadan olingan, shunday yagona C = C0 qiymat mavjudki y = φ(x, C0) yechim
+berilgan boshlang‘ich shartni qanoatlantiradi.
+Umumiy yechimdan y = φ(x, C) aniq C = C0 qiymatda hosil bo‘ladigan
+yechimni xususiy yechim deyiladi.
+y′ = f(x, y) tenglamani boshlang‘ich y(x0) = y0 shartni qanoatlantiruvchi
+yechimni topish masalasi Koshi masalasi deyiladi.
+Differensial tenglamaning y = φ(x) har qanday yechimi Oxy tekisligidagi grafigi
+tenglamaning integral egri chizig‘i deyiladi. Shunday qilib, y = φ(x, C) umumiy
+yechimga xOy tekislikda integral egri chiziqlar oilasi mos keladi, ixtiyoriy o‘zgarmas
+C — birgina parametrga bog‘liq, xususiy yechimga esa y(x0) = y0 boshlang‘ich
+shartni qanoatlantiruvchi, shu egri chiziqlar oilasidan, berilgan M0(x0, y0) nuqtadan
+o‘tuvchi egri chiziq mos keladi.
+Agar f(x, y) funksiya D sohada uzluksiz va uzluksiz ∂f
+∂y xosilasi mavjud bo‘lsa,
+u holda
+y′ = f(x, y)
+differensial tenglamani y(x0) = y0 boshlang‘ich shartni qanoatlantiruvchi yechim
+mavjud va u yagona, ya’ni (x0, y0) nuqtadan berilgan tenglamaning birgina integral
+egri chizig‘i o‘tadi (Koshi teoremasi).
+3.2
+O‘zgaruvchilari ajraladigan differensial tenglamalar
+Quyidagi differensial tenglama
+f1(x)φ1(y) dx + f2(x)φ2(y) dy = 0
+o‘zgaruvchilari ajraladigan tenglamalar turiga kiradi.
+Agar f1(x), φ1(y), f2(x),
+φ2(y) funksiyalaridan bittasi ham aynan nolga teng bo‘lmasa, u holda berilgan
+tenglamani
+1
+f2(x)φ1(y) ga bo‘lsak quyidagi ko‘rinishni oladi:
+f1(x)
+f2(x) dx + φ2(y)
+φ1(y) dy = 0.
+60
+
+===== PDF SAHIFA 61 =====
+Bu tenglikni hadma-had integrallaymiz:
+Z f1(x)
+f2(x) dx +
+Z φ2(y)
+φ1(y) dy = C,
+bu berilgan tenglamaning yechimi oshkormas shaklda bo‘ladi.
+Differensial
+tenglamaning oshkormas ko‘rinishdagi yechimi uning integrali deyiladi.
+3.2.1-misol.
+x(y2 −4) dx + y dy = 0
+tenglama yechilsin.
+Yechilishi. Tenglamani ikkala tomonini y2 −4 ̸= 0 deb olib,
+x dx +
+y
+y2 −4 dy = 0
+ko‘rinishga keltiramiz.
+Endi hadma-had integrallaymiz:
+Z
+x dx +
+Z
+y
+y2 −4 dy = 0.
+Birinchi integral:
+Z
+x dx = x2
+2 .
+Ikkinchi integralda u = y2 −4 deb olsak, du = 2y dy, shuning uchun
+Z
+y
+y2 −4 dy = 1
+2
+Z du
+u = 1
+2 ln |y2 −4|.
+Demak,
+x2
+2 + 1
+2 ln |y2 −4| = C.
+Ikki tomonni 2 ga ko‘paytirib,
+x2 + ln |y2 −4| = C1.
+Bu yerda C1 = ln |C| deb belgilash mumkin. Shundan
+ln |y2 −4| = C1 −x2,
+|y2 −4| = Ce−x2.
+Natijada umumiy yechim
+y2 −4 = Ce−x2.
+Endi y2 −4 = 0, ya’ni y = ±2 holni tekshiramiz. Bu funksiyalarni tenglamaga
+qo‘ysak, ular ham tenglamani qanoatlantiradi, lekin ular maxsus yechim bo‘lmaydi,
+chunki umumiy yechimda C = 0 bo‘lganda ham hosil qilinadi.
+61
+
+===== PDF SAHIFA 62 =====
+3.2.2-misol.
+y cos x = y′
+ln y
+tenglama uchun y(0) = 1 boshlang‘ich shartni qanoatlantiruvchi xususiy integral
+aniqlansin.
+Yechilishi. y′ = dy
+dx deb tenglamani
+cos x dy
+dx =
+y
+ln y
+ko‘rinishda yozamiz.
+O‘zgaruvchilarni ajratsak
+ln y
+y dy =
+dx
+cos x.
+Buning ikkala tomonini integrallab
+Z ln y
+y dy =
+Z
+dx
+cos x + C.
+Ma’lumki,
+Z ln y
+y dy = 1
+2 ln2 y,
+Z
+dx
+cos x = ln tan
+x
+2 + π
+4
+
+.
+Demak,
+1
+2 ln2 y = ln tan
+x
+2 + π
+4
+
++ C.
+Boshlang‘ich shartdan foydalansak: x = 0 da y = 1, bundan C = 0. Shunday
+qilib,
+1
+2 ln2 y = ln tan
+x
+2 + π
+4
+
+.
+3.2.3-misol.
+y′ = tg x tg y
+tenglamani umumiy integrali aniqlansin.
+Yechilishi. y′ = dy
+dx deb, tenglamaning o‘zgaruvchilarini ajratamiz:
+ctg y dy = tg x dx.
+Integrallaymiz:
+Z
+ctg y dy =
+Z
+tg x dx,
+62
+
+===== PDF SAHIFA 63 =====
+yoki
+ln | sin y| = −ln | cos x| + ln C.
+Bundan
+sin y =
+C
+cos x,
+yoki
+sin y cos x = C,
+bu umumiy integral bo‘ladi.
+3.2.4-misol.
+(1 + x2) dy + y dx = 0
+tenglamani y(1)
+=
+1 boshlang‘ich shartni qanoatlantiruvchi xususiy yechim
+aniqlansin.
+Yechilishi. Tenglamani quyidagi ko‘rinishda yozamiz:
+dy
+y = −
+dx
+1 + x2.
+Integrallab
+Z dy
+y = −
+Z
+dx
+1 + x2,
+yoki
+ln |y| = −arctg x + C.
+Bu berilgan tenglamaning umumiy yechimi.
+Endi boshlang‘ich shartdan foydalanib o‘zgarmas C ni aniqlaymiz:
+ln 1 = −arctg 1 + C
+⇒
+C = π
+4.
+Demak,
+ln y = −arctg x + π
+4.
+Bu yerdan izlanayotgan xususiy yechim:
+y = e
+π
+4 −arctg x.
+Mustaqil ishlash uchun topshiriqlar.
+1. ln(cos y) dx + x tan y dy = 0.
+2. y y′
+x + ey = 0;
+y(1) = 0.
+63
+
+===== PDF SAHIFA 64 =====
+3. 3ex tan x dx + (1 + ex) sec2 y dy = 0;
+y(0) = π
+4.
+4. e 1+x2 tan y dx −
+e2x
+x −1 dy = 0;
+y(1) = π
+2.
+5. x y′ sin
+y
+x
+
++ x = y sin
+y
+x
+
+.
+6. xy + y2 = (2x2 + xy) y′.
+7. x y′ ln
+y
+x
+
+= x + y ln
+y
+x
+
+.
+8. xy y′ = y2 + 2x2.
+9. xy′ −y = x tan
+y
+x
+
+;
+y(1) = π
+2.
+10. xy′ = xe
+y
+x + y;
+y(1) = 0.
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Noma’lum funksiya va uning hosilalarini bog‘lovchi tenglama nima
+deyiladi?
+A) Algebraik tenglama
+B) Differensial tenglama
+C) Integral tenglama
+D) Funksional tenglama
+2. Faqat
+bitta
+erkli
+o‘zgaruvchiga
+bog‘liq bo‘lgan differensial tenglama
+qanday ataladi?
+A) Oddiy differensial tenglama
+B) Xususiy hosilali tenglama
+C) Chiziqli tenglama
+D) Parametrik tenglama
+3. Differensial
+tenglamaning
+tartibi
+nima bilan aniqlanadi?
+A) O‘zgaruvchilar soni bilan
+B) Eng yuqori daraja bilan
+C) Eng yuqori hosila tartibi bilan
+D) Argumentlar soni bilan
+4. xy′ + y′′ sin x
+=
+0 tenglamasi
+nechanchi tartibli?
+A) Birinchi
+B) Ikkinchi
+C) Uchinchi
+D) To‘rtinchi
+5. Tenglamani ayniyatga aylantiruvchi
+y = φ(x) funksiyasi nima deyiladi?
+A) Tenglama ildizi
+B) Tenglama argumenti
+C) Tenglama yechimi
+D) Tenglama integrali
+64
+
+===== PDF SAHIFA 65 =====
+6. Yechim
+oshkormas
+ko‘rinishda
+Φ(x, y) = 0 berilgan bo‘lsa, u nima
+deyiladi?
+A) Xususiy yechim
+B) Integral chiziq
+C) Differensial
+D) Differensial tenglama integrali
+7. Yechimning grafigi geometrik jihatdan nima deb ataladi?
+A) Urinma chiziq
+B) Integral chiziq
+C) Gipoteza
+D) Vektor maydoni
+8. Birinchi
+tartibli
+differensial
+tenglamaning
+umumiy
+ko‘rinishi
+qaysi?
+A) F(x, y, y′) = 0
+B) F(x, y, y′′) = 0
+C) y = f(x)
+D) dy = dx
+9. y = C
+x funksiyasi qaysi tenglamaning yechimi?
+A) y′ = x/y
+B) y′ = −y/x
+C) y′ = y2
+D) y′ = x + y
+10. y|x=x0 = y0 ko‘rinishidagi shartlar
+nima deb ataladi?
+A) Chegaraviy shartlar
+B) Koshi shartlari
+C) Integral shartlar
+D) Parametrik shartlar
+11. Koshi
+masalasi
+nimani
+topishni
+anglatadi?
+A) Umumiy yechimni
+B) Xususiy yechimni
+C) Maxsus yechimni
+D) Yechim mavjud emasligini
+12. y′ =
+f1(x)
+f2(y) ko‘rinishidagi tenglama
+qanday ataladi?
+A) Chiziqli tenglama
+B) O‘zgaruvchilari ajraladigan
+C) To‘liq differensialli
+D) Bir jinsli tenglama
+13. M(x)dx+N(y)dy = 0 tenglamasining yechimi qaysi formula bilan topiladi?
+A)
+R
+M(x)dx +
+R
+N(y)dy = C
+B) M(x) · N(y) = C
+C) M ′(x) = N′(y)
+D) y = Mx + N
+14. y′
+=
+2y
+x
+tenglamasining umumiy
+yechimi qaysi?
+A) y = Cx
+B) y = Cx2
+C) y = C/x
+D) y = x2 + C
+15. Koshi teoremasiga ko‘ra yechim yagonaligi uchun qaysi hosila uzluksiz
+bo‘lishi kerak?
+A) ∂f
+∂x
+B) ∂f
+∂y
+C) d2f
+dx2
+D)
+∂2f
+∂x∂y
+16. y′ = −y/x tenglamasi uchun y(0) =
+5 sharti nega o‘rinli emas?
+A) y manfiy bo‘lolmaydi
+65

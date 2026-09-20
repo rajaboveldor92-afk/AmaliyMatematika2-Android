@@ -1,0 +1,820 @@
+===== PDF SAHIFA 39 =====
+C) musbat va manfiy hadli
+D) doimiy hadli
+17.
+∞
+X
+n=1
+1
+n2 qatorining yaqinlashishi: A)
+uzoqlashadi
+B) yaqinlashadi
+C) shartli
+D) aniqlanmaydi
+18. Absolyut
+yaqinlashuvchi
+qatorda
+hadlarni
+o‘rin
+almashtirish:
+A)
+yig‘indini o‘zgartiradi
+B) o‘zgartirmaydi
+C) uzoqlashtiradi
+D) nol qiladi
+19. Shartli
+yaqinlashuvchi
+qatorda
+o‘rin
+almashtirish:
+A)
+yig‘indi
+o‘zgarmaydi
+B) yig‘indi o‘zgarishi mumkin
+C) har doim nol
+D) uzoqlashadi
+20.
+Z ∞
+1
+1
+x2dx integrali: A) uzoqlashadi
+B) yaqinlashadi
+C) nolga teng
+D) aniqlanmaydi
+Javoblar kaliti
+(Tekshirish uchun skanerlang)
+2.3
+Funksional qatorlar. Darajali qatorlar. Abel teoremasi.
+Yaqinlashish radiusi.
+Hadlari x ning funksiyasidan iborat u1(x)+u2(x)+u3(x)+· · ·+un(x)+· · · qator funksional qator deyiladi. u1(x), u2(x), . . . , un(x), . . . funksiyalar x ni qiymatlar
+to‘plamida aniqlangan va
+∞
+X
+n=1
+un(x) qator yaqinlashsa, uni funksional qatorni yaqinlashish sohasi deyiladi. Funksional qatorni yaqinlashish sohasiga ko‘p hollarda Ox
+o‘qini oraliqlari xizmat qiladi. Yaqinlashish sohasi X ni har bir qiymatiga
+lim
+n→∞
+n
+X
+k=1
+uk(x)
+kattalikni ma’lum qiymati mos keladi. Bu kattalik x ni funksiyasi bo‘lib, funksional
+39
+
+===== PDF SAHIFA 40 =====
+qatorning yig‘indisi deyiladi va S(x) orqali ifodalanadi. Qator yig‘indisini
+S(x) = Sn(x) + Rn(x)
+ko‘rinishda ifodalaymiz, bunda
+Sn(x) = u1(x) + u2(x) + · · · + un(x),
+Rn(x) = un+1(x) + un+2(x) + · · ·
+(Rn(x) – funksional qator qoldig‘i).
+Yaqinlashuvchi funksional qator
+∞
+X
+n=1
+un(x) biror X sohada tekis yaqinlashuvchi
+qator deyiladi, agar har qanday kichik ε > 0 son uchun shunday butun musbat N
+son topilsaki, n ≥N larda
+|Rn(x)| < ε
+tengsizlik bajarilsa, X sohadan olingan har qanday x uchun. Bu holda X sohada
+tekis yaqinlashuvchi
+∞
+X
+n=1
+un(x) qatorni S(x) yig‘indisi uzluksiz funksiyadir (un(x) –
+uzluksiz funksiyalar, n = 1, 2, 3, . . .).
+Funksional qatorni tekis yaqinlashishining yetarli shartini keltiramiz — Veyershtras alomati.
+Agar u1(x), u2(x), . . . , un(x), . . . funksiyalar absolyut qiymati bo‘yicha biror X
+sohada musbat α1, α2, . . . , αn, . . . sonlardan katta bo‘lmasa, ya’ni
+|un(x)| ≤αn,
+va sonli α1+α2+· · ·+αn+· · · qator yaqinlashganda, u1(x)+u2(x)+· · ·+un(x)+· · ·
+funksional qator shu sohada tekis yaqinlashadi.
+Yakunida funksional qatorlarni integrallash va differensiallashga doir ikkita teoremani keltiramiz.
+2.3.1-teorema. Agar u1(x) + u2(x) + · · · + un(x) + · · ·
+qator,
+bu yerda
+u1(x), u2(x), . . . , un(x), . . . uzluksiz funksiyalar, biror X sohada tekis yaqinlashsa
+va S(x) yig‘indiga ega bo‘lsa, bu holda
+Z b
+a
+u1(x) dx +
+Z b
+a
+u2(x) dx + · · · +
+Z b
+a
+un(x) dx + · · ·
+qator ham yaqinlashadi va
+Z b
+a
+S(x) dx
+yig‘indiga ega bo‘ladi ([a, b] oraliq X sohaga tegishli).
+40
+
+===== PDF SAHIFA 41 =====
+2.3.2-teorema. Faraz qilamiz u1(x), u2(x), . . . , un(x), . . . funksiyalar biror X sohada aniqlangan va shu sohada u′
+1(x), u′
+2(x), . . . , u′
+n(x), . . . hosilalarga ega bo‘lsin.
+Agar shu sohada
+∞
+X
+n=1
+u′
+n(x) qator tekis yaqinlashsa, u holda uning yig‘indisi qator
+yig‘indisidan olingan hosilaga teng:
+∞
+X
+n=1
+u′
+n(x) =
+ ∞
+X
+n=1
+un(x)
+!′
+.
+2.3.1-misol.
+4 −x
+7x + 2 + 1
+3
+ 4 −x
+7x + 2
+2
++ 1
+5
+ 4 −x
+7x + 2
+3
++ · · · +
+1
+2n −1
+ 4 −x
+7x + 2
+n
++ · · ·
+funksional qatorni x = 0 va x = 1 nuqtalarda yaqinlashishi tekshirilsin.
+Yechilishi. x = 0 nuqtada qator
+2 + 1
+3 · 22 + 1
+5 · 23 + · · · +
+1
+2n −1 · 2n + · · ·
+ko‘rinishga ega. Bu yerda
+un =
+2n
+2n −1,
+un+1 =
+2 n+1
+2(n + 1) −1 = 2 n+1
+2n + 1.
+D’Alamber alomatini qo‘llab
+D = lim
+n→∞
+
+un+1
+un
+ = lim
+n→∞
+2 n+1
+2n + 1 · 2n −1
+2n
+= 2 lim
+n→∞
+2n −1
+2n + 1 = 2 > 1,
+demak qator uzoqlashadi.
+x = 1 nuqtada qator
+1
+3 +
+1
+3 · 32 +
+1
+5 · 33 + · · · +
+1
+(2n −1)3n + · · ·
+bo‘ladi. Bu yerda
+un =
+1
+3n(2n −1),
+un+1 =
+1
+3n+1(2n + 1).
+D’Alamber alomatiga ko‘ra
+D = lim
+n→∞
+un+1
+un
+= lim
+n→∞
+3n(2n −1)
+3n+1(2n + 1) = 1
+3 lim
+n→∞
+2n −1
+2n + 1 = 1
+3 < 1,
+demak qator yaqinlashadi.
+41
+
+===== PDF SAHIFA 42 =====
+2.3.2-misol.
+1
+1 + x2 +
+1
+1 + x4 +
+1
+1 + x6 + · · · +
+1
+1 + x2n + · · ·
+qator yaqinlashish sohasi aniqlansin.
+Yechilishi. Agar |x| < 1 bo‘lsa, u holda
+lim
+n→∞un = lim
+n→∞
+1
+1 + x2n = 1 ̸= 0,
+ta’rifga asosan qator uzoqlashadi.
+Agar |x| = 1 bo‘lsa, bu holda ham
+1
+2 + 1
+2 + 1
+2 + · · ·
+ko‘rinishdagi uzoqlashuvchi qator hosil bo‘ladi.
+Agar |x| > 1 bo‘lsa, u holda
+0 <
+1
+1 + x2n < 1
+x2n,
+va
+∞
+P
+n=1
+1
+x2n kamayuvchi geometrik progressiya bo‘lib, yaqinlashadi. Demak, berilgan
+qator ham taqqoslash alomatiga ko‘ra yaqinlashadi.
+Shunday qilib, qatorning yaqinlashish sohasi |x| > 1 bo‘lib, ya’ni
+(−∞, −1) ∪(1, +∞)
+oraliqlarda yaqinlashadi.
+2.3.3-misol.
+1
+x2 + 1 −
+1
+x4 + 2 +
+1
+x6 + 3 −
+1
+x8 + 4 + · · · + (−1)n−1
+x2n + n + · · ·
+qatorni x (−∞< x < ∞) barcha qiymatlarida tekis yaqinlashishi ko‘rsatilsin.
+Yechilishi. Berilgan qator x ning ixtiyoriy qiymatlarida Leybnits alomatiga
+ko‘ra yaqinlashadi. Shuning uchun uning qoldig‘i
+|Rn(x)| < |un+1(x)|
+tengsizlik bilan baholanadi.
+42
+
+===== PDF SAHIFA 43 =====
+|Rn(x)| <
+1
+x2n+2 + n + 1 <
+1
+n + 1.
+Tengsizligimiz
+1
+n + 1 < ε va n ≥1
+ε −1 teng kuchli, bu holda n ≥N olib, bu
+yerda N — ixtiyoriy butun musbat son (N ≥1
+ε −1 tengsizlikni qanoatlantiruvchi),
+|Rn(x)| < ε tengsizlikka kelamiz. Shunday qilib berilgan qator (−∞; ∞) oraliqda
+tekis yaqinlashadi.
+Darajali qatorlar
+a0 + a1(x −α) + a2(x −α)2 + · · · + an(x −α)n + · · · ko‘rinishdagi funksional
+qator darajali qator deyiladi, bu yerda a0, a1, a2, . . . , an, . . . haqiqiy sonlar.
+Darajali qatorning asosiy xossasi shundan iboratki, agar darajali qator x = x0 da
+yaqinlashsa (absolyut yaqinlashsa), x ning har qanday qiymatida ham yaqinlashadi,
+agar
+|x −α| < |x0 −α|
+tengsizlikni qanoatlantiruvchi sohada (teoremasi).
+Teorema natijalaridan biri shuki, har qanday darajali qatorning
+|x −α| < R
+yoki
+α −R < x < α + R
+ko‘rinishdagi, markazi α nuqtada joylashgan yaqinlashish intervali mavjud bo‘lib, interval ichida darajali qator absolyut yaqinlashadi. Interval tashqarisida uzoqlashadi.
+Interval uchlarida (x = α ± R nuqtalarda) yaqinlashish har xil darajali qatorlarda
+turlicha bo‘lishi mumkin: ba’zi hollarda intervalning ikkala uchida absolyut yaqinlashadi, boshqa hollarda ikkala uchida shartli yaqinlashadi yoki bir uchida yaqinlashib, ikkinchi uchida uzoqlashadi, yoki ikkala uchida ham uzoqlashadi.
+R soni (yaqinlashish intervalining yarim uzunligi) darajali qatorning yaqinlashish
+radiusi deyiladi. Xususiy holda bu yaqinlashish radiusi R = 0 yoki R = ∞bo‘lishi
+mumkin. Agar R = 0 bo‘lsa, u holda darajali qator faqat x = α da yaqinlashadi;
+agar R = ∞bo‘lsa, u holda darajali qator butun sonlar o‘qida yaqinlashadi.
+Yaqinlashish intervali va radiusini aniqlash uchun quyidagi usullardan birini
+qo‘llash mumkin.
+1.
+Agar qatorning a0, a1, a2, . . . , an, . . . koeffitsientlari orasida nolga tenglari
+bo‘lmasa, ya’ni qator (x−α) ayirmaning barcha butun musbat darajalaridan iborat
+bo‘lsa, u holda
+R = lim
+n→∞
+
+an
+an+1
+
+43
+
+===== PDF SAHIFA 44 =====
+o‘rinli, bu limit (chekli yoki cheksiz) mavjud bo‘lishi shart.
+2. Agar berilgan qator
+a0 + a1(x −α)p + a2(x −α)2p + · · · + an(x −α)np + · · ·
+(bu yerda p — qandaydir butun musbat son: 2, 3, 4, . . .) ko‘rinishda bo‘lsa, u holda
+R =
+p
+s
+lim
+n→∞
+
+an
+an+1
+.
+3. Agar qator koeffitsentlari orasida nolga tenglari qolgan, koeffitsentlari x−α ayirmaning daraja ko‘rsatkichi ixtiyoriy bo‘lsa (ya’ni oldingi holatdagidek arifmetik progressiyani tashkil qilmaydigan), u holda yaqinlashish radiusi quyidagicha aniqlanadi:
+R =
+1
+lim sup
+n→∞
+np
+|an|
+.
+(3)
+Bu yerda faqat noldan farqli an koeffitsentlar qiymatidan foydalaniladi (bu formula
+1 va 2 holatlarda ham o‘rinlidir).
+4.
+Berilgan qatorni absolut hadlaridan tuzilgan qatorni hamma holatlarida
+yaqinlashish intervalini aniqlashda to‘g‘ridan to‘g‘ri Dalamber va Koshi alomatlarini
+qo‘llab aniqlash mumkin. Qatorni
+u0(x) + u1(x) + · · · + un(x) + · · ·
+ko‘rinishda yozib (bunda u0 = a0, un(x) = an(x −α)n), N ni n dan bog‘liq ixtiyoriy deb olib, an orqali (x −α)n ni koeffitsenti belgilanmasdan, qatorning n-hadi
+koeffitsenti orqali yaqinlashish intervali
+lim
+n→∞
+
+un+1(x)
+un(x)
+ < 1
+yoki
+lim
+n→∞
+np
+|un(x)| < 1
+tengsizliklardan topiladi.
+Darajali qatorning quyidagi xossasini aytib o‘tamiz: darajali qatorni hadma-had
+differensiallab va integrallab hosil qilingan qator ham bir xil yaqinlashish intervaliga
+ega bo‘ladi va uning yig‘indisi ichki yaqinlashish intervalida unga mos berilgan qator
+yig‘indisidan olingan differensial va integralga teng.
+Shunday qilib, agar
+S(x) =
+∞
+X
+n=0
+an(x −α)n
+44
+
+===== PDF SAHIFA 45 =====
+bo‘lsa, u holda
+S′(x) =
+∞
+X
+n=1
+nan(x −α) n−1,
+Z
+S(x) dx =
+∞
+X
+n=0
+an(x −α) n+1
+n + 1
+,
+bu yerda |x −α| < R.
+Darajali qator ustida hadma-had differensiallash va integrallashni ixtiyoriy
+marta takrorlash mumkin. Demak, yaqinlashish intervalining ichida darajali qator yig‘indisi cheksiz differensiallanuvchi funksiya.
+Yakunida funksional qatorlarni integrallash va differensiallashga doir ikkita teoremani keltiramiz.
+1. Agar u1(x)+u2(x)+· · ·+un(x)+· · · qator, bu yerda u1(x), u2(x), . . . , un(x), . . .
+uzluksiz funksiyalar bo‘lib, biror X sohada tekis yaqinlashsa va S(x) yig‘indiga
+ega bo‘lsa, bu holda
+Z b
+a
+u1(x) dx +
+Z b
+a
+u2(x) dx + · · · +
+Z b
+a
+un(x) dx + · · ·
+qator ham yaqinlashadi va
+Z b
+a
+S(x) dx
+yig‘indiga ega (bu yerda [a, b] ⊂X).
+2. Faraz qilamiz u1(x), u2(x), . . . , un(x), . . . funksiyalar biror X sohada aniqlangan va shu sohada u′
+1(x), u′
+2(x), . . . , u′
+n(x), . . . hosilalarga ega bo‘lsin.
+Agar shu sohada
+∞
+X
+n=1
+u′
+n(x) qator tekis yaqinlashsa, u holda uning yig‘indisi qator
+yig‘indisidan olingan hosilaga teng:
+∞
+X
+n=1
+u′
+n(x) =
+" ∞
+X
+n=1
+un(x)
+#′
+.
+2.3.4-misol. x + 1
+2x2 + 1
+3x3 + · · · + 1
+nxn + · · · darajali qatorning yaqinlashishi tekshirilsin.
+Yechilishi. Bunda an = 1
+n, an+1 =
+1
+n+1. Yaqinlashish radiusini aniqlaymiz:
+R = lim
+n→∞
+
+an
+an+1
+ = lim
+n→∞
+n + 1
+n
+= lim
+n→∞
+
+1 + 1
+n
+
+= 1.
+45
+
+===== PDF SAHIFA 46 =====
+Demak, |x| < 1 tengsizlikni qanoatlantiruvchi x qiymatlarida qator yaqinlashadi.
+Qatorning yaqinlashishini oraliq uchlarida tekshiramiz. Agar x = 1 bo‘lsa,
+1 + 1
+2 + 1
+3 + 1
+4 + · · ·
+garmonik qator hosil bo‘ladi va qator uzoqlashadi. Agar x = −1 bo‘lsa,
+−1 + 1
+2 −1
+3 + 1
+4 −· · ·
+qatorni hosil qilamiz, bu qator Leybnits alomatiga ko‘ra yaqinlashadi.
+Shunday
+qilib, berilgan darajali qatorning yaqinlashish sohasi:
+−1 ≤x < 1.
+2.3.5-misol. (x −2) + 1
+22(x −2)2 + 1
+32(x −2)3 + · · · + 1
+n2(x −2)n + · · · qatorning
+yaqinlashishi tekshirilsin.
+Yechilishi. Bu yerda an = 1
+n2, an+1 =
+1
+(n+1)2.
+R = lim
+n→∞
+
+an
+an+1
+ = lim
+n→∞
+(n + 1)2
+n2
+= lim
+n→∞
+
+1 + 1
+n
+2
+= 1.
+Demak, qator |x −2| < 1, ya’ni 1 < x < 3 oraliqda yaqinlashadi.
+Oraliq uchlarini tekshiramiz. Agar x = 3 bo‘lsa,
+1 + 1
+22 + 1
+32 + · · ·
+p-qator (p = 2 > 1) hosil bo‘ladi va u yaqinlashadi. Agar x = 1 bo‘lsa,
+−1 + 1
+22 −1
+32 + 1
+42 −· · ·
+absolyut yaqinlashuvchi qator hosil bo‘ladi, chunki
+∞
+X
+n=1
+1
+n2
+yaqinlashadi. Shunday qilib, darajali qator
+1 ≤x ≤3
+kesmada yaqinlashadi.
+46
+
+===== PDF SAHIFA 47 =====
+2.3.6-misol. 1!(x −5) + 2!(x −5)2 + 3!(x −5)3 + · · · + n!(x −5)n + · · · qatorning
+yaqinlashishi tekshirilsin.
+Yechilishi. Bu yerda an = n!, an+1 = (n + 1)!, demak
+R = lim
+n→∞
+
+an
+an+1
+ = lim
+n→∞
+n!
+(n + 1)! = lim
+n→∞
+1
+n + 1 = 0.
+Shuning uchun qator faqat x −5 = 0, ya’ni x = 5 nuqtada yaqinlashadi.
+2.3.7-misol.
+x
+1! + x2
+2! + x3
+3! + · · · + xn
+n! + · · ·
+qatorni yaqinlashishi tekshirilsin.
+Yechilishi. Bu yerda an =
+1
+n!, an+1 =
+1
+(n+1)!, a0 = 0. Yaqinlashish radiusini
+topamiz:
+R = lim
+n→∞
+
+an
+an+1
+ = lim
+n→∞
+(n + 1)!
+n!
+= lim
+n→∞(n + 1) = ∞.
+Demak, qator x ning har qanday qiymatida yaqinlashadi. Haqiqatan ham,
+lim
+n→∞
+xn
+n! = 0
+har qanday x ∈R uchun bajariladi. Shuning uchun bu qator butun o‘qda yaqinlashadi (ya’ni R = ∞).
+2.3.8-misol.
+1 + x3
+10 + x6
+102 + · · · + x3(n−1)
+10 n−1 + · · ·
+qatorni yaqinlashishi tekshirilsin.
+Yechilishi. Bu geometrik progressiya bo‘lib, umumiy hadi
+un =
+x3
+10
+n−1
+.
+Geometrik qator P qn−1 faqat |q| < 1 bo‘lganda yaqinlashadi. Bu yerda q = x3
+10,
+shuning uchun
+
+x3
+10
+ < 1
+⇐⇒
+|x| <
+3√
+10.
+Demak, qatorning yaqinlashish sohasi:
+−
+3√
+10 < x <
+3√
+10.
+47
+
+===== PDF SAHIFA 48 =====
+2.3.9-misol.
+2x5 + 4x10
+3
++ 8x15
+5
++ · · · + 2nx5n
+2n −1 + · · ·
+qatorni yaqinlashishi tekshirilsin.
+Yechilishi. x5 = t deb belgilaymiz. U holda qator
+2t + 4t2
+3 + 8t3
+5 + · · · +
+2ntn
+2n −1 + · · ·
+ko‘rinishga keladi. Bu yerda
+an =
+2n
+2n −1,
+an+1 =
+2n+1
+2n + 1.
+Yaqinlashish radiusini D’Alamber alomati bilan topamiz:
+R = lim
+n→∞
+
+an
+an+1
+ = lim
+n→∞
+2n(2n + 1)
+2n+1(2n −1) = 1
+2 lim
+n→∞
+2n + 1
+2n −1 = 1
+2.
+Demak, qator |t| < 1
+2 da yaqinlashadi, ya’ni
+|x5| < 1
+2
+⇐⇒
+|x| <
+1
+2
+1/5
+.
+Oraliq uchlarini tekshiramiz. Agar t = 1
+2 bo‘lsa,
+X
+1
+2n −1
+ko‘rinishdagi qator hosil bo‘ladi va u garmonik qator bilan taqqoslashga ko‘ra uzoqlashadi.
+Agar t = −1
+2 bo‘lsa,
+X
+(−1)n−1
+1
+2n −1
+alterniruvchi qator hosil bo‘ladi va u Leybnits alomatiga ko‘ra shartli yaqinlashadi.
+2.3.10-misol.
+∞
+X
+k=1
+ k + 1
+2k + 1
+k
+(x −2)2k
+qator yaqinlashishi tekshirilsin.
+48
+
+===== PDF SAHIFA 49 =====
+Yechilishi. Bu qator darajali qator bo‘lib,
+a2k =
+ k + 1
+2k + 1
+k
+,
+a2k−1 = 0.
+Yaqinlashish radiusini Koshi formulasi yordamida topamiz:
+R =
+1
+lim sup
+n→∞
+np
+|an|
+.
+Bu yerda nol bo‘lmagan hadlar n = 2k da joylashgan, shuning uchun
+2k√a2k =
+2k
+s k + 1
+2k + 1
+k
+=
+ k + 1
+2k + 1
+1/2
+.
+Limitni hisoblaymiz:
+lim
+k→∞
+2k√a2k =
+r
+lim
+k→∞
+k + 1
+2k + 1 =
+r
+1
+2.
+Demak,
+R =
+1
+p
+1/2
+=
+√
+2.
+Endi oraliq uchlarini tekshiramiz. Agar x −2 =
+√
+2 bo‘lsa, u holda qator
+∞
+X
+k=1
+ k + 1
+2k + 1
+k
+2k
+ko‘rinishga keladi. Bu yerda
+ k + 1
+2k + 1 · 2
+k
+=
+
+1 +
+1
+2k + 1
+k
+.
+lim
+k→∞
+
+1 +
+1
+2k + 1
+k
+= √e ̸= 0,
+ya’ni umumiy had nolga intilmaydi, shuning uchun qator x−2 =
+√
+2 da uzoqlashadi.
+Xuddi shunday x −2 = −
+√
+2 holatda ham qator uzoqlashadi.
+Demak, berilgan qatorning yaqinlashish sohasi:
+2 −
+√
+2 < x < 2 +
+√
+2.
+49
+
+===== PDF SAHIFA 50 =====
+Mustaqil ishlash uchun topshiriqlar
+Quyidagi darajali qatorlarning yaqinlashishi tekshirilsin.
+1. x + 1
+1!
++ (x + 1)2
+3!
++ (x + 1)3
+5!
++ · · · + (x + 1)n
+(2n −1)! + · · ·
+2. (x −4) + (x −4)2
+√
+2
++ (x −4)3
+√
+3
++ · · · + (x −4)n
+√n
++ · · ·
+3. x −1
+2
++ (x −1)2
+22
++ (x −1)3
+23
++ · · · + (x −1)n
+2n
++ · · ·
+4. x + (2x)2 + (3x)3 + · · · + (nx)n + · · ·
+5. 5x + 52x2
+2!
++ 53x3
+3!
++ · · · + 5nxn
+n!
++ · · ·
+6. 1 · 2
+a2 +2 · 3
+a3 x+3 · 4
+a4 x2+· · ·+n(n + 1)
+an+1
+x n−1+· · · , agar |x| < a bo’lsa, qatorning
+yig’indisi aniqlansin.
+7. −2x + 4x3 −6x5 + · · · + (−1)n 2n x2n−1 + · · · , agar |x| < 1 bo’lsa, qatorning
+yig’indisi aniqlansin.
+8. 10x+102x2 +· · ·+10nxn +· · · darajali qatorning yaqinlashish sohasini toping.
+9. 1 + x + · · · + n!xn + · · · darajali qatorning yaqinlashish sohasini toping.
+10.
+x
+1 · 2 + x2
+2 · 3 + · · · +
+xn
+n(n + 1) + · · · darajali qatorning yaqinlashish sohasini
+toping.
+50

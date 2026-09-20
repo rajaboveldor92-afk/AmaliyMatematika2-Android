@@ -1,0 +1,11 @@
+4.7 — Mathematical statistics and estimation
+1. Population, sample and sample size.
+2. Variation series, frequency n_i and relative frequency p_i*=n_i/n.
+3. Statistical series, polygon and histogram.
+4. Empirical F_n*(x)=n_x/n.
+5. Sample mean and variance.
+6. Point estimation: consistency, unbiasedness and efficiency.
+7. Method of moments and maximum likelihood.
+8. Confidence interval P(θ_1<θ<θ_2)=γ.
+9. Normal-case multipliers: 1.96 for γ=.95 and 2.58 for γ=.99.
+In-video question: find the interval for x̄=1000, σ=40, n=100, γ=.95.

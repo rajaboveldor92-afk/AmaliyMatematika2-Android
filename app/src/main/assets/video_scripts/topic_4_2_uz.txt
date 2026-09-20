@@ -1,0 +1,8 @@
+4.2 — Ehtimollarni qo‘shish va ko‘paytirish. Shartli ehtimol, to‘la ehtimol va Beyes
+1. Birgalikda bo‘lmagan hodisalarda P(A∪B)=P(A)+P(B).
+2. Umumiy formula P(A∪B)=P(A)+P(B)−P(A∩B).
+3. Mustaqillik: P(A∩B)=P(A)P(B).
+4. Shartli ehtimol P(A|B)=P(A∩B)/P(B).
+5. To‘la ehtimol formulasi ΣP(H_i)P(A|H_i).
+6. Beyes: P(H_i|A)=P(H_i)P(A|H_i)/P(A).
+Video ichki savol: P(A)=0.9 va P(B)=0.8 mustaqil bo‘lsa kamida bittasi yuz berish ehtimolini toping.

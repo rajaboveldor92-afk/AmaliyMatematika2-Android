@@ -1,0 +1,1941 @@
+===== PDF SAHIFA 154 =====
+4.7
+Variatsion qator. Statistik qator va uning poligoni va gistogrammasi.
+Taqsimotning empirik funksiyasi.
+Tanlamaning sonli xarakteristikalari. Taqsimotning parametrlarini nuqtaviy va oraliqli baholash.
+Taqsimotning
+parametrlarini nuqtaviy baholash.
+Variatsion qator
+4.7.1-ta’rif. X tasodifiy miqdorning qabul qilishi mumkin bo‘lgan qiymatlari
+to‘plamiga bosh to‘plam deb ataladi.
+Bevosita o‘tkazilgan tajribalardan olingan natijalar to‘plamiga bosh to‘plamdan
+olingan tanlama deb ataladi. Tanlamadagi elementlar soni n chekli bo‘lib, tanlamaning hajmi deb ataladi.
+4.7.2-ta’rif. X tasodifiy miqdorning kuzatilgan x1, x2, . . . , xn qiymatlari to‘plamiga
+tanlama deb ataymiz.
+Tajribalar natijasida X tasodifiy miqdor x1 qiymatni n1 marta, x2 qiymatni n2
+marta, . . . , xm qiymatni nm marta qabul qilsin va bunda
+n1 + n2 + · · · + nm = n
+bo‘lib, n tanlamaning hajmi bo‘lsin. x1, x2, . . . , xm qiymatlar X tasodifiy miqdorning variantlari deb ataladi.
+4.7.3-ta’rif. Tanlama elementlarining kamaymaydigan tartibda joylashtirilishiga
+variatsion qator deb ataladi, bunda bir xil elementlar takrorlanadi.
+Shunday qilib, ta’rifga ko‘ra X tasodifiy miqdorning x1, x2, . . . , xn qiymatlaridan
+tuzilgan
+x(1) ≤x(2) ≤· · · ≤x(n)
+variatsion qator uchun
+x(1) = min
+1≤i≤n xi,
+x(n) = max
+1≤i≤n xi
+munosabatlar o‘rinli bo‘lar ekan.
+Tanlamaning minimal va maksimal elementlari chetki elementlar deb ataladi.
+Boshqacha qilib aytganda, variatsion qatorda ekstremal elementlar
+xmin = x(1),
+xmax = x(n)
+154
+
+===== PDF SAHIFA 155 =====
+bo‘ladi. Tanlamaning maksimal va minimal elementlari orasidagi farq
+R = xmax −xmin
+(1)
+tanlamaning kengligi deb ataymiz.
+4.7.1-misol. So‘rov natijasida 25 ta I kurs talabalarining yoshi haqida quyidagi
+jadvaldagi ma’lumot olindi:
+18
+17
+23
+18
+17
+19
+18
+20
+17
+22
+19
+21
+18
+18
+17
+22
+18
+21
+17
+21
+18
+19
+17
+23
+17
+Bu tanlamaning variatsion qatorini tuzing va tanlama kengligini aniqlang.
+Yechish: Tanlamaning variatsion qatori
+17, 17, 17, 17, 17, 17, 17, 18, 18, 18, 18, 18, 18, 19, 19, 19, 20, 21, 21, 21, 22, 22, 23, 23
+ko‘rinishda bo‘ladi va
+xmin = 17,
+xmax = 23,
+R = 23 −17 = 6.
+Statistik qator va uning poligoni
+x(1), x(2), . . . , x(n) variatsion qator elementlari orasida tenglari ham bo‘lishi mumkin.
+Bu variatsion qatordan m ta turli qiymatli
+variantlarni ajratamiz va ularni x1, x2, . . . , xm orqali belgilaymiz (belgilashlarni ko‘paytirmaslik uchun, yana xi belgilashdan foydalandik). Ularning har biri
+x(1), x(2), . . . , x(n) variatsion qatorda mos ravishda n1, n2, . . . , nm marta uchrasin.
+4.7.4-ta’rif. Tanlamadagi xi variantaning necha marta uchrashini ko‘rsatuvchi ni
+songa bu variantaning chastotasi, uning tanlama hajmiga nisbati p∗
+i nisbiy chastota
+deyiladi, ya’ni
+p∗
+i = ni
+n ,
+(2)
+bu yerda n1 + n2 + · · · + nm = n.
+155
+
+===== PDF SAHIFA 156 =====
+4.7.5-ta’rif. Variantalar va ularga mos chastota yoki nisbiy chastotalardan iborat
+Diskret chastotalar jadvali:
+xi 17 18 19 20 21 22 23
+ni
+7
+7
+3
+1
+3
+2
+2
+Nisbiy chastotalar jadvali (n = 25):
+xi
+17
+18
+19
+20
+21
+22
+23
+p∗
+i
+0, 28 0, 28 0, 12 0, 04 0, 12 0, 08 0, 08
+ko‘rinishdagi jadvalga statistik qator yoki tanlamaning statistik taqsimoti deb
+ataladi.
+4.7.2-misol. 4.7.1-Misoldagi variatsion qator uchun statistik qator
+x 17 18 19 20 21 22 23
+n
+7
+7
+3
+1
+3
+2
+2
+yoki
+x
+17
+18
+19
+20
+21
+22
+23
+p∗0,28 0,28 0,12 0,04 0,12 0,08 0,08
+jadvaldan iborat bo‘ladi.
+Ox o‘qqa statistik qatorning xi elementlarini, Oy o‘qqa esa ularning ni (i =
+1, 2, . . . , m) chastotalarini joylashtirib statistik qatorni chastotalar poligoni sifatida
+tasvirlash mumkin.
+Hosil qilingan nuqtalarning yonma-yonlarini kesmalar bilan
+tutashtirib siniq chiziq hosil qilinadi.
+4.7.3-misol. 2-Misoldagi statistik qator uchun chastotalar poligoni 1-rasmda tasvirlangan.
+Taqsimotning empirik funksiyasi
+4.7.6-ta’rif. Empirik taqsimot funksiyasi deb, har bir x uchun berilgan tanlama
+bo‘yicha {X < x} hodisaning nisbiy chastotasiga aytiladi:
+F ∗
+n(x) = P ∗{X < x}.
+(3)
+156
+
+===== PDF SAHIFA 157 =====
+x
+n
+17
+18
+19
+20
+21
+22
+23
+1
+2
+3
+4
+5
+6
+7
+Chastotalar poligoni
+F ∗
+n(x) = nx
+n
+ko‘rinishda yozish qulay, bu yerda n — tanlamaning hajmi, nx — tanlamaning x
+qiymatdan kichik elementlari soni.
+4.7.4-misol. 1-Misolda qaralgan tanlama bo‘yicha empirik taqsimot funksiyasini
+tuzing.
+Yechish: Buning uchun bu tanlamaning 2-Misolda tuzilgan statistik qatoridan
+foydalanamiz:
+x 17 18 19 20 21 22 23
+n
+7
+7
+3
+1
+3
+2
+2
+Bu yerda n = 25. Demak,
+157
+
+===== PDF SAHIFA 158 =====
+F ∗
+25(x) =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0,
+x ≤17,
+0,28,
+17 < x ≤18,
+0,56,
+18 < x ≤19,
+0,68,
+19 < x ≤20,
+0,72,
+20 < x ≤21,
+0,84,
+21 < x ≤22,
+0,92,
+22 < x ≤23,
+1,
+23 < x.
+Empirik taqsimot funksiyasini hosil qilamiz, uning grafigi 2-rasmda tasvirlangan.
+x
+F ∗
+n(x)
+17
+18
+19
+20
+21
+22
+23
+0.28
+0.56
+0.68
+0.72
+0.84
+0.92
+Empirik taqsimot funksiyasi
+Tanlamaning gistogrammasi
+X tasodifiy miqdor qiymatlarining soni katta yoki u uzluksiz bo‘lganda intervalli
+statistik qator tuziladi. Jadvalning birinchi satriga uzunliklari bir xil
+h = x′
+1 −x′
+0 = x′
+2 −x′
+1 = · · · = x′
+m −x′
+m−1
+bo‘lgan
+[x′
+0, x′
+1), [x′
+1, x′
+2), . . . , [x′
+m−1, x′
+m)
+qismiy oraliqlar yoziladi.
+Tanlamaning hajmi n < 150 bo‘lganda intervallar soni uchun
+m = [1,723√n] + 1,
+n ≥150 bo‘lganda m = [1,723√n]
+158
+
+===== PDF SAHIFA 159 =====
+deb olish maqsadga muvofiq bo‘ladi. Interval uzunligini esa
+h = R
+m
+deb olish kerak, bu yerda R = xmax −xmin tanlamaning kengligi, x′
+0 sifatida xmin
+olinadi.
+Jadvalning ikkinchi satriga har bir intervalga tushgan qiymatlarning ni (i =
+1, 2, . . . , k) soni yoki ularning
+p∗
+i = ni
+n
+nisbiy chastotasi yoziladi.
+4.7.7-ta’rif. x(1), x(2), . . . , x(n)
+tanlamaga
+mos
+taqsimotning
+empirik
+zichlik
+funksiyasi deb
+fn(x) =
+
+
+
+p∗
+i
+h ,
+x ∈[x′
+i−1, x′
+i),
+i = 1, m,
+0,
+x /∈[x′
+i−1, x′
+i)
+tenglik bilan aniqlanuvchi funksiyaga aytiladi.
+[x1, xm] kesmada bo‘lakli
+o‘zgarmas bo‘lgan fn(x) funksiyaning grafigi gistogramma deb aytiladi.
+4.7.5-misol. Sement zavodidan jo‘natiladigan qoplarda 50 kgdan sement bo‘lishi
+kerak. Lekin qoplash jarayonida qoplarga quyish uskunalardagi xatolik tufayli qoplarga aniq 50 kg quyilmay, balki ±0,5 kg farq bilan quyiladi. Nazorat uchun 100
+qop tekshirilganda haqiqiy miqdordan chetlanish 100 gr aniqlikda quyidagi jadvaldagi
+natija olindi: DE081447906
+X tasodifiy miqdor sifatida qopga quyish jarayonidagi chetlanish miqdorini
+olamiz. Yuqoridagi jadvaldagi qiymatlar X tasodifiy miqdorning 100 hajmli tanlamasi deb qarab, uning gistogrammasini yasing.
+Yechish: Tanlamaning variatsion qatorini tuzamiz:
+159
+
+===== PDF SAHIFA 160 =====
+−0, 5
+−0, 5
+−0, 5
+−0, 4
+−0, 4
+−0, 4
+−0, 3
+−0, 3
+−0, 3
+−0, 3
+−0, 3
+−0, 3
+−0, 3
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 2
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+−0, 1
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 1
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 2
+0, 3
+0, 3
+0, 3
+0, 3
+0, 3
+0, 3
+0, 3
+0, 4
+0, 4
+0, 4
+0, 4
+0, 4
+0, 5
+Ko‘rinib turibdiki xmax = 0,5 va xmin = −0,5.
+Shuning uchun tanlama kengligi
+R = xmax −xmin = 0,5 −(−0,5) = 1.
+Tanlama hajmi n = 100 bo‘lganligi uchun oraliqlar sonini
+m = [1,723√n] + 1 = [1,723 · 10] + 1 = 9
+deb olamiz.
+Interval uzunligi esa
+h = R
+m = 1
+9 ≈0,11.
+ko’rish kerak
+Demak yuqoridagi variatsion qatorni uzunliklari h = 0,11 bo‘lgan 9 oraliqqa
+ajratamiz:
+xi [−0,5, −0,39) [−0,39, −0,28) [−0,28, −0,17) [−0,17, −0,06) [−0,06, 0,05)
+ni
+6
+7
+10
+16
+20
+p∗
+i
+0,06
+0,07
+0,1
+0,16
+0,2
+Har bir intervalga tushgan kunlarning ni sonini hisoblab, tanlamaning intervalli
+statistik qatorini hosil qilamiz.
+xi [0,05, 0,16) [0,16, 0,27) [0,27, 0,38) [0,38, 0,5]
+ni
+17
+11
+7
+6
+p∗
+i
+0,17
+0,11
+0,07
+0,06
+160
+
+===== PDF SAHIFA 161 =====
+Empirik zichlik funksiyasini intervalli statistik qator jadvaliga qarab tuzamiz:
+f100(x) =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0,06,
+x ∈[−0,5, −0,39),
+0,07,
+x ∈[−0,39, −0,28),
+0,1,
+x ∈[−0,28, −0,17),
+0,16,
+x ∈[−0,17, −0,06),
+0,2,
+x ∈[−0,06, 0,05),
+0,17,
+x ∈[0,05, 0,16),
+0,11,
+x ∈[0,16, 0,27),
+0,07,
+x ∈[0,27, 0,38),
+0,06,
+x ∈[0,38, 0,5],
+0,
+x /∈[−0,5, 0,5].
+Bu funksiyaning grafigi tanlamaning gistogrammasi bo‘ladi va u 3-rasmda tasvirlangan.
+−0,5 −0,39 −0,28 −0,17 −0,06
+0,05
+0,16
+0,27
+0,38
+0,5
+f100(x)
+0,20
+0,16
+0,11
+0,06
+x
+Nisbiy chastotalar gistogrammasi
+Tanlamaning sonli xarakteristikalari. n hajmli tanlamaning statistik taqsimoti berilgan bo‘lsin:
+x x1 x2 . . . xm
+n n1 n2 . . . nm
+4.7.8-ta’rif. Tanlamaning ¯x o‘rtachasi deb, barcha variantalar va ularning mos
+chastotalari ko‘paytmalari yig‘indisining tanlama hajmiga nisbatiga aytiladi:
+¯x = 1
+n
+m
+X
+i=1
+xini,
+(4)
+161
+
+===== PDF SAHIFA 162 =====
+bu yerda xi — diskret qatorning variantalari yoki intervalli statistik qator intervallarining o‘rtalari; ni — mos chastotalar; m — takrorlanmaydigan variantalar soni
+yoki intervallar soni;
+n =
+k
+X
+i=1
+ni.
+Tanlamaning o‘rtachasini yana
+¯x =
+m
+X
+i=1
+xip∗
+i,
+(5)
+ko‘rinishda ham yozish mumkin, bu yerda p∗
+i = ni/n — nisbiy chastota.
+4.7.9-ta’rif. Tanlamaning s2 dispersiyasi deb, tanlama qiymatlarining tanlama ¯x
+o‘rtachasidan chetlanishlari kvadratlarining o‘rta arifmetigiga aytiladi:
+s2 = 1
+n
+m
+X
+i=1
+(xi −¯x)2ni,
+(6)
+yoki (5) singari
+s2 =
+m
+X
+i=1
+(xi −¯x)2p∗
+i,
+(7)
+ko‘rinishda yozish mumkin.
+Tanlamaning dispersiyasi uchun tasodifiy miqdorlarning dispersiyasidagi singari
+formulani yozish mumkin,
+s2 = x2 −(¯x)2.
+(8)
+Tanlama dispersiyasidan olingan kvadrat ildizning arifmetik qiymatiga tanlamaning o‘rtacha kvadratik chetlanishi deb ataladi:
+s =
+√
+s2 =
+v
+u
+u
+t1
+n
+m
+X
+i=1
+(xi −¯x)2ni.
+(9)
+Ehtimollar nazariyasidagi tasodifiy miqdorlar uchun kiritilgan k-tartibli boshlang‘ich va markaziy momentlar tanlama uchun ham mos ravishda
+162
+
+===== PDF SAHIFA 163 =====
+x k = 1
+n
+m
+X
+i=1
+x k
+i ni,
+¯xk = 1
+n
+m
+X
+i=1
+(xi −¯x)kni
+(10)
+formulalar bilan hisoblanadi.
+4.7.10-ta’rif. Variatsion qatorning o‘rtasiga to‘g‘ri keluvchi qiymatga tanlamaning
+medianasi deb ataladi va M ∗
+e orqali belgilanadi.
+Agar tanlamaning hajmi n
+=
+2k,
+ya’ni variatsion qator juft sondagi
+x(1), x(2), . . . , x(k), x(k+1), . . . , x(2k) elementlardan iborat bo‘lsa,
+M ∗
+e = x(k) + x(k+1)
+2
+;
+agar n = 2k + 1 bo‘lsa,
+M ∗
+e = x(k+1).
+4.7.11-ta’rif. Variatsion qatorning eng katta chastotaga ega bo‘lgan elementiga tanlamaning modasi deb ataladi va M ∗
+o orqali belgilanadi.
+4.7.6-misol. 5-Misolda keltirilgan tanlamaning sonli xarakteristikalarini toping.
+Yechish: Bu tanlamaga tuzilgan variatsion qator yordamida ushbu statistik
+qatorni tuzamiz:
+xi
+−0, 5
+−0, 4
+−0, 3
+−0, 2
+−0, 1
+0
+0, 1
+0, 2
+0, 3
+0, 4
+0, 5
+ni
+3
+3
+7
+10
+16
+20
+17
+11
+7
+5
+1
+statistik taqsimotni tuzamiz.
+n =
+10
+X
+i=1
+ni = 100
+ekanligini eslatib o‘tamiz. U holda (4) formulaga ko‘ra
+¯x =
+1
+100
+
+−0, 5 · 3 −0, 4 · 3 −0, 3 · 7 −0, 2 · 10 −0, 1 · 16 + 0 · 20+
++ 0, 1 · 17 + 0, 2 · 11 + 0, 3 · 7 + 0, 4 · 5 + 0, 5 · 1
+
+=
+1
+100 · 0, 1 = 0, 001
+qiymatni hisoblab topamiz.
+163
+
+===== PDF SAHIFA 164 =====
+Endi x2 matematik kutilmani
+x2 = 1
+n
+m
+X
+i=1
+x2
+ini
+formulaga ko‘ra hisoblaymiz:
+x2 =
+1
+100
+
+(−0, 5)2 · 3 + (−0, 4)2 · 3 + (−0, 3)2 · 7 + (−0, 2)2 · 10+
++ (−0, 1)2 · 16 + 02 · 20 + 0, 12 · 17 + 0, 22 · 11+
++ 0, 32 · 7 + 0, 42 · 5 + 0, 52 · 1
+
+=
+=
+1
+100 · 4, 17 = 0, 0417
+U holda tanlamaning dispersiyasi (8) formulaga ko‘ra
+s2 = x2 −(¯x)2 = 0,0471 −0,0012 = 0,047099.
+Tanlamaning o‘rtacha kvadratik chetlanishi (9) formulaga ko‘ra hisoblaymiz:
+s =
+√
+s2 =
+p
+0,047099 ≈0,217023.
+Variantalar soni toq bo‘lganligi uchun tanlamaning medianasi
+M ∗
+e = x(6) = 0,
+va x(6) = 20 element eng katta n6 = 20 chastotaga ega bo‘lganligi uchun, tanlamaning modasi
+M ∗
+o = 0
+bo‘ladi.
+Misollar.
+1. Ushbu jadvalda keltirilgan n = 100 hajmli tanlamaning
+164
+
+===== PDF SAHIFA 165 =====
+2
+6
+7
+1
+8
+7
+4
+9
+3
+5
+8
+5
+5
+10
+6
+5
+6
+5
+7
+8
+6
+2
+10
+4
+5
+6
+2
+8
+6
+7
+5
+6
+7
+3
+7
+4
+6
+5
+8
+4
+4
+7
+6
+8
+1
+9
+3
+7
+5
+9
+7
+5
+3
+8
+7
+3
+6
+1
+7
+6
+8
+4
+6
+5
+7
+6
+5
+8
+4
+9
+6
+3
+9
+6
+4
+7
+10
+5
+7
+10
+9
+6
+4
+10
+6
+5
+7
+3
+6
+7
+5
+4
+6
+7
+2
+6
+4
+8
+6
+3
+variatsion va statistik qatorlarini tuzing, empirik taqsimot va zichlik funksiyalarini
+toping va ularning grafiklarini yasang. Tanlamaning sonli xarakteristikalarini toping.
+2. Ushbu jadvalda keltirilgan n = 100 hajmli tanlamaning
+4
+7
+1
+9
+3
+6
+8
+2
+5
+7
+2
+5
+8
+4
+7
+1
+9
+3
+6
+4
+9
+3
+6
+2
+5
+8
+4
+7
+1
+9
+1
+8
+4
+7
+1
+9
+3
+6
+2
+5
+6
+2
+5
+8
+4
+7
+1
+9
+3
+8
+3
+9
+7
+1
+9
+3
+6
+2
+5
+1
+7
+1
+2
+5
+8
+4
+7
+1
+9
+3
+5
+6
+9
+3
+6
+2
+5
+8
+4
+6
+8
+4
+3
+6
+2
+5
+8
+4
+7
+2
+4
+7
+5
+8
+4
+7
+1
+9
+3
+5
+variatsion va statistik qatorlarini tuzing, empirik taqsimot va zichlik funksiyalarini
+toping va ularning grafiklarini yasang. Tanlamaning sonli xarakteristikalarini toping.
+3. Ushbu jadvalda keltirilgan n = 100 hajmli tanlamaning
+165
+
+===== PDF SAHIFA 166 =====
+1.4
+1.7
+1.1
+1.9
+1.3
+1.6
+1.8
+1.2
+1.5
+1.7
+1.2
+1.5
+1.8
+1.4
+1.7
+1.1
+1.9
+1.3
+1.6
+1.4
+1.9
+1.3
+1.6
+1.2
+1.5
+1.8
+1.4
+1.7
+1.1
+1.9
+1.1
+1.8
+1.4
+1.7
+1.1
+1.9
+1.3
+1.6
+1.2
+1.5
+1.6
+1.2
+1.5
+1.8
+1.4
+1.7
+1.1
+1.9
+1.3
+1.8
+1.3
+1.9
+1.7
+1.1
+1.9
+1.3
+1.6
+1.2
+1.5
+1.1
+1.7
+1.1
+1.2
+1.5
+1.8
+1.4
+1.7
+1.1
+1.9
+1.3
+1.5
+1.6
+1.9
+1.3
+1.6
+1.2
+1.5
+1.8
+1.4
+1.6
+1.8
+1.4
+1.3
+1.6
+1.2
+1.5
+1.8
+1.4
+1.7
+1.2
+1.4
+1.7
+1.5
+1.8
+1.4
+1.7
+1.1
+1.9
+1.3
+1.5
+variatsion va statistik qatorlarini tuzing, empirik taqsimot va zichlik funksiyalarini
+toping va ularning grafiklarini yasang. Tanlamaning sonli xarakteristikalarini toping.
+Taqsimotning parametrlarini nuqtaviy va oraliqli baholash.
+Taqsimotning parametrlarini nuqtaviy baholash
+4.7.12-ta’rif. Qiymati θ qiymatiga taxminan teng bo‘lgan kuzatishlar natijasining
+ˆθn = ˆθn(x1, x2, . . . , xn) funksiyasiga taqsimotning noma’lum θ parametrining nuqtaviy bahosi deb ataladi.
+4.7.13-ta’rif. Kuzatishlar natijasining ixtiyoriy funksiyasiga statistika deb ataladi.
+4.7.14-ta’rif. Agar θ parametrning ˆθn bahosi katta sonlar qonunini qanoatlantirsa,
+ya’ni ixtiyoriy ε > 0 soni uchun
+lim
+n→∞P{|ˆθn −θ| > ε} = 0
+bo‘lsa, u asosli statistik baho deb ataladi.
+4.7.15-ta’rif. Ixtiyoriy hajmdagi tanlama uchun matematik kutilmasi baholanayotgan parametrga teng, ya’ni M ˆθn = θ bo‘lgan statistika siljimagan baho deb ataladi.
+4.7.16-ta’rif. Asosli va siljimagan baholarning T sinfidagi eng kam dispersiyali
+bahoga samarali baholash deb ataladi:
+Dˆθsamarali = min
+T
+Dˆθn.
+166
+
+===== PDF SAHIFA 167 =====
+Nuqtaviy baholarni tuzish usullari. Momentlar usuli.
+Taqsimoti P(x, θ1, θ2, . . . , θr) bo‘lgan X bosh to‘plamning X1, X2, . . . , Xn tasodifiy tanlamasi berilgan va bu tanlama bo‘yicha θ1, θ2, . . . , θr parametrlarning bahosini topish talab qilingan bo‘lsin.
+X tasodifiy miqdorning dastlabki r ta boshlang‘ich mk = MXk, k = 1, 2, . . . , r
+momentlari mavjud deb faraz qilamiz.
+mk miqdorlar noma’lum θ1, θ2, . . . , θr
+parametrlarning funksiyasi bo‘lishi ravshan:
+mk = mk(θ1, θ2, . . . , θr).
+Tanlamaning xk boshlang‘ich yoki ˜xk markaziy momentlarini qaraymiz. Tanlamaning boshlang‘ich va markaziy momentlari bosh to‘plamning mos momentlariga asosli baholash bo‘ladi. Shuning uchun katta hajmli tanlamalarda mk va ˜mk,
+k = 1, 2, . . . , r momentlarni mos ravishda X1, X2, . . . , Xn tanlamaning xk va ˜xk
+statistik momentlari bilan almashtirish mumkin.
+Natijada r ta noma’lum parametrga nisbatan
+xk = mk(θ1, θ2, . . . , θr),
+k = 1, 2, . . . , r
+yoki
+˜xk = ˜mk(θ1, θ2, . . . , θr),
+k = 1, 2, . . . , r
+tenglamalar sistemasi hosil bo‘ladi. Bu sistemaning yechimlari noma’lum parametrlarning statistikasi sifatida qabul qilinadi.
+4.7.7-misol. Uskuna elementining ishlash vaqti X — tasodifiy miqdor f(x) = λe−λx
+ko‘rsatkichli taqsimlangan bo‘lsin. Quyidagi jadvalda 200 ta element ishlash vaqtlari keltirilgan. Bunda birinchi satrda xi — elementning ishlash vaqti (soatlarda),
+ikkinchi satrda esa xi soat ishlagan elementlarning ni soni joylashtirilgan.
+xi
+2,5
+7,5
+12,5
+17,5
+22,5
+27,5
+ni
+133
+45
+15
+4
+2
+1
+Momentlar usuli bilan ko‘rsatkichli taqsimotning noma’lum λ parametri uchun
+nuqtaviy bahoni toping.
+Yechish: Zichlik funksiyasi f(x) = λe−λx bo‘lgan ko‘rsatkichli taqsimlangan
+X tasodifiy miqdor uchun MX = 1/λ ekanligini ko‘rgan edik.
+Shuning uchun
+167
+
+===== PDF SAHIFA 168 =====
+noma’lum λ parametrning bahosi sifatida 1/¯x statistikani olishimiz mumkin.
+U
+holda
+¯x =
+1
+200
+ 2,5 · 133 + 7,5 · 45 + 12,5 · 15 + 17,5 · 4 + 22,5 · 2 + 27,5 · 1
+
+= 5.
+Demak ko‘rsatkichli taqsimotning λ noma’lum parametrining bahosi
+λ = 1
+¯x = 1
+5 = 0,2
+bo‘ladi.
+Maksimal ehtimollik usuli.
+x1, x2, . . . , xn zichlik funksiyasi f(x, θ) bo‘lgan bosh to‘plamdan olingan tasodifiy
+tanlama bo‘lsin.
+4.7.17-ta’rif. x1, x2, . . . , xn tanlama asosida qurilgan
+L(x1, x2, . . . , xn, θ) = f(x1, θ) f(x2, θ) . . . f(xn, θ)
+yoki
+L(x1, x2, . . . , xn, θ) =
+n
+Y
+i=1
+f(xi, θ)
+(1)
+funksiyaga ehtimollik funksiya deb ataladi.
+Agar X diskret tasodifiy miqdor bo‘lsa ehtimollik funksiya
+L(x1, x2, . . . , xn, θ) = p(x1, θ) p(x2, θ) . . . p(xn, θ) =
+n
+Y
+i=1
+p(xi, θ)
+ko‘rinishda bo‘ladi, bu yerda p(xi, θ) = P{X = xi; θ}.
+4.7.18-ta’rif. Berilgan x1, x2, . . . , xn qiymatlarda ehtimollik funksiya maksimal qiymatni qabul qiluvchi θ noma’lum parametrning θme qiymatiga maksimal ehtimolli
+baholash deb ataladi.
+Agar ehtimollik funksiya ikki marta differensiallanuvchi bo‘lsa, uning stasionar
+nuqtalari
+∂L(x1, x2, . . . , xn, θ)
+∂θ
+= 0
+(2)
+168
+
+===== PDF SAHIFA 169 =====
+tenglama bilan aniqlanadi. Ayrim stasionar ˆθ qiymatlarning lokal maksimum
+bo‘lishining yetarli sharti albatta
+∂2L(x1, x2, . . . , xn, θ)
+∂θ2
+< 0
+(3)
+tengsizlik bo‘ladi. Ehtimollik funksiyaning lokal maksimum nuqtalari topilgach,
+agar ular bir nechta bo‘lsa, ehtimollik funksiyaga eng katta qiymatni beruvchisi
+tanlanadi. Ana shu nuqta qo‘yilgan masalaning yechimi bo‘ladi.
+L(x1, x2, . . . , xn, θ) va ln L(x1, x2, . . . , xn, θ) funksiyalar θ parametrning bitta
+qiymatida maksimumga erishadi, shu sababli L(x1, x2, . . . , xn, θ) funksiyaning
+maksimumini qidirgandan ko‘ra ln L(x1, x2, . . . , xn, θ) funksiyaning maksimumini
+qidirish oson.
+Bir nechta θ1, θ2, . . . , θr parametrni baholashda ˆθ1, ˆθ2, . . . , ˆθr baholar
+
+
+
+
+
+
+
+
+
+
+
+∂ln L
+∂θ1
+= 0,
+. . .
+∂ln L
+∂θr
+= 0
+(4)
+ehtimolli tenglamalar sistemasini yechish orqali aniqlanadi.
+4.7.8-misol. n marta o‘zaro bog‘liqsiz tajribalar o‘tkazilganda A hodisaning yuz
+berishlar sonini ifodalovchi X tasodifiy miqdor noma’lum p parametrli binomial
+taqsimotga ega.
+Har biri 10 ta sinovdan iborat 100 ta tajriba o‘tkazildi (demak
+barcha sinovlar soni 1000 ta). Quyidagi jadvalda ana shu 1000 martalik sinovda
+A hodisaning yuz berishlar sonining empirik taqsimoti keltirilgan. Bunda birinchi
+satrda 10 ta sinovdan iborat bitta tajribada A hodisaning xi yuz berishlar soni,
+ikkinchi satrda esa A hodisa xi marta yuz bergan tajribalar soni ni joylashtirilgan.
+xi
+0
+1
+2
+3
+4
+5
+6
+7
+ni
+2
+3
+10
+22
+26
+20
+12
+5
+Bu tanlama asosida maksimal ehtimollik usuli bilan binomial taqsimotning
+noma’lum p parametri uchun nuqtaviy bahoni toping.
+Yechish:
+169
+
+===== PDF SAHIFA 170 =====
+L(x1, x2, . . . , xn, θ) = p(x1, θ) p(x2, θ) . . . p(xn, θ) =
+n
+Y
+i=1
+p(xi, θ)
+ehtimolli funksiyani tuzamiz. Biz p parametr uchun baho tuzishimiz kerak, ya’ni
+θ = p deb olamiz. Shuning uchun ehtimolli funksiya
+L =
+h
+Cx1
+m px1(1 −p)m−x1
+ih
+Cx2
+m px2(1 −p)m−x2
+i
+· · ·
+h
+Cxn
+m pxn(1 −p)m−xn
+i
+= (Cx1
+m Cx2
+m · · · Cxn
+m ) px1+x2+···+xn (1 −p)nm−(x1+x2+···+xn)
+ko‘rinishda bo‘ladi. Masala shartiga ko‘ra n = 100 tajribalar soni, m = 10 bitta
+tajribadagi sinovlar soni va xi ≤7. Ko‘rinib turibdiki hech bir tajribada A hodisa
+8, 9 va 10 marta yuz bermagan. Tanlama qiymatlarini qo‘yadigan bo‘lsak
+x1 + x2 + · · · + x100 = 28,
+nm = 1000.
+U holda ehtimolli funksiya
+L = (C0
+10C1
+10 · · · C7
+10) p28(1 −p)1000−28 = (C0
+10C1
+10 · · · C7
+10) p28(1 −p)972
+ko‘rinishni oladi va uni biz logarifmlaymiz:
+ln L = ln(C0
+10C1
+10 · · · C7
+10) + ln p28 + ln(1 −p)972
+= ln(C0
+10C1
+10 · · · C7
+10) + 28 ln p + 972 ln(1 −p).
+Bu funksiyadan p bo‘yicha hosila olamiz:
+d ln L
+dp
+= 28
+p −972
+1 −p.
+Bu hosilani nolga tenglashtirib ehtimolli funksiyaning kritik nuqtasini topamiz:
+28
+p −972
+1 −p = 0 ⇒28(1 −p) −972p = 0 ⇒28 −1000p = 0 ⇒
+⇒p =
+28
+1000 = 0,028.
+170
+
+===== PDF SAHIFA 171 =====
+Ikkinchi tartibli hosilaning bu nuqtadagi qiymatining ishorasini aniqlaymiz:
+d2 ln L
+dp2
+= −28
+p2 −
+972
+(1 −p)2 ⇒d2 ln L
+dp2
+
+p=0,028
+=
+= −35714,3 + 1028,807 = −34685,5.
+Demak ikkinchi tartibli hosila kritik nuqtada manfiy ishorali qiymatni qabul qilar
+ekan. Shuning uchun p = 0,028 nuqtada ehtimolli funksiya maksimum qiymatni
+oladi va uni biz noma’lum parametrning bahosi sifatida olishimiz mumkin. Biroq
+A hodisa xi martadan ni tajribada yuz bergan. Shuning uchun berilgan tanlama
+bo‘yicha noma’lum p parametrning bahosi sifatida
+p∗=
+P nixi
+nm
+=
+= 0 · 2 + 1 · 3 + 2 · 10 + 3 · 22 + 4 · 26 + 5 · 20 + 6 · 12 + 7 · 5
+1000
+= 400
+1000 = 0,4
+qiymatini olamiz.
+Taqsimotning parametrlarini oraliqli baholash
+4.7.19-ta’rif. Agar chegaralari θ1 = θ1(X1, X2, . . . , Xn), θ2 = θ2(X1, X2, . . . , Xn)
+tasodifiy bo‘lgan (θ1, θ2) oraliq uchun
+P(θ1 < θ < θ2) = γ
+tenglik o‘rinli bo‘lsa, bu oraliq bosh to‘plam taqsimotining noma’lum θ parametri
+yoki sonli xarakteristikasi uchun γ ehtimolli ishonchlilik oralig‘i, γ esa bu oraliqning
+ishonchlilik ehtimoli yoki ishonchlilik darajasi deb ataladi.
+ˆθ statistika θ parametrning siljimagan bahosi deb faraz qilamiz, ya’ni M ˆθ = θ.
+Endi ˆθ bahoga nisbatan simmetrik, ya’ni (ˆθ −ε, ˆθ + ε), ε > 0 ko‘rinishdagi ikki
+tomonli ishonchlilik intervalini quramiz. Masala shartiga ko‘ra berilgan γ ishonchlilik darajasi va tanlama asosida olingan ˆθ baho uchun
+P{|ˆθ −θ| < ε} = γ
+(5)
+tenglikni qanoatlantiruvchi ε > 0 soni
+171
+
+===== PDF SAHIFA 172 =====
+ε = Φ−1
+1 + γ
+2
+
+σ(ˆθ)
+(6)
+tenglik bilan aniqlanadi. γ ishonchlilik darajasining berilgan qiymatiga ko‘ra
+(1 + γ)/2 ifodaning qiymatini hisoblab, Φ−1((1 + γ)/2) qiymatini hisoblab topish
+mumkin. Agar D(ˆθ) dispersiya noma’lum bo‘lsa, uning o‘rniga asosli, siljimagan
+S2 =
+1
+n −1
+n
+X
+i=1
+(Xi −¯x)2
+statistikani olishimiz mumkin.
+γ ishonchlilik darajasi 0,95 va 0,99 bo‘lganda Φ−1((1 + γ)/2) mos ravishda 1,96
+va 2,58 qiymatlarga teng bo‘ladi.
+4.7.9-misol. Ushbu jadvalda keltirilgan N[m, σ] normal taqsimlangan X tasodifiy miqdor qiymatlarining n = 210 hajmli tanlamasi bo‘yicha taqsimotning m
+parametriga ishonchlilik darajasi γ = 0,99 bo‘lgan ishonchlilik oralig‘ini toping.
+Variatsion qator ma’lumotlari (n = 210)
+0,2
+0,5
+0,7
+0,3
+0,5
+0,9
+0,4
+0,6
+0,7
+0,6
+0,1
+1
+0,4
+0,8
+0,6
+0,1
+0,5
+0,8
+0,4
+0,5
+0,3
+0,2
+0,3
+0,5
+0,9
+0,2
+0,6
+0,3
+0,7
+0
+0,9
+0,4
+1
+0
+0,7
+0,6
+0,8
+0,1
+0,5
+0,8
+0,5
+0,9
+0,5
+0,6
+0,3
+0,8
+0,3
+0,6
+0,5
+0,7
+0,4
+1
+0,4
+0,5
+0
+0,4
+0,4
+0,5
+0,4
+0,5
+0,6
+0,8
+0,4
+0
+0,6
+0,2
+0,8
+0,6
+0,7
+0,6
+0,7
+1
+0,3
+0,4
+0,5
+0,1
+0,6
+0,4
+0,3
+0,9
+0,4
+0,2
+0,8
+0,5
+0,1
+0,4
+0,8
+0,5
+0,7
+0,5
+0,3
+0,9
+0,5
+0,3
+0,6
+0,7
+0,3
+0,9
+0,7
+0,5
+0,1
+0,6
+0,2
+0,8
+0,6
+0,1
+0,4
+0,7
+0,4
+0,6
+1
+0,2
+0,3
+1
+0,6
+0,3
+0,6
+0,4
+0,5
+0,8
+0,5
+0,3
+0,7
+0,2
+0,6
+0,7
+0,6
+0,2
+0,4
+0,7
+0,3
+0,9
+0,5
+0,2
+0,9
+0,5
+0,1
+0,8
+0,4
+0,5
+0,4
+0,5
+1
+0,6
+0,1
+0,4
+0,3
+0,8
+0,2
+0,7
+0
+0,5
+0,9
+0,6
+0,5
+0,8
+0,5
+0,2
+0,5
+0,8
+0,8
+0,4
+0,7
+0,4
+0,7
+0,3
+0,6
+0,2
+0,9
+0,1
+0,3
+0,7
+0,4
+0,3
+0,5
+0,8
+0,5
+0,2
+0,4
+0,6
+0
+0,7
+0,2
+0,5
+0,8
+0
+0,3
+0,7
+0,4
+0,1
+0,5
+0,7
+0,6
+0,5
+0,7
+0,5
+0,4
+0,7
+0,2
+0,6
+0,5
+0,4
+0,7
+0,6
+0,3
+0
+0,4
+0,1
+0,6
+0,3
+172
+
+===== PDF SAHIFA 173 =====
+xi
+0
+0,1
+0,2
+0,3
+0,4
+0,5
+0,6
+0,7
+0,8
+0,9
+1
+ni
+8
+12
+16
+22
+29
+35
+28
+24
+18
+11
+7
+Yechish: Bu tanlamaning ushbu statistik qatorni tuzamiz:
+Tanlamaning siljimagan matematik kutilmasi va dispersiyasini topamiz:
+¯x =
+1
+210
+ 0 · 8 + 0,1 · 12 + 0,2 · 16 + 0,3 · 22 + 0,4 · 29 + 0,5 · 35 + 0,6 · 28 + 0,7 · 24+
++0,8 · 18 + 0,9 · 11 + 1 · 7
+
+= 105
+210 = 0,5.
+S2 =
+1
+209
+
+(0 −0,5)2 · 8 + (0,1 −0,5)2 · 12 + (0,2 −0,5)2 · 16 + (0,3 −0,5)2 · 22+
++(0,4 −0,5)2 · 29 + (0,5 −0,5)2 · 35 + (0,6 −0,5)2 · 28 + (0,7 −0,5)2 · 24+
++(0,8 −0,5)2 · 18 + (0,9 −0,5)2 · 11 + (1 −0,5)2 · 7
+
+= 12,9
+209 = 0,06172.
+Demak m parametr uchun m∗= 0,5 nuqtaviy baho bo‘ladi. γ = 0,99 uchun
+Φ−1 (1 + γ)/2
+
+= 2,58 bo‘lishini yuqorida qayd qilgan edik. (6) tenglikdagi σ(ˆθ)
+sifatida
+r
+S2
+n =
+r
+0,06172
+210
+= 0,0171
+qiymatini olamiz. U holda (6) formulaga topilganlarni qo‘yib
+ε = 2,58 · 0,0171 = 0,0441
+qiymatini hosil qilamiz, ya’ni qidirilayotgan oraliq
+(¯x −ε, ¯x + ε) = (0,5 −0,0441, 0,5 + 0,0441) = (0,4559, 0,5441)
+bo‘ladi. Shunday qilib qiymatlari yuqoridagi jadvalda keltirilgan normal taqsimotning m parametri (0,4559, 0,5441) oralig‘ida 0,99 ehtimol bilan yotadi deb
+tasdiqlash mumkin.
+173
+
+===== PDF SAHIFA 174 =====
+Taqsimotning sonli xarakteristikalarini oraliqli baholash
+m matematik kutilma uchun ishonchlilik darajasi γ bo‘lgan ishonchlilik oralig‘i, agar
+σ dispersiya ma’lum bo‘lsa
+
+¯x −Φ−1
+1 + γ
+2
+ σ
+√n, ¯x + Φ−1
+1 + γ
+2
+ σ
+√n
+
+(7)
+va agar σ dispersiya noma’lum bo‘lsa
+
+¯x −Φ−1
+1 + γ
+2
+ r
+S2
+n , ¯x + Φ−1
+1 + γ
+2
+ r
+S2
+n
+!
+.
+(8)
+ko‘rinishda bo‘ladi.
+4.7.10-misol. Ko‘p sondagi elektrilampalar partiyasidan nazorat uchun 100 ta
+lampa tanlab olindi. Bu tanlangan lampalarning o‘rtacha yonish vaqti 1000 soat
+ekanligi ma’lum bo‘ladi.
+Lampa yonish vaqtining o‘rtacha kvadratik chetlanishi
+σ = 40 soat bo‘lsa, lampaning m o‘rtacha vaqti uchun ishonchlilik darajasi γ = 0,95
+bo‘lgan ishonchlilik oralig‘ini toping.
+Yechish: Masala shartiga ko‘ra n = 100, ¯x = 1000, σ = 40.
+Ishonchlilik
+darajasi γ = 0,95 uchun Φ−1((1+γ)/2) = 1,96 bo‘ladi. Ularni (7) formulaga qo‘yib
+
+1000 −1,96 · 40
+√
+10, 1000 + 1,96 · 40
+√
+10
+
+= (992,16, 1007,84)
+qidirilayotgan oraliqni hosil qilamiz.
+Misollar.
+1. Oliy matematikadan o‘tkazilgan yakuniy nazorat natijalarini II kursdan ixtiyoriy ravishda tanlangan 100 ta talaba bo‘yicha tahlil qilish quyidagi natijalarni
+berdi:
+xi
+2
+3
+4
+5
+ni
+33
+56
+7
+4
+X — tasodifiy miqdor talaba olgan baho bo‘lsin. X tasodifiy miqdorning MX
+matematik kutilma va DX dispersiyasini nuqtaviy baholang.
+174
+
+===== PDF SAHIFA 175 =====
+2.
+500 qutida shisha mahsulotlari jo‘natildi.
+Yo‘lda ayrim mahsulotlarning
+shikastlanganligi ma’lum bo‘ldi. X — tasodifiy miqdor shikastlangan mahsulotlar
+sonini ifodalasin va u noma’lum λ parametrli Puasson taqsimotiga ko‘ra taqsimlangan bo‘lsin. Quyidagi jadvalda shikastlangan mahsulotlar soni haqida ma’lumot
+keltirilgan:
+xi
+0
+1
+2
+3
+4
+5
+6
+7
+ni
+199
+169
+87
+31
+9
+3
+1
+1
+bu yerda xi — bitta qutida shikastlangan mahsulotlar soni, ni — esa ichida xi
+ta shikastlangan mahsulotlar bo‘lgan qutilar soni. Bu tanlama asosida maksimal
+ehtimollik usuli bilan Puasson taqsimotning noma’lum λ parametri uchun nuqtaviy
+bahoni toping.
+3. Nazorat uchun olingan n = 625 ta mahsulotdan 40 tasi sifatsiz bo‘lib chiqdi.
+Sifatsiz mahsulotlarning foizi uchun ishonchlilik darajasi γ = 0,95 bo‘lgan ishonchlilik oralig‘ini toping.
+4. Nazorat uchun olingan 25 ta silindrik detallarning o‘rtacha diametri 10 mm
+ekanligi ma’lum bo‘ldi. Detalning X diametri normal taqsimlangan tasodifiy miqdor
+va uning o‘rtacha kvadratik chetlanishi σ = 0,1 mm deb hisoblab, detal diametrining
+m matematik kutilmasi uchun ishonchlilik darajasi γ = 0,99 bo‘lgan ishonchlilik
+oralig‘ini toping.
+xi
+10
+20
+30
+ni
+5
+15
+10
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Biror shart-sharoitda o‘tkaziladigan
+tajribalarning
+barcha
+mumkin
+bo‘lgan natijalari to‘plami matematik statistikada qanday nomlanadi?
+A) Tanlama to‘plam
+B) Statistik qator
+C) Bosh to‘plam
+D) Variatsion qator
+2. Bevosita o‘tkazilgan tajribalardan
+olingan natijalar to‘plami bo‘lgan
+tanlamadagi elementlarning umumiy soni nima deb ataladi?
+A) Tanlama kengligi
+B) Tanlama chastotasi
+175
+
+===== PDF SAHIFA 176 =====
+C) Tanlama o‘rtachasi
+D) Tanlamaning hajmi
+3. Tanlama
+elementlarining
+kamaymaydigan tartibda joylashtirilishiga
+(bunda bir xil elementlar takrorlanadi) qanday nom berilgan?
+A) Variatsion qator
+B) Statistik taqsimot
+C) Gistogramma
+D) Empirik funksiya
+4. Tanlamaning maksimal va minimal
+elementlari orasidagi R = xmax −
+xmin farqi orqali qanday kattalik
+aniqlanadi?
+A) Tanlama dispersiyasi
+B) Tanlamaning kengligi
+C) Tanlama o‘rtacha chetlanishi
+D) Tanlama medianasi
+5. Tanlamadagi biron-bir variantaning
+uchrashlar sonining umumiy tanlama hajmiga nisbati qanday nomlanadi?
+A) Absolyut chastota
+B) Tanlama o‘rtachasi
+C) Nisbiy chastota
+D) Empirik zichlik
+6. Har bir x nuqtada tanlama bo‘yicha
+{X < x} hodisasining nisbiy chastotasini ifodalovchi funksiya nima
+deb ataladi?
+A) Empirik taqsimot funksiyasi
+B) Nazariy taqsimot funksiyasi
+C) Differensial taqsimot qonuni
+D) Zichlik funksiyasi
+7. Statistik
+ma’lumotlar
+asosida
+gistogramma
+hosil
+qilinganda,
+uni
+tashkil
+etuvchi
+barcha
+to‘g‘ri to‘rtburchaklar yuzalarining
+yig‘indisi har doim nimaga teng
+bo‘ladi?
+A) Tanlama hajmiga
+B) Tanlama kengligiga
+C) Dispersiya qiymatiga
+D) Birga (1)
+8. Tanlama o‘rtachasini (¯x) hisoblashda
+barcha variantalar va ularning mos
+chastotalari ko‘paytmalari yig‘indisi
+nimaga bo‘linadi?
+A) Variantalar soniga
+B) Tanlamaning umumiy hajmiga
+(n)
+C) Tanlamaning kengligiga (R)
+D) Maksimal qiymatga
+9. Tanlama
+qiymatlarining
+tanlama
+o‘rtachasidan
+chetlanishlari
+kvadratlarining o‘rta arifmetik qiymati qaysi statistik xarakteristikani
+ifodalaydi?
+A) Tanlama o‘rtachasini
+B) Tanlama modasini
+C) Tanlama medianasini
+D) Tanlama dispersiyasini (s2)
+176
+
+===== PDF SAHIFA 177 =====
+10. Variatsion qatorning aniq o‘rtasida
+joylashgan yoki o‘rtadagi ikki elementning o‘rta arifmetigiga teng
+bo‘lgan qiymat nima deyiladi?
+A) Tanlama modasi
+B) Tanlama medianasi
+C) Tanlama o‘rtachasi
+D) Tanlama momenti
+11. Noma’lum parametrning qiymatiga
+taqriban teng bo‘lgan va kuzatishlar
+natijasiga tayanadigan ˆθn funksiyasi
+qanday baholash hisoblanadi?
+A) Oraliqli baho
+B) Haqiqiy qiymat
+C) Nuqtaviy baho
+D) Statistik xatolik
+12. Agar noma’lum parametrning bahosi tanlama hajmi cheksiz ortganda katta sonlar qonunini qanoatlantirsa, bunday baho qanday nomlanadi?
+A) Asosli baho
+B) Siljimagan baho
+C) Samarali baho
+D) Oddiy baho
+13. Ixtiyoriy hajmdagi tanlama uchun
+matematik
+kutilmasi
+baholanayotgan
+parametrning
+o‘ziga
+teng
+bo‘lgan
+baholash
+qanday
+nomlanadi?
+A) Asosli baho
+B) Siljimagan baho
+C) Maksimal baho
+D) Samarali baho
+14. Bir nechta asosli va siljimagan baholar mavjud bo‘lganda, ular orasidagi
+eng kichik dispersiyaga ega bo‘lgan
+baholash qanday ataladi?
+A) Nuqtaviy baho
+B) Oraliqli baho
+C) Asimptotik baho
+D) Samarali baholash
+15. Taqsimotning nazariy momentlarini tanlama asosida olingan mos
+empirik momentlarga tenglashtirish
+orqali parametrni topish usuli qanday ataladi?
+A) Momentlar usuli
+B) Maksimal ehtimollik usuli
+C) Eng kichik kvadratlar usuli
+D) Grafik usul
+16. Tanlama
+xarakteristikalarining
+qidirilayotgan
+parametrdan
+chetlanishlari
+kvadratlarining yig‘indisini minimallashtirishga
+asoslangan usul qaysi?
+A) Momentlar usuli
+B) Grafik usuli
+C) Eng kichik kvadratlar usuli
+D) Maksimal ehtimollik usuli
+177
+
+===== PDF SAHIFA 178 =====
+17. Noma’lum
+parametrning
+haqiqiy
+qiymatini ma’lum bir ishonchlilik
+ehtimoli
+bilan
+qamrab
+oluvchi
+(θ1, θ2) oraliq nima deb ataladi?
+A) Variatsion oraliq
+B) Ishonchlilik oralig’i
+C) Statistik oraliq
+D) Tolerantlik oralig’i
+18. Ishonchlilik
+oralig‘ini
+ifodalovchi
+munosabatdagi γ kattaligi statistikada qanday nomlanadi?
+A) Ahamiyatlilik darajasi
+B) Xatolik ehtimoli
+C) Ishonchlilik darajasi
+D) Markaziy moment
+19. Matematik
+kutilmani
+baholashda
+berilgan ϵ mutlaq xatolikdan oshmaslikni
+ta’minlaydigan
+minimal
+tanlama hajmi n qaysi munosabatdan topiladi?
+A) n = [(Φ−1(1+γ
+2 ))/ϵ]2s2
+B) n = P ni
+C) n = R/h
+D) n = ¯x/σ
+20. Tadqiqotda 500 nafar talabaning
+bo‘yi o‘lchanganda,
+167,5 sm li
+ko‘rsatkich eng ko‘p (165 marta)
+takrorlangan bo‘lsa, ushbu qiymat
+tanlamaning qaysi xarakteristikasini
+ifodalaydi?
+A) Tanlama o‘rtachasini
+B) Tanlama medianasini
+C) Tanlama dispersiyasini
+D) Tanlamaning modasini
+Javoblar kaliti (QR formatda)
+Testning to’g’ri javoblarini telefoningiz orqali tekshirib olishingiz mumkin:
+178

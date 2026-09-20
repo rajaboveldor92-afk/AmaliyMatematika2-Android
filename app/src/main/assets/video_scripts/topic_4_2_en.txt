@@ -1,0 +1,8 @@
+4.2 — Addition and multiplication of probabilities. Conditional/total probability and Bayes
+1. Mutually exclusive: P(A∪B)=P(A)+P(B).
+2. General rule: P(A∪B)=P(A)+P(B)−P(A∩B).
+3. Independence: P(A∩B)=P(A)P(B).
+4. Conditional probability P(A|B)=P(A∩B)/P(B).
+5. Total probability ΣP(H_i)P(A|H_i).
+6. Bayes: P(H_i|A)=P(H_i)P(A|H_i)/P(A).
+In-video question: with independent P(A)=0.9 and P(B)=0.8, find the probability of at least one.

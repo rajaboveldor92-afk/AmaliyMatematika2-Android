@@ -1,0 +1,498 @@
+===== PDF SAHIFA 115 =====
+Javoblar kaliti (QR formatda)
+Testning to’g’ri javoblarini telefoningiz orqali tekshirib olishingiz mumkin:
+4.3
+Bernulli
+sxemasi.
+Puasson
+teoremasi.
+Muavr–Laplasning lokal va integral teoremalari
+Bernulli sxemasi
+4.3.1-ta’rif. Bernulli sxemasi (yoki bir-biriga bog‘liqsiz bir xil tajribalar ketmaketligi yoki tajribalarning binomial sxemasi) deb, quyidagi shartlarni qanoatlantiruvchi tajribalar ketma-ketligiga aytiladi:
+1) har bir tajribada faqat ikkita natija: birorta A hodisa yoki unga qarama-qarshi
+A hodisa yuz beradi;
+2) tajribalar bir-biriga bog‘liqsiz, ya’ni k–tajriba natijasi k–gacha bo‘lgan tajribalar natijalariga bog‘liq emas;
+3) barcha tajribalarda A hodisa yuz berish ehtimoli o‘zgarmas va
+P(A) = p
+bo‘ladi.
+A hodisa yuz berish ehtimolini q orqali belgilaymiz, ya’ni
+P(A) = 1 −p = q.
+4.3.1-teorema. n marta tajriba o‘tkazilganda A hodisa k, k = 0, 1, . . . , n marta
+yuz berishining Pn(k) ehtimoli Bernulli formulasi yoki ba’zan binomial formula ham
+deb ataluvchi ushbu
+Pn(k) = Ck
+npkq n−k
+(1)
+formula bilan hisoblanadi.
+Bernulli formulasidan ikkita muhim natija kelib chiqadi.
+115
+
+===== PDF SAHIFA 116 =====
+1. n marta tajriba o‘tkazilganda A hodisa kamida k1 marta va ko‘pi bilan k2
+marta yuz berish ehtimoli
+P(k1 ≤k ≤k2) =
+k2
+X
+k=k1
+Ck
+npkq n−k
+(2)
+formula bilan hisoblanadi.
+2. k1 = 1 va k2 = n bo‘lgan xususiy holda (2) formuladan n marta tajriba
+o‘tkazilganda A hodisa kamida bir marta yuz berish ehtimoli uchun
+P(k ≥1) = 1 −qn
+(3)
+formulani hosil qilamiz.
+4.3.1-misol. Pul-buyum lotereyasida bitta biletga yutuq chiqish ehtimoli 0,2 ga teng
+bo‘lsa, sotib olingan 6 ta biletning ikkitasida yutuq bo‘lish ehtimolini toping.
+Yechish. Tajriba 6 ta biletni ketma-ket tekshirishdan iborat bo‘lib, unda har
+bir tajribada biletda yutuq bor-yo‘qligi aniqlanadi.
+Demak bunda natija ikkita:
+bilet yutuqli, bilet yutuqsiz. Har bir biletning yutuqli yoki yutuqsiz bo‘lishi boshqa
+biletlarning yutuqli yoki yutuqsizligiga bog‘liq emas. Yutuq chiqish ehtimoli har bir
+tajribada o‘zgarmas. Demak Bernulli sxemasining barcha shartlari bajarilayapti. 2
+ta biletning yutuqli bo‘lish ehtimolini topamiz, bu yerda m = 2 va n = 6. Demak
+Bernulli formulasiga ko‘ra
+P6(2) = C2
+6 · 0,22 · 0,84 = 15 · 0,04 · 0,4096 = 0,24576.
+4.3.2-misol. Jihoz bir-biriga bog‘liqsiz ishlaydigan oltita elementdan iborat bo‘lib,
+ular zanjirga parallel ulangan. Har bir elementning bir ish kuni davomida buzilmasdan ishlash ehtimoli 0,6 ga teng. Jihozning ishlab turishi uchun 6 ta elementdan
+kamida bittasi buzilmasdan faoliyat ko‘rsatishi yetarli. Jihozning bir ish kuni davomida buzilmasdan ishlash ehtimolini toping.
+Yechish. Har birida ikkita natijaga ega bo‘lgan 6 ta bir-biriga bog‘liqsiz tajribalar o‘tkazilmoqda. Demak har bir tajribada bitta elementning bir ish kuni davomida ishdan chiqishi yoki chiqmasligini aniqlashdan iborat. Bir ish kuni davomida
+elementning ishdan chiqish ehtimoli q = 0,4 ga teng. Demak Bernulli sxemasining
+barcha shartlari bajarilmoqda. Shuning uchun 6 ta elementdan kamida bittasi ishlab
+turish ehtimoli (3) formulaga ko‘ra
+P(k ≥1) = 1 −0,46 = 1 −0,004096 = 0,995904.
+116
+
+===== PDF SAHIFA 117 =====
+Agar Pn(k) ehtimol k = k0 bo‘lganda eng katta qiymatni qabul qilsa, ya’ni
+k = 0, 1, 2, . . . , n, k ̸= k0 qiymatlarda Pn(k0) ≥Pn(k) tengsizlik o‘rinli bo‘lsa, k0
+soni n marta tajriba o‘tkazilganda A hodisa yuz berishlarining eng ehtimolli soni
+deb ataladi.
+n marta tajriba o‘tkazilganda A hodisa yuz berishlarining eng ehtimolli k0 soni
+np −q ≤k0 ≤np + p
+(4)
+tengsizlik orqali aniqlanadi.
+4.3.3-misol. Do‘konga 50 ta mahsulot keltirildi. Keltirilgan mahsulotlar orasida
+nostandart mahsulot bo‘lish ehtimoli 0,05 ga teng. Bu mahsulotlar orasida nostandart mahsulotlarning eng ehtimolli sonini aniqlang.
+Yechish.
+Ikkita natijali bir-biriga bog‘liqsiz 50 marta takroriy tajribalar
+o‘tkazilmoqda. Nostandart mahsulot bo‘lish ehtimoli o‘zgarmas. Demak Bernulli
+sxemasi bajarilar ekan. (4) formulaga ko‘ra
+50 · 0,05 −0,95 ≤k0 ≤50 · 0,05 + 0,95,
+1,55 ≤k0 ≤2,55.
+Mahsulotlar soni butun bo‘lishi kerakligi tufayli so‘nggi tengsizlikni qanoatlantiruvchi butun son 2 va demak keltirilgan mahsulotlar orasida nostandart mahsulotlarning eng ehtimolli soni 2 ekan.
+Bernulli sxemasida taqribiy formulalar
+Tajribalar soni n va k katta bo‘lganda Bernulli formulasidan foydalanish juda
+mushkul bo‘ladi, chunki bu yerda juda katta sonlar ustida amallar bajarishga to‘g‘ri
+keladi. Shuning uchun Pn(k) ehtimolni hisoblashda taqribiy formulalardan foydalanish qulay.
+4.3.2-teorema. Puasson. Bernulli sxemasida tajribalar soni n yetarlicha katta,
+A hodisaning yuz berish p ehtimoli esa yetarlicha kichik va shuning bilan birga λ =
+np ko‘paytma ham kichik bo‘lsin. U holda Pn(k) ehtimol Puasson formulasi deb
+ataluvchi
+Pn(k) ≈λke−λ
+k!
+,
+k = 0, 1, . . . , n
+(5)
+taqribiy formula bilan hisoblanadi.
+117
+
+===== PDF SAHIFA 118 =====
+P(k; λ) ≈λke−λ
+k!
+,
+k = 0, 1, . . .
+ehtimollar birgalikda Puasson taqsimoti deb ataladi.
+4.3.4-misol. Korxonadan do‘konga yaxshilab o‘rab taxlangan 4000 ta a’lo sifatli
+mahsulot jo‘natildi. Yo‘lda mahsulotga ziyon etish ehtimoli 0,0005 ga teng. Yo‘lda
+3 mahsulotga ziyon etish ehtimolini toping.
+Yechish: Masaladagi tajriba to‘laligicha Bernulli sxemasiga tushadi. Tajribalar
+soni n = 4000 katta, hodisaning yuz berish ehtimoli p = 0,0005 esa yetarlicha
+kichik. Shuning uchun Puasson teoremasidan foydalanish mumkin. Dastlab
+λ = np = 4000 · 0,0005 = 2
+qiymatni topamiz. U holda (5) formulaga ko‘ra
+Pn(k) ≈23
+3!e−2 ≈0,180447.
+Muavr–Laplasning lokal formulasi
+4.3.3-teorema. Agar Bernulli sxemasida tajribalar soni n yetarlicha katta, A
+hodisaning yuz berish p ehtimoli va yuz bermaslik q ehtimoli ham katta bo‘lsa, u
+holda barcha k uchun
+Pn(k) ≈φ(x)
+√npq
+(6)
+Muavr–Laplasning lokal formulasi o‘rinli bo‘ladi, bu yerda
+x = k −np
+√npq ,
+φ(x) =
+1
+√
+2πe−x2/2.
+φ(x) funksiya standart normal yoki Gauss taqsimotining zichlik funksiyasi deb
+ataladi.
+x o‘zgaruvchining ayrim qiymatlarida φ(x) funksiyaning qiymatlari 1-ilovada
+keltirilgan.
+φ(x) funksiya juftligi tufayli x o‘zgaruvchining manfiy qiymatlarida
+funksiya qiymati
+φ(x) = φ(−x)
+tenglikdan foydalanib aniqlanadi.
+118
+
+===== PDF SAHIFA 119 =====
+4.3.5-misol. Konveyerda I nav mahsulot chiqish ehtimoli 0,9 ga teng.
+Nazorat
+uchun olingan 600 mahsulotdan 530 tasi I nav mahsulot bo‘lish ehtimolini toping.
+Yechish:
+Demak
+ikkita
+natija
+o‘zaro
+bog‘liq
+bo‘lmagan
+600
+tajriba
+o‘tkazilmoqda. I nav mahsulot chiqish ehtimoli har safar o‘zgarmas. Shuning uchun
+bu yerda Bernulli sxemasini qo‘llash mumkin.
+Masala shartiga ko‘ra n = 600, k = 530 va p = 0,9. Tajribalar soni n katta,
+hodisaning p yuz berish va q = 1 −p yuz bermaslik ehtimollarining qiymati kichik
+emas. Shuning uchun A hodisaning (tahlil qilinayotgan mahsulot I nav bo‘lishi)
+530 marta yuz berish ehtimolini (6) formulaga ko‘ra hisoblash mumkin.
+Bunda
+hisoblashlarni quyidagi tartibda bajaramiz:
+1) Dastlab
+1
+√npq =
+1
+√600 · 0,9 · 0,1 =
+1
+√
+54 ≈
+1
+7,348469 ≈0,1361
+qiymatini hisoblaymiz.
+2) So‘ngra
+x = k −np
+√npq = 530 −600 · 0,9
+√600 · 0,9 · 0,1 = 530 −540
+7,348469 =
+−10
+7,348469 ≈−1,361
+qiymatini topamiz.
+3) φ(x) funksiya juftligi tufayli
+φ(−1,361) = φ(1,361)
+4) φ(x) funksiyaning qiymatlar jadvalidan
+φ(1,361) ≈0,158
+5) Demak
+P600(530) ≈
+1
+√600 · 0,9 · 0,1 φ(1,361) ≈0,1361 · 0,158 ≈0,0215.
+Muavr–Laplasning integral formulasi
+4.3.4-teorema. Bernulli sxemasi bo‘yicha tajribalar soni n va har bir tajribada
+A hodisaning yuz berish p va yuz bermaslik q = 1 −p ehtimollari nisbatan katta
+qiymatlarni qabul qilsa, k yuz berishlar soni k1 va k2 qiymatlar oralig‘ida yotish
+ehtimoli uchun
+P(k1 ≤k ≤k2) ≈Φ0(x2) −Φ0(x1)
+(7)
+taqribiy tenglik o‘rinli.
+119
+
+===== PDF SAHIFA 120 =====
+Bu yerda
+x1 = k1 −np
+√npq ,
+x2 = k2 −np
+√npq
+va
+Φ0(x) =
+Z x
+0
+φ(y) dy =
+1
+√
+2π
+Z x
+0
+e−y2/2 dy
+tenglik bilan aniqlanuvchi Φ0(x) funksiya Laplas integrali deb ataladi. 2-ilovada
+x o‘zgaruvchining musbat qiymatlari uchun Φ0(x) funksiyaning qiymatlar jadvali
+keltirilgan.
+φ(x) funksiyaning juftligi tufayli Φ0(x) Laplas integrali toq funksiya bo‘ladi,
+ya’ni
+Φ0(−x) = −Φ0(x).
+4.3.6-misol. Ikkita natijali o‘zaro bog‘liqsiz 100 marta tajriba o‘tkazilmoqda. Har
+bir tajribada A hodisaning yuz berish ehtimoli o‘zgarmas va p = 0,65 ga teng. A
+hodisa kamida 60 marta va ko‘pi bilan 71 marta yuz berish ehtimolini toping.
+Yechish: Demak shartga ko‘ra n = 100, k1 = 60, k2 = 71, p = 0,65 va q = 0,35.
+Dastlab
+x1 = k1 −np
+√npq
+=
+60 −100 · 0,65
+√100 · 0,65 · 0,35 =
+−5
+√22,75 =
+−5
+4,7697 ≈−1,0483,
+x2 = k2 −np
+√npq
+= 71 −100 · 0,65
+√22,75
+=
+6
+4,7697 ≈1,2579
+qiymatlarni hisoblab topamiz.
+Endi Φ0(x) funksiyaning toqligini inobatga olib, 2-ilovadan
+Φ0(x1) = Φ0(−1,0483) = −Φ0(1,0483) ≈−0,3527,
+Φ0(x2) = Φ0(1,2579) ≈0,3956
+qiymatlarga ega bo‘lamiz.
+U holda (7) formulaga ko‘ra qidirilayotgan ehtimol
+P(60 ≤k ≤71) ≈Φ0(1,2579) −Φ0(−1,0483) = Φ0(1,2579) + Φ0(1,0483)
+= 0,3956 + 0,3527 = 0,7483.
+120
+
+===== PDF SAHIFA 121 =====
+Misollar
+1. Har bir tajriba natijasida A hodisa p = 0,3 ehtimol bilan yuz bersin. 10 marta
+bir-biriga bog‘liq bo‘lmagan tajribalar o‘tkazilganda A hodisaning 4 marta yuz
+berish ehtimolini toping.
+2. O‘yin toshi 80 marta tashlanganda 6 raqamining 10 marta chiqish ehtimolini
+toping.
+3. Korxonada elektroenergiyaning kunlik sarfining normadan oshib ketish ehtimoli
+0,2 ga teng. 25 ish kuni davomida a) 5 kun; b) 5 kundan 7 kungacha (bu
+oraliqqa 5 va 7 kunlar ham kirgan) bo‘lgan vaqt davomida elektroenergiyaning
+normadan ko‘p sarflanish ehtimolini toping.
+4. O‘yin toshi 80 marta tashlanganda 6 raqamining tushishlar soni 10 martadan
+20 martagacha bo‘lish ehtimolini toping.
+5. Mahsulotning sinovdan o‘tmaslik ehtimoli 0,005 ga teng.
+Nazorat sinoviga
+olingan 600 ta mahsulotdan 2 tasi sinovdan o‘tmaslik ehtimolini toping.
+6. Sinov paytida jihozning ishlamay qolish ehtimoli 0,2 ga teng.
+Jihozlar birbiridan bog‘liqsiz ravishda sinalganda quyidagilardan qaysinisi ehtimolliroq: 20
+ta jihozni tekshirganda 4 ta jihozning ishlamay qolishimi yoki 30 ta jihozdan 6
+tasi ishlamay qolishimi?
+7. Tayyor mahsulotlarni o‘rab joylaydigan xodim nazorat bo‘limi tekshirgan yoki
+xususiy tamg‘asi bo‘lgan ishchi tayyorlagan 900 ta detalni qutilarga joylamoqda. Detalning xususiy tamg‘a bilan belgilangan bo‘lish ehtimoli 0,1 ga teng.
+Ular orasida 100 tadan 120 tagachasi xususiy tamg‘a bilan belgilangan bo‘lish
+ehtimolini toping.
+8. Bir-biriga bog‘liqsiz 2100 marta o‘tkaziladigan tajribaning har birida A hodisa
+p = 0,7 ehtimol bilan yuz bersin.
+A hodisaning a) kamida 1470 va ko‘pi
+bilan 1500 marta; b) kamida 1470 marta; c) ko‘pi bilan 1469 marta yuz berish
+ehtimollarini toping.
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Bernulli sxemasi (binomial sxema)
+deb
+ataluvchi
+tajribalar
+ketmaketligining birinchi sharti qanday
+ifodalanadi?
+121
+
+===== PDF SAHIFA 122 =====
+A) Har bir tajribada faqat ikkita
+natija:
+birorta A hodisa yoki
+unga qarama-qarshi A hodisa
+yuz beradi
+B) Tajribalar soni har doim cheksiz
+bo’lishi kerak
+C) Hodisalar ehtimollari yig’indisi
+nolga teng bo’lishi shart
+D) Tajribalar
+bir-biriga
+bog’liq
+holda o’tkazilishi lozim
+2. Bernulli sxemasida tajribalar birbiriga bog’liqsiz deyilganda nima
+tushuniladi?
+A) Hodisa har doim muqarrar yuz
+berishi
+B) k-tajriba
+natijasi
+k
+gacha
+bo’lgan tajribalar natijalariga
+bog’liq emasligi
+C) Tajribalar natijasi faqat birinchi sinovga bog’liqligi
+D) Tajribalar o’rtasidagi interval
+doimiy o’zgarishi
+3. n marta tajriba o’tkazilganda A
+hodisa k
+marta yuz berishining
+Pn(k)
+ehtimolini
+topish
+uchun
+qo’llaniladigan
+Bernulli
+formulasi
+qaysi?
+A) Pn(k) = n!/k!
+B) Pn(k) = pk · qn
+C) Pn(k) = Ck
+npkqn−k
+D) Pn(k) = λke−λ
+4. Tajribalar ketma-ketligining natijasini AAA . . . A ko’rinishida ifodalaganda,
+barcha
+yuz
+berishi
+mumkin bo’lgan hodisalar soni qancha bo’ladi?
+A) n2 ga teng
+B) n! ga teng
+C) n · p ga teng
+D) 2n ga teng
+5. n marta tajriba o’tkazilganda A
+hodisa yuz berishlarining eng ehtimolli k0 soni qaysi shart orqali
+aniqlanadi?
+A) k0 = n · p
+B) np −q ≤k0 ≤np + p
+C) k0 = √npq
+D) k0 = (p + q)n
+6. Misol:
+Sifat
+nazoratidan
+o’tayotgan 20 ta detallardan har
+birining sifatli bo’lish ehtimoli 0,92
+ga teng bo’lsa, sifatli detallarning
+eng ehtimolli sonini toping.
+A) 20 ta
+B) 18 ta
+C) 19 ta
+D) 17 ta
+7. n marta tajriba o’tkazilganda A
+hodisa kamida 1 marta yuz berish
+ehtimoli P(k ≥1) qaysi formula bilan hisoblanadi?
+122
+
+===== PDF SAHIFA 123 =====
+A) P = pn
+B) P = 0.5
+C) P = 1 −qn
+D) P = np
+8. O’yin toshi 8 marta tashlandi. Toshning ustki qismiga 6 raqamining 3
+marta tushish ehtimolini hisoblang.
+A) 0,718
+B) 0,767
+C) 0,330
+D) 0,1042
+9. Puasson teoremasiga ko’ra, Bernulli
+sxemasida qanday shartlar bajarilganda Puasson formulasidan foydalaniladi?
+A) n yetarlicha katta, p ehtimol esa
+yetarlicha kichik bo’lganda
+B) n kichik va p katta bo’lganda
+C) Faqat p = 0, 5 bo’lganda
+D) Tajribalar
+o’zaro
+bog’liq
+bo’lganda
+10. Puasson formulasida ishlatiladigan
+λ = np ko’paytma qanday nomlanadi?
+A) Klassik ehtimol
+B) Puasson taqsimotining parametri
+C) Laplas integrali
+D) Binomial koeffitsient
+11. Shisha idish qopqog’ini sifatsiz tayyorlash ehtimoli p = 0, 02 ga teng.
+Bir o’ramga 100 ta qopqoq joylashtiriladi. Ixtiyoriy ravishda tanlangan o’ramda sifatsiz tayyorlangan qopqoq bo’lmaslik ehtimolini
+toping (k = 0).
+A) 0,1353
+B) 0,2706
+C) 0,0200
+D) 0,9800
+12. Muavr-Laplasning
+lokal
+formulasi
+Pn(k) ≈φ(x)/√npq qachon o’rinli
+bo’ladi?
+A) Faqat n = 10 bo’lganda
+B) n yetarlicha katta, p va q ehtimollar ham katta bo’lganda
+C) Faqat p = 0, 001 bo’lganda
+D) Tajribalar soni 2 dan kichik
+bo’lganda
+13. Muavr-Laplas teoremalarida qo’llaniladigan
+x o’zgaruvchisi qaysi munosabat bilan aniqlanadi?
+A) x = npq
+B) x = λ/k!
+C) x = (k −np)/√npq
+D) x = (n −k)/p
+14. Standart normal taqsimotning zichlik
+funksiyasi
+φ(x)
+uchun
+qaysi
+xossa o’rinli?
+123
+
+===== PDF SAHIFA 124 =====
+A) Juftlik xossasi: φ(x) = φ(−x)
+B) Toqlik
+xossasi:
+φ(x)
+=
+−φ(−x)
+C) Davriylik
+xossasi:
+φ(x)
+=
+φ(x + 2π)
+D) Doimiylik xossasi: φ(x) = 1
+15. Bir marta o’q uzilganda o’qning nishonga tegish ehtimoli 0,8 ga teng.
+Nishonga qarab 400 marta o’q uzilganda 300 ta o’qning nishonga tegish ehtimolini Muavr-Laplas lokal
+formulasi bilan hisoblang.
+A) 0,0175
+B) 0,0022
+C) 0,8000
+D) 0,0720
+16. Muavr-Laplasning integral formulasi hodisaning k marta yuz berishlar soni qanday holatda bo’lish ehtimolini topishga xizmat qiladi?
+A) Faqat bitta k qiymatga teng
+bo’lganda
+B) Faqat k = 0 bo’lganda
+C) Tajribalar soni bog’liq bo’lganda
+D) k
+soni
+k1
+va
+k2
+qiymatlar
+oralig’ida yotganda
+17. Laplas integrali deb ataluvchi Φ0(x)
+funksiyasi uchun qaysi munosabat
+to’g’ri?
+A) Φ0(x) har doim 1 dan katta
+B) Φ0(x) juft funksiya
+C) Φ0(x) har doim manfiy
+D) Φ0(x) toq funksiya: Φ0(−x) =
+−Φ0(x)
+18. Standart normal taqsimot funksiyasi
+Φ(x)
+va
+Laplas
+integrali
+Φ0(x)
+o’rtasidagi bog’liqlik qaysi tenglikda
+to’g’ri berilgan?
+A) Φ(x) = Φ0(x) + 1/2
+B) Φ(x) = Φ0(x) −1/2
+C) Φ(x) = 2 · Φ0(x)
+D) Φ(x) = Φ0(x)/2
+19. O’yin toshi 540 marta tashlanganda
+"olti"
+raqami
+80
+martadan
+100
+martagacha
+tushish
+ehtimolini
+hisoblang.
+A) 0,1042
+B) 0,7623
+C) 0,3310
+D) 0,8775
+20. O’qning nishonga tegish ehtimoli
+p = 0, 6 ga teng. Nishonga qarab
+n = 1200 marta o’q uzilganda nishonga tegishlar soni nisbiy chastotasining p ehtimoldan mutlaq chetlanishi ϵ = 0, 05 dan oshmaslik ehtimolini toping.
+A) 0,9996
+B) 0,8775
+C) 0,5000
+D) 0,1353
+124

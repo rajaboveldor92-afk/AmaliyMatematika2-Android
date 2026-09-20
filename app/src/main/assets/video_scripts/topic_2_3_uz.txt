@@ -1,0 +1,9 @@
+2.3 VIDEO SSENARIY — FUNKSIONAL VA DARAJALI QATORLAR
+1) Σu_n(x) va yaqinlashish sohasi.
+2) S(x)=S_n(x)+R_n(x) va tekis yaqinlashish g‘oyasi.
+3) Darajali qator Σa_n(x−α)^n.
+4) Markaz α va radius R.
+5) R=lim|a_n/a_{n+1}| formulasi.
+6) Uchlarni alohida tekshirish.
+7) Misollar: Σx^n/n, Σx^n/n!, Σn!(x−5)^n.
+8) Interaktiv radius va endpoint mashqi.

@@ -1,0 +1,29 @@
+===== PDF SAHIFA 59 =====
+BOB 3
+ODDIY DIFFERENSIAL
+TENGLAMALAR VA ULARNI YECHISH
+USULLARI
+3.1
+Differensial
+tenglamalarga
+keltiruvchi
+masalalar.
+O‘zgaruvchilari ajraladigan differensial tenglamalar.
+Differensial tenglama deb, erkli o‘zgaruvchi va noma’lum funksiya hamda uning hosilalari (yoki differensiallari) orasidagi bog‘lanishni ifodalaydigan tenglamaga aytiladi.
+Agar erkli o‘zgaruvchi bitta bo‘lsa, oddiy differensial tenglama; agar erkli o‘zgaruvchi
+ikkita va undan ortiq bo‘lsa, u holda tenglama xususiy hosilali differensial tenglama
+deyiladi.
+Differensial tenglamaning tartibi deb, tenglamaga kiruvchi hosilaning yuqori
+tartibiga aytiladi.
+Bu darsda birinchi tartibli differensial tenglamani qaraymiz, ya’ni tenglama
+F(x, y, y′) = 0
+yoki (y′ ga nisbatan yechilgan)
+y′ = f(x, y).
+Differensial tenglamaning yechimi deb, shunday differensiallanuvchi y = φ(x)
+funksiyaga aytiladiki, uni tenglamadagi noma’lumlar o‘rniga qo‘yganda tenglama
+ayniyatga aylanadi. Differensial tenglamani yechimini topish jarayoni differensial
+tenglamani integrallash deyiladi.
+Birinchi tartibli differensial tenglamaning umumiy yechimi deb,
+y′ = f(x, y),
+D sohada
+59

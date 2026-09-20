@@ -1,0 +1,12 @@
+AMALIY MATEMATIKA 2 — 3.1
+Differensial tenglamalarning asosiy tushunchalari
+
+1. Differensial tenglama: noma’lum funksiya va uning hosilalarini bog‘laydigan tenglama.
+2. Oddiy differensial tenglama: bitta erkli o‘zgaruvchi.
+3. Tartib: eng yuqori hosila tartibi.
+4. Birinchi tartib: F(x,y,y′)=0 yoki y′=f(x,y).
+5. Umumiy yechim y=φ(x,C), xususiy yechim C=C0.
+6. Koshi masalasi: y′=f(x,y), y(x0)=y0.
+7. Integral egri chiziq va Koshi teoremasidagi yagonalik.
+
+VIDEO ICHIDAGI SAVOL: xy′+sin(x)y′′=0 nechanchi tartibli? Javob: 2.

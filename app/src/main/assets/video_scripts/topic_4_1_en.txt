@@ -1,0 +1,9 @@
+4.1 — Random events, classical probability, combinatorics and geometric probability
+1. Experiment, elementary outcome and sample space Ω.
+2. For a die, Ω={1,2,3,4,5,6}.
+3. Operations A∪B, A∩B, A\B and complement Ā.
+4. Classical probability P(A)=m/n.
+5. Arrangements A_n^r, combinations C_n^r, permutations P_n and repetition n^r.
+6. Geometric probability as a ratio of measures.
+In-video question: with 6 white and 5 black balls, what is P(white)?
+Mini-task: distinguish cases where order matters from cases where it does not.

@@ -1,0 +1,8 @@
+4.5 — Uzluksiz tasodifiy miqdor, F(x) va f(x)
+1. F(x)=∫_{−∞}^x f(t)dt.
+2. P(a<X<b)=F(b)−F(a)=∫_a^b f(x)dx.
+3. f(x)≥0 va ∫f=1.
+4. Differensiallanuvchi nuqtada f=F′.
+5. Eksponensial zichlik αe^(−αx), x>0.
+6. f(x)=2C/(1+x²) uchun normallash konstantasi.
+Video ichki savol: C=1/(2π) ekanini ∫f=1 orqali ko‘rsating.

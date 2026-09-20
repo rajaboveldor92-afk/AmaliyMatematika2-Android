@@ -1,0 +1,487 @@
+===== PDF SAHIFA 105 =====
+B) Mumkin bo’lmagan
+C) Birgalikda bo’lgan
+D) Qarama-qarshi
+Javoblar kaliti (QR formatda)
+Testning to’g’ri javoblarini telefoningiz orqali tekshirib olishingiz mumkin:
+4.2
+Ehtimollarni qo‘shish va ko‘paytirish. Shartli ehtimol.
+To‘la ehtimol. Beyes formulasi.
+Ehtimollarni qo‘shish va ko‘paytirish
+1-Teorema.
+Birgalikda bo‘lmagan A1, A2 hodisalar yig‘indisining ehtimoli bu
+hodisalar ehtimollarining yig‘indisiga teng:
+P(A1 + A2) = P(A1) + P(A2).
+(1)
+Natija. Birgalikda bo‘lmagan bir nechta hodisalar yig‘indisining ehtimoli bu
+hodisalar ehtimollarining yig‘indisiga teng:
+P(A1 + A2 + · · · + Ak) = P(A1) + P(A2) + · · · + P(Ak).
+(2)
+A va A birgalikda bo‘lmagan hodisalar va ular to‘liq guruhni tashkil qiladi. Shuning uchun
+P(A) + P(A) = P(A + A) = P(Ω) = 1,
+ya’ni qarama-qarshi hodisalar ehtimollarining yig‘indisi birga teng.
+2-Teorema. Birgalikda bo‘lgan A va B hodisalar yig‘indisining ehtimoli bu
+hodisalar ehtimollari yig‘indisidan ularning birgalikda yuz berish ehtimolini ayirganga teng:
+P(A + B) = P(A) + P(B) −P(AB).
+(3)
+4.2.1-misol. Oliy matematikadan yakuniy nazorat uchun 20 ta variant tayyorlandi.
+Ixtiyoriy ravishda olingan variantning tartib raqami 3 ga yoki 7 ga karrali bo‘lish
+ehtimolini toping.
+105
+
+===== PDF SAHIFA 106 =====
+Yechish.
+A = {tanlangan variantning tartib raqami 3 ga karrali},
+B = {tanlangan variantning tartib raqami 7 ga karrali},
+C = {ixtiyoriy ravishda olingan variantning tartib raqami 3 ga
+yoki 7 ga karrali}
+hodisalarini kiritamiz.
+Barcha yuz berishi mumkin bo‘lgan hodisalar soni n = 20 (variantlar soni)
+bo‘ladi.
+A hodisa yuz berishiga imkoniyat yaratuvchi hodisalar soni mA = 6 (3 ga karrali
+20 dan kichik bo‘lgan sonlar soni), B hodisa uchun esa mB = 2 (7 ga karrali 20 dan
+kichik bo‘lgan sonlar soni) bo‘ladi.
+Shuning uchun
+P(A) = mA
+n = 6
+20,
+P(B) = mB
+n = 2
+20.
+3 ga ham, 7 ga ham karrali son 1 dan 20 gacha bo‘lgan sonlar orasida
+bo‘lmaganligi uchun A va B hodisalar birgalikda bo‘lmagan hodisalar, shuning
+uchun
+A + B = C.
+U holda (1) formulaga ko‘ra
+P(A + B) = P(A) + P(B) = 6
+20 + 2
+20 = 8
+20 = 2
+5.
+4.2.2-misol. Stol ustida 10 ta kitob bo‘lib, ulardan 6 tasi matematikaga oid. Ixtiyoriy ravishda uchta kitob olindi. Olingan kitoblardan kamida bittasi matematikaga
+oid bo‘lish ehtimolini toping.
+Yechish.
+A = {kitoblarning kamida bittasi matematikaga oid},
+B = {kitoblarning bittasi matematikaga oid},
+C = {kitoblarning ikkitasi matematikaga oid},
+D = {kitoblarning uchtalasi ham matematikaga oid}
+hodisalarini kiritamiz.
+106
+
+===== PDF SAHIFA 107 =====
+B, C, D hodisalarning ehtimollarini topamiz. Barcha yuz berishi mumkin bo‘lgan
+hodisalar soni
+n = C3
+10 = 120.
+B hodisa yuz berishi uchun uchta kitobdan bittasi matematikaga oid va qolgan
+ikkitasi matematikaga oid bo‘lmasligi kerak, shuning uchun bu hodisaga imkoniyat
+yaratuvchi hodisalar soni
+mB = C1
+6C2
+4 = 6 · 6 = 36
+(matematikaga oid kitoblar soni 6, matematikaga oid emaslari soni 4).
+Xuddi shu singari
+mC = C2
+6C1
+4 = 15 · 4 = 60,
+mD = C3
+6 = 20.
+Shuning uchun
+P(B) = mB
+n = 36
+120,
+P(C) = mC
+n = 60
+120,
+P(D) = mD
+n
+= 20
+120.
+B, C, D birgalikda bo‘lmagan hodisalar. U holda (2) formulaga ko‘ra
+P(A) = P(B) + P(C) + P(D) = 36
+120 + 60
+120 + 20
+120 = 116
+120 = 29
+30.
+4.2.1-ta’rif. Agar A va B hodisalar uchun
+P(AB) = P(A)P(B)
+(4)
+tenglik o‘rinli bo‘lsa, ular o‘zaro bog‘liq bo‘lmagan hodisalar deyiladi.
+4.2.2-ta’rif. Agar A1, A2, . . . , Am hodisalarning har biri qolganlarining har biriga
+va ularning ixtiyoriy ko‘paytmasiga bog‘liq bo‘lmasa, bu hodisalar o‘zaro bog‘liq
+bo‘lmagan hodisalar deb ataladi.
+4.2.3-misol. Birinchi merganning nishonga tekkizish ehtimoli 0,9 ga, ikkinchisiningki esa 0,8 ga teng. Nishonga qarab merganlar bir-biriga bog‘liqsiz ravishda bittadan o‘q uzishganda, nishonga kamida bitta o‘q tegish ehtimolini toping.
+Yechish.
+A = {birinchi merganning o‘qi nishonga tegdi},
+B = {ikkinchi merganning o‘qi nishonga tegdi},
+C = {nishonga kamida bitta o‘q tegdi}
+107
+
+===== PDF SAHIFA 108 =====
+hodisalarini kiritamiz.
+Ikkala mergan ham bir-biriga bog‘liqsiz ravishda o‘q uzishgani uchun A va B
+hodisalar o‘zaro bog‘liq bo‘lmagan hodisalar. Shuning uchun
+P(AB) = P(A)P(B) = 0,9 · 0,8 = 0,72.
+Ikkala merganning ham o‘qi nishonga tekkan bo‘lishi mumkinligi tufayli A va B
+hodisalar birgalikda bo‘lgan hodisalar. Shuning uchun (3) formulaga ko‘ra
+P(C) = P(A) + P(B) −P(AB) = 0,9 + 0,8 −0,72 = 0,98.
+Shartli ehtimol
+4.2.3-ta’rif. A hodisaning yuz berish ehtimoli B hodisaning yuz bergan yoki yuz
+bermaganligiga bog‘liq bo‘lsa, A hodisa B hodisaga bog‘liq deyiladi.
+B hodisa yuz bergan shartda A hodisaning P(A|B) shartli ehtimoli
+P(A|B) = P(AB)
+P(B)
+(5)
+formula bo‘yicha hisoblanadi (B hodisaning ehtimoli noldan farqli deb faraz qilinadi).
+A hodisa yuz bergan shartda B hodisaning P(B|A) shartli ehtimoli ham xuddi
+shu singari aniqlanadi:
+P(B|A) = P(AB)
+P(A) ,
+P(A) ̸= 0.
+(6)
+4.2.4-misol. Talaba yakuniy nazoratning 30 ta variantidan 25 tasiga tayyorlangan.
+U ketma-ket ikkita variant oldi, agar birinchi safar tayyorlanmagan variant chiqqan
+bo‘lsa, talabaning yakuniy nazoratdan o‘ta olish ehtimolini toping.
+Yechish.
+A = {birinchi safar tayyorlanmagan variant chiqqan},
+B = {ikkinchi safar tayyorlangan variant chiqqan}
+hodisalarni kiritamiz. Talaba yakuniy nazoratdan o‘ta . . .
+. . .
+olishi uchun AB hodisa yuz berishi kerak. Birinchi safar olingan variant
+qaytarilmaganligi uchun A va B bog‘liq hodisalar. Shu sababli
+P(AB) = P(A)P(B|A).
+108
+
+===== PDF SAHIFA 109 =====
+Masalaning shartidan P(A) = 5/30. Agar A hodisa yuz bergan bo‘lsa, stolda 29 ta
+variant qolgan va ulardan 26 tasiga tayyorlangan bo‘ladi. Demak
+P(B|A) = 26
+29.
+Shunday qilib qidirilayotgan ehtimol
+P(AB) = 5
+30 · 26
+29 = 13
+87.
+To‘la ehtimol va Bayes formulalari
+4.2.1-teorema. Agar A hodisa birgalikda bo‘lmagan H1, H2, . . . , Hn hodisalarning
+to‘liq guruhidagi birorta hodisa yuz bergandagina yuz bersa, bu hodisaning yuz berish
+ehtimoli
+P(A) = P(H1)P(A|H1) + P(H2)P(A|H2) + · · · + P(Hn)P(A|Hn)
+(7)
+formula bo‘yicha hisoblanadi.
+(7) formula to‘la ehtimol formulasi va H1, H2, . . . , Hn hodisalar taxminlar
+(gipotezalar) deb ataladi.
+4.2.5-misol. Qutida uch turdagi lampalar bo‘lib, ularning soni mos ravishda 20,
+30 va 50 ta.
+Har bir turdagi lampalar uchun ma’lum vaqt mobaynida ularning
+kuymaslik ehtimollari mos ravishda 0,7; 0,8 va 0,9.
+Qutidan ixtiyoriy ravishda
+bitta lampa tanlandi. Tanlangan lampaning ko‘rsatilgan vaqt davomida kuymaslik
+ehtimolini toping.
+Yechish.
+A = {tanlangan lampa ko‘rsatilgan vaqt davomida kuymasdan yonadi},
+H1 = {birinchi turdagi lampa tanlandi},
+H2 = {ikkinchi turdagi lampa tanlandi},
+H3 = {uchinchi turdagi lampa tanlandi}.
+Masala shartidan
+P(H1) = 0,2,
+P(H2) = 0,3,
+P(H3) = 0,5,
+109
+
+===== PDF SAHIFA 110 =====
+shartli ehtimollar esa
+P(A|H1) = 0,7,
+P(A|H2) = 0,8,
+P(A|H3) = 0,9.
+U holda (7) formulaga ko‘ra
+P(A) = P(H1)P(A|H1)+P(H2)P(A|H2)+P(H3)P(A|H3) = 0,2·0,7+0,3·0,8+0,5·0,9 = 0,83
+4.2.2-teorema. H1, H2, . . . , Hn birgalikda bo‘lmagan hodisalarning to‘liq guruhini
+tashkil qilsin. U holda A hodisa yuz bergan shartda Hi (i = 1, . . . , n) hodisaning
+shartli ehtimoli
+P(Hi|A) = P(Hi)P(A|Hi)
+P(A)
+(8)
+formula bo‘yicha hisoblanadi.
+(8) formula Bayes formulasi deb ataladi.
+4.2.6-misol. Birinchi qutida 3 ta oq va 7 ta qora, ikkinchi qutida esa 4 ta oq va
+6 ta qora rangli shar bor. Ikkinchi qutidan ixtiyoriy ravishda bitta shar tanlandi
+va u birinchi qutiga solindi. So‘ngra birinchi qutidan ixtiyoriy ravishda bitta shar
+tanlandi.
+Agar uning rangi oq bo‘lsa, bu shar dastlab ikkinchi qutida bo‘lganlik
+ehtimolini toping.
+Yechish.
+A = {birinchi qutida tanlangan shar oq rangda},
+H1 = {ikkinchi qutidan oq rangli shar tanlangan},
+H2 = {ikkinchi qutidan qora rangli shar tanlangan}
+hodisalarni kiritamiz.
+Masala shartiga ko‘ra
+P(H1) = 4
+10 = 0,4,
+P(H2) = 6
+10 = 0,6.
+Agar H1 hodisa yuz bersa, birinchi qutida 11 shar bo‘ladi va ularning 4 tasi oq
+rangda bo‘ladi. Agar H2 hodisa yuz bersa, birinchi qutida 11 shar bo‘lib, ulardan 3
+tasi oq rangda bo‘ladi. Shuning uchun shartli ehtimollar
+P(A|H1) = 4
+11,
+P(A|H2) = 3
+11.
+110
+
+===== PDF SAHIFA 111 =====
+U holda birinchi qutidan tanlangan sharning oq rangda bo‘lish ehtimoli . . .
+P(A) = P(H1)P(A|H1) + P(H2)P(A|H2) = 4
+10 · 4
+11 + 6
+10 · 3
+11 = 34
+110 = 17
+55.
+Endi birinchi qutidan tanlangan sharning rangi oq ekanligi ma’lum degan shartda
+uning dastlab ikkinchi qutida bo‘lganlik ehtimolini (8) formulaga ko‘ra topamiz:
+P(H1|A) = P(H1)P(A|H1)
+P(A)
+=
+4
+10 · 4
+11
+17
+55
+= 16
+34 = 8
+17.
+Misollar
+1. Qutida bir xil ko‘rinishdagi 10 ta kalit bo‘lib, ulardan 4 tasi birinchi qavatdagi,
+6 tasi ikkinchi qavatdagi xonalarniki. Ixtiyoriy ravishda uchta kalit tanlandi. Tanlangan kalitlarning kamida bittasi birinchi qavatniki bo‘lish ehtimolini toping.
+2. Birinchi qutida 10 ta oq va 9 ta qora, ikkinchi qutida esa 7 ta oq va 8 ta qora
+rangli shar bor. Ikkala qutidan ixtiyoriy ravishda bittadan shar olindi. Olingan
+sharlarning ikkalasi ham oq rangda bo‘lish ehtimolini toping.
+3.
+Yakuniy nazorat uchun tayyorlangan 28 ta variantning har birida ikkita
+nazariy savol va bitta masala bo‘lib, ular takrorlanmaydi. Talaba 50 ta nazariy
+savol va 22 ta masalaga tayyorlangan. Talaba ixtiyoriy ravishda bitta variant tanlab, barcha savollarga javob bera olish ehtimolini toping.
+4. Nishonga qarab 3 ta artilleriya qurolidan o‘q uzilmoqda. Birinchi quroldan
+uzilgan o‘qning nishonga tegish ehtimoli 0,7, ikkinchisinki 0,8 va uchinchisinki 0,9
+ga teng. Nishonga bitta o‘q tegsa uning yakson bo‘lish ehtimoli 0,5, ikkita o‘q tegsa
+0,8 va uchta o‘q tegsa 1 ehtimol bilan yakson bo‘ladi. Har bir quroldan bittadan o‘q
+uzilganda nishonning yakson bo‘lish ehtimolini toping.
+5. Usta barcha mahsulotning 60% ini, shogird esa 40% tayyorlaydi. Usta tayyorlagan mahsulotning sifatli bo‘lish ehtimoli 0,9 ga, shogirdniki esa 0,7 ga teng.
+Tayyor mahsulotlardan ixtiyoriy bittasi tanlandi. Tanlangan mahsulot sifatli ekanligi ma’lum bo‘lsa, uni usta tayyorlagan bo‘lish ehtimolini toping.
+6. Tikuv sexida Xitoyda, Turkiyada va mahalliy fabrikada to‘qilgan mato ishlatiladi. Sexdagi barcha matolarning 20% Xitoydan, 30% Turkiyadan va qolgan qismi
+mahalliy fabrikadan keltirilgan. Xitoydan keltirilgan matodan tikilgan mahsulotda
+defekt (kamchilik) bo‘lish ehtimoli 0,2 ga, Turkiyanikida 0,05 va mahalliy matoda
+esa 0,1 ga teng. Ixtiyoriy ravishda bitta tayyor mahsulot nazorat uchun tanlandi va
+defektsiz chiqdi. U mahalliy matodan tikilgan bo‘lish ehtimolini toping.
+111
+
+===== PDF SAHIFA 112 =====
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Birgalikda bo’lmagan A1, A2 hodisalar yig’indisining ehtimoli bu hodisalar
+ehtimollarining
+yig’indisiga
+tengligi
+qaysi
+ifodada
+to’g’ri
+ko’rsatilgan?
+A) P(A1 + A2) = P(A1) · P(A2)
+B) P(A1 + A2) = P(A1) −P(A2)
+C) P(A1 + A2) = P(A1) + P(A2)
+D) P(A1 + A2) = 1
+2. A va A birgalikda bo’lmagan hodisalar va ular to’liq guruhni tashkil
+qilgani sababli, ularning ehtimollari
+yig’indisi nimaga teng?
+A) 0 ga
+B) 0.5 ga
+C) 1 ga
+D) P(A) ga
+3. Hodisalar
+kombinatsiyalarining
+ehtimollari
+uchun
+P(A\B)
+=
+P(A) −P(AB) munosabati o’rinli
+bo’lsa, bu amal nima deb ataladi?
+A) Hodisalar ayirmasi
+B) Hodisalar ko’paytmasi
+C) Hodisalar yig’indisi
+D) Shartli ehtimol
+4. Birgalikda bo’lgan A va B hodisalar
+yig’indisining ehtimoli qaysi formula
+orqali hisoblanadi?
+A) P(A + B) = P(A) + P(B) −
+P(AB)
+B) P(A + B) = P(A) + P(B)
+C) P(A + B) = P(A) · P(B)
+D) P(A + B) = P(AB)/P(B)
+5. O’zaro kesishmaydigan uch qismdan
+iborat nishonga o’q uzilganda, tegish ehtimollari 0,04; 0,09 va 0,2
+bo’lsa, nishonga tegish ehtimoli qancha bo’ladi?
+A) 0,13
+B) 0,24
+C) 0,33
+D) 0,00072
+6. A hodisaning yuz berish ehtimoli
+B hodisaning yuz bergan yoki yuz
+bermaganligiga bog’liq bo’lsa, bunday hodisa qanday nomlanadi?
+A) Bog’liq bo’lmagan hodisa
+B) Bog’liq hodisa
+C) Mumkin bo’lmagan hodisa
+D) Muqarrar hodisa
+7. A hodisaning B hodisa yuz bergan
+shartdagi
+P(A|B)
+shartli
+ehtimoli uning shartsiz ehtimoliga teng
+(P(A|B) = P(A)) bo’lsa, A hodisa
+B ga nisbatan qanday?
+A) Bog’liq
+B) To’liq guruhni tashkil etadi
+112
+
+===== PDF SAHIFA 113 =====
+C) Ekvivalent
+D) Bog’liq emas
+8. Ehtimollarni
+ko’paytirish
+teoremasiga
+ko’ra,
+ikkita
+hodisa
+ko’paytmasining
+ehtimoli
+P(AB)
+qaysi nisbatga teng?
+A) P(B)P(A|B)
+B) P(A) + P(B)
+C) P(A)/P(B)
+D) P(A) −P(B)
+9. O’zaro bog’liq bo’lmagan A va B
+hodisalar ko’paytmasining ehtimoli
+qanday hisoblanadi?
+A) P(AB) = P(A) + P(B)
+B) P(AB) = P(A) · P(B)
+C) P(AB) = P(A|B)
+D) P(AB) = 0
+10. Nishonga qarab uchta mergan o‘q
+uzishmoqda.
+Birinchi
+merganning nishonga tekkizish ehtimoli 0,3,
+ikkinchisiniki 0,4 va uchinchisiniki
+0,6 ga teng bo‘lsa,
+uchta mergan ham nishonga tekkizish ehtimolini toping.
+Bu yerda har bir
+mergan o‘qining nishonga tegishi
+boshqalari o‘qining nishonga tekkan
+yoki tegmaganligiga bog‘liq emas
+deb faraz qilinadi.
+A) 0,72
+B) 0,072
+C) 0,33
+D) 1,3
+11. Agar A hodisa birgalikda bo’lmagan
+H1, H2, . . . , Hn hodisalarning to’liq
+guruhidagi
+birorta
+hodisa
+yuz
+bergandagina yuz bersa, bu ehtimol
+qanday ataladi?
+A) Shartli ehtimol
+B) To’la ehtimol formulasi
+C) Geometrik ehtimol
+D) Klassik ehtimol
+12. To’la ehtimol formulasida ishtirok
+etuvchi
+H1, H2, . . . , Hn
+hodisalar
+ko’pincha nima deb ataladi?
+A) Elementar natijalar
+B) Taxminlar (gipotezalar)
+C) Ekvivalent hodisalar
+D) Bog’liq hodisalar
+13. Birinchi qutida 4 ta oq va 8 ta qora,
+ikkinchi qutida esa 6 ta oq va 7
+ta qora rangli shar bor.
+Ikkinchi
+qutidan ixtiyoriy ravishda bitta shar
+tanlandi va birinchi qutiga solindi.
+So‘ngra birinchi qutidagi sharlar
+yaxshilab aralashtirildi va ixtiyoriy
+ravishda bitta shar tanlandi. Sharning oq rangda bo‘lish ehtimolini toping.
+A) 58/169
+B) 30/58
+C) 6/13
+D) 4/13
+113
+
+===== PDF SAHIFA 114 =====
+14. Bayyes formulasi yoki gipotezalar
+teoremasi
+tajribaning
+erishilgan
+natijasi A hodisa bo’yicha nimani
+aniqlash imkonini beradi?
+A) Hodisalar ayirmasini
+B) Erkin natijalarni
+C) Jami yuzalarni
+D) P(Hi|A) shartli ehtimolni
+15. H1, H2, . . . , Hn birgalikda bo’lmagan
+hodisalarning to’liq guruhini tashkil
+qilsa, A hodisa yuz bergan shartda
+Hi
+hodisaning
+shartli
+ehtimoli
+(Bayyes formulasi) qaysi?
+A) P(Hi|A) = P(Hi)P(A|Hi)/P(A)
+B) P(Hi|A) = P(A)/P(Hi)
+C) P(Hi|A) = P(Hi) · P(A)
+D) P(Hi|A) = P(Hi) + P(A)
+16. 5-Misol natijasiga ko’ra, 4-misoldagi
+birinchi qutidan tanlangan sharning
+dastlab ikkinchi qutidan bo’lganlik
+ehtimoli qancha chiqdi?
+A) 30/58
+B) 58/169
+C) 15/29
+D) 6/13
+17. Agar B hodisa yuz berishi natijasida
+A hodisa ham albatta yuz bersa
+(B ⊆A), shartli ehtimol nimaga
+teng bo’ladi?
+A) 0 ga
+B) 0.5 ga
+C) P(A) ga
+D) 1 ga
+18. Agar
+B
+hodisa
+yuz
+berishi
+A
+hodisaning yuz berishini inkor qilsa
+(AB = ∅), u holda P(A|B) qiymati
+qancha?
+A) 1 ga
+B) 0.5 ga
+C) P(B) ga
+D) 0 ga
+19. Shartli ehtimol uchun qaysi munosabat har doim o’rinli hisoblanadi?
+A) P(A|B) > 1
+B) P(A|B) < 0
+C) 0 ≤P(A|B) ≤1
+D) P(A|B) = P(B|A)
+20. Agar A hodisa birgalikda bo’lmagan
+A1, A2, . . . , Ak
+hodisalarning
+yig’indisidan iborat bo’lsa, P(A|B)
+uchun qaysi yig’indi to’g’ri?
+A) P(A|B) = P P(Ai)
+B) P(A|B) = Q P(Ai|B)
+C) P(A|B) = P P(Ai|B)
+D) P(A|B) = P(A) · P(B)
+114

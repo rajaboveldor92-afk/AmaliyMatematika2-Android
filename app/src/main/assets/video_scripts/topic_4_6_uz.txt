@@ -1,0 +1,9 @@
+4.6 — Matematik kutilma, dispersiya va standart chetlanish
+1. Diskret M[X]=Σx_i p_i.
+2. D[X]=M[(X−M[X])²]=M[X²]−M[X]².
+3. σ=sqrt(D[X]).
+4. Binomial: M=np, D=npq.
+5. Puasson: M=D=λ.
+6. Uzluksiz: M[X]=∫xf(x)dx.
+7. Moda — zichlik maksimumi; mediana ehtimolni teng ikkiga bo‘ladi.
+Video ichki savol: n=20,p=0.4 uchun M,D,σ ni toping.

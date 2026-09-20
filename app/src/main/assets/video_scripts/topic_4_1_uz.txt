@@ -1,0 +1,9 @@
+4.1 — Tasodifiy hodisalar, klassik ehtimol, kombinatorika va geometrik ehtimol
+1. Tajriba, elementar natija va Ω tushunchalari.
+2. Kubik misolida Ω={1,2,3,4,5,6}.
+3. A∪B, A∩B, A\B va Ā amallari.
+4. Klassik formula P(A)=m/n.
+5. A_n^r, C_n^r, P_n va takroriy o‘rinlashtirish n^r.
+6. Geometrik ehtimol: qulay soha o‘lchovi / umumiy soha o‘lchovi.
+Video ichki savol: 6 oq, 5 qora shardan oq shar ehtimoli nechaga teng?
+Yakuniy mini-mashq: tartib muhim bo‘lgan va bo‘lmagan tanlashlarni farqlang.

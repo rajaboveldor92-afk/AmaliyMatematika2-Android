@@ -1,0 +1,1146 @@
+===== PDF SAHIFA 140 =====
+A) 1/2 ga
+B) 1 ga
+C) 2 ga
+D) π ga
+20. Misol: Taqsimot funksiyasi F(x) =
+1
+2(sin x + 1) (|x| ≤π/2) bo’lsa,
+X
+miqdorning
+(0, π/4)
+oraliqqa
+tushish ehtimoli qancha?
+A) 1/2
+B) 1/4
+C)
+√
+3/2
+D)
+√
+2/4
+Javoblar kaliti (QR formatda)
+Testning to’g’ri javoblarini telefoningiz orqali tekshirib olishingiz mumkin:
+4.6
+Tasodifiy miqdorlarning sonli xarakteristikalari: matematik kutilish, dispersiya va o‘rtacha kvadratik chetlanish
+Diskret tasodifiy miqdorning sonli xarakteristikalari
+4.6.1-ta’rif. pi = P{X = xi}, i = 1, 2, . . . , n taqsimot qonuniga ega bo‘lgan X
+diskret tasodifiy miqdorning matematik kutilmasi (yoki o‘rtacha qiymati) deb bu
+tasodifiy miqdor barcha qiymatlarining mos ehtimollarga ko‘paytmalari yig‘indisiga
+aytiladi.
+Matematik kutilma MX (yoki M[X], E[X], mX, aX) orqali belgilanadi.
+Shunday qilib ta’rifga ko‘ra
+MX =
+n
+X
+i=1
+xipi.
+(4)
+Agar X diskret tasodifiy miqdorning qiymatlari soni cheksiz bo‘lsa, u holda
+MX =
+∞
+X
+i=1
+xipi,
+(5)
+140
+
+===== PDF SAHIFA 141 =====
+o‘ng tomondagi qator yaqinlashuvchi deb faraz qilinadi (aks holda X tasodifiy miqdor matematik kutilmaga ega bo‘lmaydi).
+4.6.2-ta’rif. X tasodifiy miqdorning DX dispersiyasi deb, bu tasodifiy miqdorning MX matematik kutilmasidan chetlanishi kvadratining matematik kutilmasiga
+aytiladi: agar X diskret tasodifiy miqdor chekli sondagi qiymatlarni qabul qilsa,
+DX =
+n
+X
+i=1
+(xi −MX)2pi,
+(6)
+va agar cheksiz sondagi qiymatlarni qabul qilsa,
+DX =
+∞
+X
+i=1
+(xi −MX)2pi.
+(7)
+Dispersiyani hisoblash uchun
+DX =
+X
+i
+x2
+ipi −(MX)2 = MX2 −(MX)2
+(8)
+qulay formuladan foydalanish mumkin.
+4.6.3-ta’rif. X tasodifiy miqdorning o‘rtacha kvadratik chetlanishi yoki standart
+chetlanishi deb, uning dispersiyasidan olingan kvadratik ildizga aytiladi va σX (yoki
+σ[X], σ) orqali belgilanadi.
+Shunday qilib ta’rifga ko‘ra
+σX =
+√
+DX.
+(9)
+Dispersiyaning xossalaridan o‘rtacha kvadratik chetlanishning quyidagi xossalari
+kelib chiqadi:
+σc = 0,
+σcX = |c|σX,
+σ(c + X) = σX.
+4.6.1-misol. Taqsimot qonuni quyidagi jadvalda berilgan ξ tasodifiy miqdorning
+matematik kutilmasi, dispersiyasi va o‘rtacha kvadratik chetlanishini toping.
+X
+−3
+−1
+0
+2
+8
+11
+P
+0.11 0.105 0.121 0.242 0.145 0.276
+Yechish: Demak matematik kutilma ta’rifga ko‘ra
+MX = (−3) · 0.11 + (−1) · 0.105 + 0 · 0.121 + 2 · 0.242 + 8 · 0.145 + 11 · 0.276 =
+141
+
+===== PDF SAHIFA 142 =====
+= −0.333 −0.105 + 0.484 + 1.16 + 3.036 = 4.242;
+MX2 = (−3)2·0.111+(−1)2·0.105+02·0.121+22·0.242+82·0.145+112·0.276 =
+= 0.999 + 0.105 + 0.968 + 9.28 + 33.396 = 44.748
+Dispersiyani (8) formulaga ko‘ra
+DX = MX2 −(MX)2 = 44.748 −(4.242)2 = 44.748 −17.99456 = 26.75344.
+So‘nggi qiymatdan kvadrat ildiz chiqarib
+σX =
+√
+DX =
+√
+26.75344 = 5.172372
+o‘rtacha kvadratik chetlanishni topamiz.
+—
+4.6.2-misol. Binomial qonun bo‘yicha taqsimlangan X
+tasodifiy miqdorning
+matematik kutilmasi, dispersiyasi va o‘rtacha kvadratik chetlanishini toping.
+Yechish: Matematik kutilmaning ta’rifiga ko‘ra
+MX =
+n
+X
+i=0
+iPn(i) =
+n
+X
+i=0
+iCi
+npiqn−i =
+n
+X
+i=0
+i
+n!
+i!(n −i)!piqn−i
+=
+n
+X
+i=1
+np
+(n −1)!
+(i −1)!(n −i)!pi−1qn−i = np
+n−1
+X
+j=0
+Cj
+n−1pjqn−1−j = np
+n−1
+X
+j=0
+Pn−1(j) = np.
+Demak MX = np. U holda
+MX2 =
+n
+X
+i=0
+i2Pn(i) =
+n
+X
+i=0
+i2Ci
+npiqn−i
+=
+n
+X
+i=0
+i(i −1)Ci
+npiqn−i +
+n
+X
+i=0
+iCi
+npiqn−i
+= n(n −1)p2 + np.
+(8) formulaga ko‘ra
+DX = MX2 −(MX)2 = n(n −1)p2 + np −n2p2 = np −np2 = np(1 −p) = npq.
+O‘rtacha kvadratik chetlanish esa
+σX =
+√
+DX = √npq.
+—
+142
+
+===== PDF SAHIFA 143 =====
+4.6.3-misol. Puasson taqsimoti bo‘yicha taqsimlangan X tasodifiy miqdorning
+matematik kutilmasi, dispersiyasi va o‘rtacha kvadratik chetlanishini toping.
+Yechish: Matematik kutilma uchun
+MX =
+∞
+X
+i=0
+iλi
+i! e−λ = e−λ
+∞
+X
+i=1
+λi
+(i −1)! = λe−λ
+∞
+X
+j=0
+λj
+j! = λe−λeλ = λ.
+Bundan tashqari
+MX2 =
+∞
+X
+i=0
+i2λi
+i! e−λ =
+∞
+X
+i=0
+i(i −1)λi
+i! e−λ +
+∞
+X
+i=0
+iλi
+i! e−λ
+= λ2 + λ.
+Shuning uchun
+DX = MX2 −(MX)2 = (λ2 + λ) −λ2 = λ,
+σX =
+√
+λ = λe−λ
+" ∞
+X
+i=1
+(i −1) λi−1
+(i −1)! +
+∞
+X
+j=1
+λj−1
+(j −1)!
+#
+= λe−λ(λeλ + eλ) = λ2 + λ
+va (8) formulaga ko‘ra
+DX = MX2 −(MX)2 = λ2 + λ −λ2 = λ.
+O‘rtacha kvadratik chetlanish esa
+σX =
+√
+DX =
+√
+λ
+bo‘ladi.
+—
+4.6.4-misol. Geometrik taqsimlangan X tasodifiy miqdorning dispersiyasini va
+o‘rtacha kvadratik chetlanishini toping.
+Yechish: Geometrik taqsimlangan X tasodifiy miqdorning matematik kutilmasini iq i−1 = (qi)′
+q hosiladan foydalanib topamiz:
+MX =
+∞
+X
+i=1
+ipq i−1 = p
+∞
+X
+i=1
+iq i−1 = p
+ ∞
+X
+i=1
+qi
+!′
+q
+= p
+
+1
+1 −q
+′
+q
+=
+pq
+(1 −q)2 = pq
+p2 = q
+p.
+143
+
+===== PDF SAHIFA 144 =====
+Dispersiyani esa iq i−2 = (qi)′
+q va i(i −1)q i−2 = (qi)′′
+q hosilalardan foydalanib
+topamiz. Dastlab MX2 matematik kutilmani hisoblaymiz:
+MX2 =
+∞
+X
+i=1
+i2pq i−1 = pq
+∞
+X
+i=1
+i2q i−2 = pq
+∞
+X
+i=1
+[i(i −1)q i−2 + iq i−2]
+= pq
+" ∞
+X
+i=1
+i(i −1)q i−2 +
+∞
+X
+i=1
+iq i−2
+#
+= pq
+
+
+ ∞
+X
+i=1
+qi
+!′′
+q
++ 1
+q
+ ∞
+X
+i=1
+qi
+!′
+q
+
+
+= pq
+"
+1
+1 −q
+′′
+q
++ 1
+q
+
+1
+1 −q
+′
+q
+#
+= pq
+
+2
+(1 −q)3 +
+1
+q(1 −q)2
+
+= q(1 + q)
+p2
+.
+(8) formulaga ko‘ra
+DX = MX2 −(MX)2 = q(1 + q)
+p2
+−q2
+p2 = q
+p2.
+O‘rtacha kvadratik chetlanish esa
+σX =
+√
+DX =
+r q
+p2 =
+√q
+p .
+—
+Misollar
+1.
+Taqsimot qatori ushbu jadvalda berilgan tasodifiy miqdorning taqsimot
+funksiyasini tuzing, taqsimot poligoni va taqsimot funksiyasining grafigini yasang:
+X
+−8
+−3
+1
+5
+8
+10
+P
+0,102 0,105 0,121 0,195 0,251 0,226
+2.
+Taqsimot qatori ushbu jadvalda berilgan tasodifiy miqdorning taqsimot
+funksiyasini tuzing, taqsimot poligoni va taqsimot funksiyasining grafigini yasang:
+X
+−5
+−1
+2
+5
+6
+8
+P
+0,102 0,109 0,165 0,178 0,254 0,192
+3-misol. Tayyor detallarning 10% qismini nostandart detallar tashkil qiladi.
+Ixtiyoriy ravishda 4 ta detal tanlab olindi. X — tanlab olingan detallar orasidagi
+nostandart detallar soni. X tasodifiy miqdorning binomial taqsimot qatorini tuzing,
+taqsimot funksiyasini aniqlang, taqsimot poligoni va funksiya grafigini chizing.
+144
+
+===== PDF SAHIFA 145 =====
+4. Otilgan o‘qning nishonga tegish ehtimoli 0,2 ga teng. Nishonga bir-biriga
+bog‘liqsiz ravishda uch marta o‘q uzildi.
+X — nishonga tekkan o‘qlar soni.
+X
+tasodifiy miqdorning binomial taqsimot qatorini, taqsimot funksiyasini tuzing va
+taqsimot poligoni hamda taqsimot funksiyasining grafigini yasang.
+5. Qutida 7 ta qalam bo‘lib, ularning 4 tasi qizil rangda. Ixtiyoriy ravishda 3
+ta qalam tanlab olindi. X — tanlab olingan qalamlar orasidagi qizil ranglilar soni.
+X tasodifiy miqdorning taqsimot qatorini, taqsimot funksiyasini tuzing va taqsimot
+poligoni hamda taqsimot funksiyasining grafigini yasang.
+Uzluksiz tasodifiy miqdorlarning sonli xarakteristikalari
+4.6.4-ta’rif. X uzluksiz tasodifiy miqdorning matematik kutilmasi deb
+MX =
+Z +∞
+−∞
+xf(x) dx
+(1)
+integralga aytiladi, bu yerda
+Z +∞
+−∞
+|x|f(x) dx < +∞,
+ya’ni matematik kutilmani aniqlovchi xosmas integral mutlaq yaqinlashadi deb faraz
+qilinadi.
+4.6.5-ta’rif. X tasodifiy miqdorning DX dispersiyasi deb, bu tasodifiy miqdorning
+MX matematik kutilmasidan chetlanish kvadratining matematik kutilmasiga aytiladi:
+DX = M(X −MX)2.
+(2)
+Uzluksiz tasodifiy miqdorning dispersiyasi
+DX =
+Z +∞
+−∞
+(x −MX)2f(x) dx
+(3)
+formula bilan hisoblanadi.
+Amalda dispersiya uchun
+DX = MX2 −(MX)2
+(4)
+DX =
+Z +∞
+−∞
+x2f(x) dx −(MX)2
+(5)
+formulalardan foydalanish qulay.
+145
+
+===== PDF SAHIFA 146 =====
+4.6.6-ta’rif. X tasodifiy miqdorning o‘rtacha kvadratik chetlanishi yoki standart
+chetlanishi deb, uning dispersiyasidan olingan kvadrat ildizga aytiladi va σX (yoki
+σ[X], σ) orqali belgilanadi.
+Shunday qilib ta’rifga ko‘ra
+σX =
+√
+DX.
+(6)
+4.6.5-misol. X uzluksiz tasodifiy miqdor ehtimollarining zichlik funksiyasi
+f(x) =
+
+
+
+
+
+0,
+x ≤10,
+0,5x −5,
+10 < x ≤12,
+0,
+x > 12.
+tenglik bilan berilgan bo‘lsa, bu tasodifiy miqdorning matematik kutilmasi, dispersiyasi va o‘rtacha kvadratik chetlanishini toping.
+Yechish: Matematik kutilma ta’rifiga ko‘ra
+MX =
+Z +∞
+−∞
+xf(x) dx =
+Z 10
+−∞
+x · 0 dx +
+Z 12
+10
+x(0,5x −5) dx +
+Z +∞
+12
+x · 0 dx
+=
+Z 12
+10
+1
+2x2 −5x
+
+dx =
+1
+6x3 −5
+2x2
+ 
+12
+10 = 1
+6123 −5
+2122 −1
+6103 + 5
+2102 = 111
+3.
+Dispersiyani (5) formulaga ko‘ra topamiz:
+DX =
+Z +∞
+−∞
+x2f(x) dx −(MX)2 =
+Z 12
+10
+x2
+1
+2x −5
+
+dx −(MX)2
+=
+Z 12
+10
+1
+2x3 −5x2
+
+dx =
+1
+8x4 −5
+3x3
+ 
+12
+10
+= 1
+8124 −5
+3123 −1
+8104 + 5
+3103 −
+
+111
+3
+2
+= −1538 + 5000
+3
+−1156
+9
+= 2
+9.
+Dispersiyadan kvadrat ildiz chiqarib
+σX =
+√
+DX =
+√
+2
+3 .
+O‘rtacha kvadratik chetlanishni hosil qilamiz.
+146
+
+===== PDF SAHIFA 147 =====
+4.6.6-misol. X uzluksiz tasodifiy miqdor ehtimollarining zichlik funksiyasi
+f(x) = 1
+2e−|x|
+tenglik bilan berilgan bo‘lsa, bu tasodifiy miqdorning matematik kutilmasini toping.
+Yechish: Matematik kutilmaning ta’rifiga ko‘ra
+MX =
+Z +∞
+−∞
+xf(x) dx = 1
+2
+Z +∞
+−∞
+xe−|x|dx = 1
+2
+Z 0
+−∞
+xexdx + 1
+2
+Z +∞
+0
+xe−xdx
+= 1
+2
+
+xex
+0
+−∞−
+Z 0
+−∞
+exdx
+
+−1
+2
+
+xe−x
++∞
+0
+−
+Z +∞
+0
+e−xdx
+
+= 1
+2(0 −1) −1
+2(0 −1) = 0.
+4.6.7-ta’rif. f(x) taqsimot zichlik funksiyasining maksimum nuqtasini uzluksiz
+tasodifiy miqdorning modasi deb ataymiz va M0X orqali belgilanadi.
+4.6.8-ta’rif. X tasodifiy miqdorning
+P{X < xp} = P{X > xp} = 1
+2
+tenglikni qanoatlantiruvchi xp qiymatiga uning medianasi deyiladi.
+4.6.7-misol. X uzluksiz tasodifiy miqdor ehtimollarining zichlik funksiyasi
+f(x) =
+
+
+
+
+
+
+
+0,
+x ≤2,
+−3
+4x2 + 9
+2x −6,
+2 < x ≤4,
+0,
+x > 4.
+tenglik bilan berilgan bo‘lsa, bu tasodifiy miqdorning matematik kutilmasi, modasi
+va medianasini toping.
+Yechish: Matematik kutilmani topish uchun (2; 4) oraliq bo‘yicha integrallash
+yetarli.
+MX =
+Z +∞
+−∞
+xf(x) dx =
+Z 4
+2
+x
+
+−3
+4x2 + 9
+2x −6
+
+dx =
+Z 4
+2
+
+−3
+4x3 + 9
+2x2 −6x
+
+dx
+=
+
+−3
+16x4 + 3
+2x3 −3x2
+ 
+4
+2 =
+
+−3
+16 · 44 + 3
+2 · 43 −3 · 42
+
+147
+
+===== PDF SAHIFA 148 =====
+−
+
+−3
+16 · 24 + 3
+2 · 23 −3 · 22
+
+= 3.
+Tasodifiy miqdor modasini f(x) funksiyaning maksimum nuqtasi sifatida
+topamiz, buning uchun undan hosila olib nolga tenglashtiramiz:
+f ′(x) = −3
+2x + 9
+2 = 0 ⇒x = 3.
+Demak M0X = 3.
+Medianani esa P{X < xp} = 1/2 tenglikdan topamiz:
+P{X < xp} =
+Z xp
+−∞
+f(x) dx =
+Z xp
+2
+
+−3
+4x2 + 9
+2x −6
+
+dx
+=
+
+−1
+4x3 + 9
+4x2 −6x
+ 
+xp
+2 = −1
+4x3
+p + 9
+4x2
+p −6xp + 5.
+Demak
+−1
+4x3
+p + 9
+4x2
+p −6xp + 5 = 1
+2.
+Tenglamani yechamiz:
+x3
+p −9x2
+p + 24xp −18 = 0.
+Bu tenglamaning ildizlari
+x1 = 3 −
+√
+3
+6
+,
+x2 = 3 +
+√
+3
+6
+,
+x3 = 3.
+Biroq mediana (2; 4) oraliqda yotganligi uchun tasodifiy miqdorning medianasi xp =
+3 bo‘ladi.
+4.6.8-misol. Ehtimollarning zichlik funksiyasi
+f(x) = ae2x−x2,
+(a > 0)
+ko‘rinishda bo‘lgan X tasodifiy miqdorning modasini toping.
+Yechish: f(x) funksiyaning maksimum nuqtasini bir o‘zgaruvchili funksiyaning
+differensial hisobi usullaridan foydalanib topamiz. Birinchi tartibli hosilani nolga
+tenglashtiramiz:
+f ′(x) = 2ae2x−x2(1 −x) = 0 ⇒x = 1.
+148
+
+===== PDF SAHIFA 149 =====
+Ikkinchi tartibli hosilaning x = 1 nuqtadagi qiymatining ishorasini aniqlaymiz:
+f ′′(x) = 4ae2x−x2(1 −x)2 −2ae2x−x2,
+f ′′(1) = −2ae < 0.
+Demak f(x) funksiya x = 1 nuqtada maksimumga erishar ekan. Shuning uchun
+M0X = 1 bo‘lar ekan.
+4.6.9-misol. X uzluksiz tasodifiy miqdor ehtimollarining zichlik funksiyasi
+f(x) =
+
+
+
+
+
+
+
+
+
+0,
+x < 0,
+x −x3
+4 ,
+0 ≤x ≤2,
+0,
+x > 2,
+tenglik bilan berilgan bo‘lsa, bu tasodifiy miqdorning matematik kutilmasi va medianasini toping.
+Yechish: Matematik kutilmani topish uchun (0; 2) oraliqda integrallash yetarli:
+MX =
+Z +∞
+−∞
+xf(x) dx =
+Z 2
+0
+x
+
+x −x3
+4
+
+dx =
+Z 2
+0
+
+x2 −x4
+4
+
+dx
+=
+1
+3x3 −x5
+20
+ 
+2
+0 = 8
+3 −32
+20 = 8
+3 −8
+5 = 16
+15.
+xp medianani P{X < xp} = 0,5 tenglikdan topamiz. Shuning uchun
+P{X < xp} =
+Z xp
+−∞
+f(x) dx =
+Z xp
+0
+
+x −x3
+4
+
+dx =
+x2
+2 −x4
+16
+ 
+xp
+0 = x2
+p
+2 −x4
+p
+16.
+x2
+p
+2 −x4
+p
+16 = 1
+2
+⇒
+x4
+p −8x2
+p + 8 = 0.
+xp = ±
+q
+4 ±
+√
+8.
+Bunday aniqlangan to‘rtta ildizdan faqat xp =
+p
+4 −
+√
+8 ildizgina (0; 2) oraliqqa
+tushadi va demak u X tasodifiy miqdorning medianasi bo‘ladi.
+Misollar
+149
+
+===== PDF SAHIFA 150 =====
+1. Ehtimollarning zichlik funksiyasi
+f(x) =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0,
+x < −3,
+2
+7
+
+1 + 1
+3x
+
+,
+−3 ≤x < 0,
+2
+7
+
+1 −1
+4x
+
+,
+0 ≤x ≤4,
+0,
+x > 4,
+tenglik bilan aniqlanadigan X uzluksiz tasodifiy miqdorning matematik kutilmasi
+va dispersiyasini toping.
+2. Ehtimollarning zichlik funksiyasi
+f(x) =
+
+
+
+
+
+
+
+
+
+0,
+x ≤−1,
+1
+π
+√
+1 −x2,
+−1 < x ≤1,
+0,
+x > 1,
+tenglik bilan aniqlanadigan X uzluksiz tasodifiy miqdorning matematik kutilmasi,
+dispersiyasi, modasi va medianasini toping.
+3. X uzluksiz tasodifiy miqdor ehtimollarining zichlik funksiyasi
+f(x) =
+
+
+
+
+
+0,
+x ≤−1,
+a(x −2)(4 −x),
+−1 < x ≤1,
+0,
+x > 1.
+tenglik bilan aniqlanadi.
+a parametrning qiymatini, X tasodifiy miqdorning
+matematik kutilmasi, dispersiyasi, modasi va medianasini toping.
+Mavzuni mustahkamlash uchun test topshiriqlari
+1. Taqsimot
+qonuniga
+ega
+bo’lgan
+diskret tasodifiy miqdorning barcha qiymatlarini ularning mos ehtimollariga ko’paytirib, so’ngra barchasini qo’shib chiqish natijasida
+qanday miqdor hosil bo’ladi?
+A) O’rtacha kvadratik chetlanish
+B) Tasodifiy miqdor dispersiyasi
+C) Matematik kutilma
+D) Markaziy moment
+2. Uzluksiz
+tasodifiy
+miqdorning
+matematik kutilmasini aniqlashda
+R +∞
+−∞xf(x)dx
+xosmas
+integrali
+150
+
+===== PDF SAHIFA 151 =====
+uchun qanday qo’shimcha shart bajarilishi lozim?
+A) Integral nolga teng bo’lishi
+B) Integral mutlaq yaqinlashuvchi
+bo’lishi
+C) Zichlik
+funksiyasi
+manfiy
+bo’lishi
+D) Integral faqat [0, 1] oralig’ida
+hisoblanishi
+3. O’zgarmasning
+matematik
+kutilmasi haqidagi qoidaga ko’ra, faqat
+bitta
+c
+qiymatni
+1
+ehtimol
+bilan qabul qiluvchi tasodifiy miqdor
+uchun Mc nimaga teng?
+A) c ning o’ziga
+B) Nolga
+C) Birga
+D) c2 ga
+4. Ikkita
+o’zaro
+bog’liq
+bo’lmagan
+tasodifiy miqdorlar ko’paytmasining
+matematik kutilmasi haqida qaysi
+tasdiq to’g’ri?
+A) Ularning yig’indisiga teng
+B) Ularning ayirmasiga teng
+C) Doimo birga teng
+D) Ularning matematik kutilmalari
+ko’paytmasiga teng
+5. O’zgarmas ko’paytuvchini matematik kutilma belgisidan tashqariga
+chiqarish
+mumkinligi
+haqidagi
+qoidaga binoan M(cX) ifodasi qanday ko’rinishda yoziladi?
+A) c · MX
+B) c2 · MX
+C) MX/c
+D) MX + c
+6. Bir
+necha
+tasodifiy
+miqdorlar
+yig’indisining matematik kutilmasi
+qanday hisoblanadi?
+A) Ularning
+o’rtacha
+qiymatlari
+ayirmasi sifatida
+B) Faqat
+bittasining
+matematik
+kutilmasiga teng bo’ladi
+C) Ularning ko’paytmasi sifatida
+D) Ular matematik kutilmalarining
+yig’indisiga teng bo’ladi
+7. Tasodifiy miqdor o’zining matematik
+kutilmasidan
+chetlanishining
+(X−MX) matematik kutilmasi har
+doim nimaga teng bo’ladi?
+A) 1 ga
+B) 0 ga
+C) MX ga
+D) σ ga
+8. [a, b]
+kesmada
+tekis
+taqsimlangan uzluksiz tasodifiy miqdorning
+matematik kutilmasi va kesmaning
+joylashuvi
+o’rtasida
+qanday
+bog’liqlik bor?
+A) Matematik kutilma kesmaning
+boshiga teng
+B) Matematik kutilma kesmaning
+oxiriga teng
+151
+
+===== PDF SAHIFA 152 =====
+C) Matematik kutilma kesmaning
+o’rtasi bilan ustma-ust tushadi
+D) Matematik
+kutilma
+kesma
+uzunligiga teng
+9. Tasodifiy
+miqdorning
+dispersiyasi
+deb, uning matematik kutilmasidan
+chetlanishi kvadratining qanday qiymatiga aytiladi?
+A) Eng kichik qiymatiga
+B) Kvadrat ildiziga
+C) Geometrik o’rtachasiga
+D) Matematik kutilmasiga
+10. O’zgarmas
+sonning
+dispersiyasi
+(sochilishi) qanchaga teng bo’ladi?
+A) 1 ga
+B) 0 ga
+C) O’zgarmasning o’ziga
+D) Manfiy cheksizlikka
+11. O’zgarmas
+ko’paytuvchini
+dispersiya
+belgisidan
+tashqariga
+chiqarishda u qanday o’zgarishga
+uchraydi?
+A) Kvadratga ko’tarilib chiqadi
+B) O’zgarishsiz chiqadi
+C) Kvadrat ildiz ostida chiqadi
+D) Nolga aylanadi
+12. O’zaro bog’liq bo’lmagan tasodifiy
+miqdorlar yig’indisining dispersiyasi
+nimaga teng?
+A) Ularning ko’paytmasiga
+B) Ularning ayirmasiga
+C) Ularning dispersiyalari yig’indisiga
+D) Doimo o’zgarmas songa
+13. Tasodifiy
+miqdorning
+o’rtacha
+kvadratik chetlanishi dispersiyadan
+qaysi amal orqali olinadi?
+A) Logarifmlash orqali
+B) Differensiallash orqali
+C) Kvadratga ko’tarish orqali
+D) Kvadratik ildiz chiqarish orqali
+14. Standart tasodifiy miqdor (Z) deb
+ataluvchi
+miqdorning
+matematik
+kutilmasi va dispersiyasi mos ravishda nechaga teng?
+A) MZ = 0 va DZ = 1
+B) MZ = 1 va DZ = 0
+C) MZ = 0 va DZ = 0
+D) MZ = 1 va DZ = 1
+15. Normal taqsimot zichlik funksiyasidagi
+m parametri tasodifiy miqdorning
+qaysi xarakteristikasiga mos keladi?
+A) Faqat dispersiyaga
+B) Matematik kutilmaga
+C) O’rtacha kvadratik chetlanishga
+D) Modaga
+16. Tasodifiy
+miqdorning
+k-tartibli
+boshlang’ich momenti deb nimaga
+aytiladi?
+A) Tasodifiy miqdor k-darajasining
+ehtimoliga
+152
+
+===== PDF SAHIFA 153 =====
+B) Tasodifiy miqdor k-darajasining
+matematik kutilmasiga
+C) Matematik
+kutilmaning
+kdarajasiga
+D) Dispersiyaning k-tartibli hosilasiga
+17. Markazlashtirilgan tasodifiy miqdor
+˚
+X = X −MX ning k-darajasining
+matematik kutilmasi nima deb ataladi?
+A) Boshlang’ich moment
+B) Shartli moment
+C) Markaziy moment
+D) Haqiqiy moment
+18. Birinchi tartibli markaziy moment
+(˚m1) matematik kutilmaning xossalariga
+ko’ra
+har
+doim
+nimaga
+teng?
+A) Birga
+B) Matematik kutilmaga
+C) Dispersiyaga
+D) Nolga
+19. Binomial qonun bo’yicha taqsimlangan tasodifiy miqdorning dispersiyasi npq ekanligi ma’lum bo’lsa,
+uning o’rtacha kvadratik chetlanishi
+qaysi formula bilan aniqlanadi?
+A) √npq
+B) np
+C) np/q
+D) (npq)2
+20. Normal taqsimot zichlik funksiyasi
+grafigining
+simmetriya
+markazi
+qaysi
+to’g’ri
+chiziqda
+joylashgan
+bo’ladi?
+A) x = 0
+B) x = m
+C) y = x
+D) x = σ
+Javoblar kaliti (QR formatda)
+Testning to’g’ri javoblarini telefoningiz orqali tekshirib olishingiz mumkin:
+153

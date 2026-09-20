@@ -1,0 +1,9 @@
+2.2 VIDEO SCRIPT — CONVERGENCE TESTS
+1) Positive-term series and increasing partial sums.
+2) Comparison tests.
+3) Ratio test: l<1, l>1, l=1.
+4) Root test.
+5) Why l=1 requires another test.
+6) Integral test and Σ1/n^p.
+7) Interactive p-slider.
+8) Mini-quiz on choosing a test.

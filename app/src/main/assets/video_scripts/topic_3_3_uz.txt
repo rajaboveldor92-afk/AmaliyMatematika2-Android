@@ -1,0 +1,12 @@
+AMALIY MATEMATIKA 2 — 3.3
+Bir jinsli, chiziqli va Bernulli tenglamalari
+
+1. f(λx,λy)=λ^m f(x,y): m-darajali bir jinsli funksiya.
+2. Bir jinsli tenglamada y=tx, dy=xdt+t dx.
+3. Chiziqli tenglama: y′+P(x)y=Q(x).
+4. Bir jinsli chiziqli yechim: y=Ce^(−∫Pdx).
+5. O‘zgarmasni variatsiyalash: C→C(x).
+6. Bernulli: y′+Py=Qy^n, z=y^(1−n).
+7. y′+xy=xy³ misolida z=y⁻².
+
+VIDEO ICHIDAGI SAVOL: n=4 bo‘lsa z ning darajasi? 1−n=−3.

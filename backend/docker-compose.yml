@@ -1,0 +1,13 @@
+services:
+  am2-api:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      AM2_JWT_SECRET: "CHANGE-THIS-TO-A-LONG-RANDOM-SECRET"
+      AM2_ADMIN_KEY: "CHANGE-THIS-ADMIN-KEY"
+      AM2_APK_URL: "https://your-domain.example/downloads/amaliy-matematika-2.apk"
+      AM2_APK_SHA256: ""
+    volumes:
+      - ./data:/srv/am2/data

@@ -1,0 +1,9 @@
+4.4 — Diskret tasodifiy miqdor va taqsimot qonuni
+1. Tasodifiy miqdor ta’rifi.
+2. Diskret va uzluksiz miqdor farqi.
+3. Diskret taqsimot jadvali: x_i va p_i, Σp_i=1.
+4. F(x)=P{X<x} taqsimot funksiyasi.
+5. Diskret holatda F pog‘onali funksiya.
+6. (x_i,p_i) nuqtalardan taqsimot poligoni.
+Misol: X=0,1,2,3; P=0.20,0.25,0.31,0.24.
+Video ichki savol: F(2) ni toping.

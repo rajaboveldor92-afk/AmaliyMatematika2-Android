@@ -1,0 +1,10 @@
+{
+  "versionCode": 7,
+  "versionName": "0.7.0",
+  "mandatory": false,
+  "apkUrl": "https://your-domain.example/downloads/amaliy-matematika-2-v0.7.0.apk",
+  "sha256": "REPLACE_AFTER_SIGNING_APK",
+  "releaseNotesUz": "Aktivatsiya, qurilma limiti, progress sync, himoyalangan video va yangilanish klienti.",
+  "releaseNotesRu": "Активация, лимит устройств, синхронизация прогресса, защищённое видео и клиент обновлений.",
+  "releaseNotesEn": "Activation, device limits, progress sync, protected video and update client."
+}

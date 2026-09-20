@@ -1,0 +1,12 @@
+AMALIY MATEMATIKA 2 — 3.4
+O‘zgarmas koeffitsientli chiziqli tenglamalar
+
+1. Xarakteristik tenglama: y hosilalarini k darajalariga almashtiramiz.
+2. Turli haqiqiy ildizlar: C1e^(k1x)+C2e^(k2x).
+3. Karrali ildiz: (C1+C2x+...)e^(kx).
+4. α±βi: e^(αx)(C1cosβx+C2sinβx).
+5. Boshlang‘ich/chegaraviy shartlar C larni aniqlaydi.
+6. Bir jinsli bo‘lmagan tenglama: umumiy yechim = bir jinsli yechim + xususiy yechim.
+7. Rezonansda ansatz x ning kerakli darajasiga ko‘paytiriladi.
+
+VIDEO SAVOLI: y′′−4y′+13y=0 ildizlari? 2±3i.
